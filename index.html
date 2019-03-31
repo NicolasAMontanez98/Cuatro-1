@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script type="text/javascript">
+		var rutas = new Map();
+		var estacionsVagones =new Map();
+		var estacionesRuta =[];
+		function fillRutas() {
+			 estacionsVagones.set("San Mateo",0);
+			estacionsVagones.set("Terreros - Hospital C.V.",0);
+			 estacionsVagones.set("Bosa",0);
+			estacionsVagones.set("Alquería",0);
+			estacionsVagones.set("Santa Isabel",0);
+			estacionsVagones.set("Comuneros",0);
+			estacionsVagones.set("Paloquemao",0);
+			estacionsVagones.set("U. Nacional",0);
+			estacionsVagones.set("Simón Bolívar",0);
+
+			
+				
+			
+			rutas.set("E44",estacionsVagones);
+			var estacionsVagones1 =new Map();estacionsVagones1.set("Simón Bolívar",0);estacionsVagones1.set("U. Nacional",0);estacionsVagones1.set("Paloquemao",0);estacionsVagones1.set("Comuneros",0);estacionsVagones1.set("Santa Isabel",0);estacionsVagones1.set("Alquería",0);estacionsVagones1.set("Bosa",0);estacionsVagones1.set("Terreros - Hospital C.V.",0);estacionsVagones1.set("San Mateo",0);
+			
+				
+			
+			rutas.set("G44",estacionsVagones1);
+			
+			
+			
+			console.log(Array.from(rutas));
+		}
+			
+			
+			
+	</script>
+	<title></title>
+</head>
+<body>
+<button onclick="fillRutas()">imprimir en consola</button>
+</body>
+</html>
