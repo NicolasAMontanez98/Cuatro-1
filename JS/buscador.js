@@ -32,9 +32,9 @@
       data.forEach(item => {
        const card = document.createElement('div');
         card.setAttribute('class', 'card');
-        const h1 = document.createElement('h1');//creando los scuadritos TÍTULO
+        const h1 = document.createElement('h1');
         h1.textContent = item.Estacion;
-        const p = document.createElement('p');//creando los scuadritos TRONCAL
+        const p = document.createElement('p');
         p.textContent = item.Troncal;
         container.appendChild(card);
         card.appendChild(h1);
