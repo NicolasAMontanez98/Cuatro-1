@@ -1,0 +1,43 @@
+.cont2_mds{
+    padding: 50px;
+    width: 80%;
+    height: 500px;
+   
+}
+
+
+.cont2_mds .p1{
+    text-decoration: none;
+}
+
+.cont2_mds .title{
+    color: #540508;
+}
+
+.cont2_mds .cards_mds .item{
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+    color: black;
+   
+}
+
+.cont2_mds .cards_mds .item:hover{
+    background-color: #540508;
+    color: white;
+}
+
+
+.inicio_mds{
+   width: 100%;
+   text-align: center;
+}
+
+
+.cards_mds{
+    float: left;
+    padding-right: 50px;
+    padding-left: 20px;
+    border-left: solid 1px black  ;
+  
+}

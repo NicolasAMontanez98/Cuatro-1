@@ -1,0 +1,48 @@
+.estaciones-mapa{
+    width: 50%;
+    float: left;
+    margin-left: 23%;
+}
+.ruta{
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 150px;
+    margin-top: 100px;
+}
+.troncales-botones{
+    width: 50%;
+    display: inline;
+}
+button{
+    display: block;
+    padding: 0;
+    margin-bottom: 20px;
+    margin-left: 0;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+    width: 130px;
+    height: 35px;
+    color: aliceblue;
+}
+button:hover{
+    width: 140px;
+    height: 40px;
+}
+
+
+.sitios_interes{
+    
+    padding-left: 40%;
+    top: 80px;
+    padding-bottom: 50px;
+
+}
+
+.sitios_interes a img{
+
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+   
+}
