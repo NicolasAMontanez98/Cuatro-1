@@ -61,6 +61,7 @@
     }
 
     function Buscar() {
-     var resultado =  estaciones.find({'Estacion': document.getElementById('buscarEstacion').value});
+     var resultado =  estaciones.find({'Troncal': document.getElementById('buscarTroncal').value});
       Ver(resultado);
+      //return hs.htmlExpand(this, { contentId: 'troncalCaracas' } )
     }
