@@ -18,7 +18,11 @@
 	hs.fadeInOut = true;
 	hs.headingEval = 'this.a.title';
 	//hs.dimmingOpacity = 0.75;
-    </script>
+   //************************************Base de datos de transmilenio*************************************
+   </script>
+     <script src="https://code.jquery.com/jquery-2.2.4.min.js"
+     integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+   <script src="http://lokijs.org/bower_components/lokijs/src/lokijs.js"></script>
 
     <title>Planea tu viaje</title>
 </head>
@@ -61,7 +65,22 @@
 
 
     </div>
+    <div id="buscador">
+      <h4>Buscar</h4>
 
+      <input type="text" id="buscarEstacion">
+      <input type="button" value="Buscar" onclick="Buscar()"><!--invoca la funcion buscar-->
+  
+      <!--***************************************************Botón de ver estaciones**************************************************-->
+  
+      <input type="button" value="Ver Todas las Estaciones" onclick="VerWhere()"><!--al click invoca la funcion verWHERE-->
+      <label id="title"></label>
+    
+  
+  
+       <div id="root"></div>
+       <script type="text/javascript" src="../JS/buscador.js"></script>
+  </div>
 
 
     <div class="sitios_interes">
