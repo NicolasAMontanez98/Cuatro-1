@@ -77,7 +77,7 @@ function fillStages(){
     stages.push({name: "Calle 22", url: "img/Estaciones/caracas/Calle_22.jpg"});
     stages.push({name: "Calle 19", url: "img/Estaciones/caracas/Calle_19.jpg"});
     stages.push({name: "AV Jimenez", url: "img/Estaciones/caracas/Av_Jimenez.jpg"});
-    stages.push({name: "Tercer Milenio", url: "img/Estaciones/caracas/Tercer_Milenio.jpg"});
+    stages.push({name: "Tercer Milenio", url: "img/Estaciones/caracas/Tercer_Milenio.jpg"});    
     trunks.push(stages);
     //B
     infoTrunck.push({name: "Autopista Norte", inicio: "Terminal", 
@@ -140,7 +140,7 @@ function fillStages(){
     trunks.push(stages);
     //E
     infoTrunck.push({name: "NQS Central", inicio: "La Castellana",
-        fin: "Tygua - San José", longitud: "11.5 Km", url: "img/Troncales/NQSCentreal.jpg"});
+        fin: "Tygua - San José", longitud: "11.5 Km", url: "img/Troncales/NQSCentral.jpg"});
     stages = [];
     stages.push({name: "La Castellana", url: "img/Estaciones/NQS_central/Castellana.jpg"});
     stages.push({name: "NQS - Calle 75", url: "img/Estaciones/NQS_central/NQS_Calle_75.jpg"});
@@ -182,8 +182,9 @@ function fillStages(){
     //G
     infoTrunck.push({name: "NQS Sur", inicio: "Comuneros",
         fin: "San Mateo", longitud: "13.0 Km", url: "img/Troncales/NQSSur.jpg"});
+
     stages = [];
-    stages.push({name: "Comuneros", url: "img/Estaciones/NQS_sur/Comuneros.jpg"});
+    stages.push({name: "Comuneros", url: "img/Estaciones/NQS_sur/Comuneros.jpg", address: "AV. NQS - CL 5"});
     stages.push({name: "Santa Isabel", url: "img/Estaciones/NQS_sur/Santa_Isabel.jpg"});
     stages.push({name: "SENA", url: "img/Estaciones/NQS_sur/SENA.jpg"});
     stages.push({name: "NQS - CL 30 S", url: "img/Estaciones/NQS_sur/NQS_Calle_30.jpg"});
@@ -372,6 +373,7 @@ function showStages(){
 
     var parts = (document.getElementById("aux-pos").value).split(":");
     document.getElementById("title-troncal").innerText = trunks[parts[0]][parts[1]].name;
+    document.getElementById("img-stage").src = trunks[parts[0]][parts[1]].url;
 }
 
 function showTrunckAgain(){
