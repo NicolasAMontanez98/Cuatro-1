@@ -57,6 +57,12 @@
     margin: 0 auto;
 }
 
+.global .map .container-map .img-rutas{
+    width: 920px;
+    height: 530px;
+    margin: 0 auto;
+}
+
 .global .sites{
     width: 920px;
     margin: 0px auto;

@@ -18,10 +18,13 @@
 
 .container-map{
     position: relative;
+    display: flex;
 }
 
 .container-map .container-buttons{
     display: block;
+    padding: 10px;
+    perspective: 1000px;
 }
 
 .container-map.hide .container-buttons{
@@ -38,11 +41,13 @@
 
 .container-map .container-buttons
 .button{
+    height: 35px;
     display: flex;
     flex-direction: column;
     align-items: center;
     position: relative;
     cursor: pointer;
+    margin: 0 0 5px 0;
 }
 
 .container-map .container-buttons
@@ -52,117 +57,72 @@
 }
 
 .container-map .container-buttons
-.button:hover div:first-of-type{
-    display: flex;
-    width: 20px;
-    height: 20px;
-    border: 5px double red;
-    border-radius: 20px;
-    position: absolute;
-    bottom: -25px;
-
-    animation: blink;
-    animation-duration: 1s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-}
-
-.container-map .container-buttons
 .button button{
-    width: 40px;
-    height: 60px;
+    width: 150px;
+    height: 35px;
     font-size: 24px;
     font-weight: bold;
     background: lightgray;
-    border-radius: 50% 50% 50% 50% / 40% 40% 60% 60%;
     border-style: none;
     z-index: 2;
 }
 
 .container-map .container-buttons
-.button #button-triangle{
-    width: 0;
-    height: 0;
+.button button span{
+    margin: 0 0 0 10px;
+    display: none;
+}
+
+.container-map .container-buttons
+.button button:hover span{
+    display: inline-block;
+    font-size: 14px;
+    vertical-align: middle;
+    position: relative;
+}
+
+.container-map .container-buttons
+.button button:hover span::before{
+    content: '';
+    width: 2px;
+    height: 20px;
+    background: white;
     position: absolute;
-    bottom: -31px;
-    border-top: 30px solid lightgray;
-    border-right: 15px solid transparent;
-    border-left: 15px solid transparent;
-    border-bottom: 15px solid transparent;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
-    z-index: 2;
+    top: -2px;
+    left: -5px;
 }
 
 .container-map .container-buttons
 .button #title{
+    display: none;
     width: 120px;
     height: 40px;
     position: absolute;
     top: 8px;
     left: 35px;
     background: white;
+    color: red;
     padding-left: 10px;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
-    display: none;
     align-items: center;
     text-overflow: ellipsis;
     overflow: hidden;
     white-space: nowrap;
 }
 
-.container-map .container-buttons
-.button:hover #title{
-    display: flex;
-    animation-name: moveTitle;
-    animation-duration: 1s;
-    animation-timing-function: linear;
-    animation-fill-mode: forwards;
-    z-index: 3;
-}
-
 /* Styles for A Button */
-.container-map .container-buttons
-.button:nth-child(1){
-    position: absolute;
-    top: 50px;
-    left: 460px;
-}
-
 .container-map .container-buttons
 .button:nth-child(1) button{
     background: var(--a-color);
     color: white;
 }
 
-.container-map .container-buttons
-.button:nth-child(1) #button-triangle{
-    border-top: 30px solid var(--a-color);
-}
-
-.container-map .container-buttons
-.button:nth-child(1) #title{
-    border: 5px solid var(--a-color);
-}
-
 /* Style for B Button */
-.container-map .container-buttons
-.button:nth-child(2){
-    position: absolute;
-    top: 50px;
-    left: 210px;
-}
-
 .container-map .container-buttons
 .button:nth-child(2) button{
     background: var(--b-color);
     color: white;
-}
-
-.container-map .container-buttons
-.button:nth-child(2) #button-triangle{
-    border-top: 30px solid var(--b-color);
 }
 
 .container-map .container-buttons
@@ -172,266 +132,79 @@
 
 /* Style for C Button */
 .container-map .container-buttons
-.button:nth-child(3){
-    position: absolute;
-    top: 160px;
-    left: 180px;
-}
-
-.container-map .container-buttons
 .button:nth-child(3) button{
     background: var(--c-color);
     color: white;
 }
 
-.container-map .container-buttons
-.button:nth-child(3) #button-triangle{
-    border-top: 30px solid var(--c-color);
-}
-
-.container-map .container-buttons
-.button:nth-child(3) #title{
-    border: 5px solid var(--c-color);
-}
-
 /* Style for D Button */
-.container-map .container-buttons
-.button:nth-child(4){
-    position: absolute;
-    top: 250px;
-    left: 250px;
-}
-
 .container-map .container-buttons
 .button:nth-child(4) button{
     background: var(--d-color);
     color: white;
 }
 
-.container-map .container-buttons
-.button:nth-child(4) #button-triangle{
-    border-top: 30px solid var(--d-color);
-}
-
-.container-map .container-buttons
-.button:nth-child(4) #title{
-    border: 5px solid var(--d-color);
-}
-
 /* Style for E Button */
-.container-map .container-buttons
-.button:nth-child(5){
-    position: absolute;
-    top: 125px;
-    left: 390px;
-}
-
 .container-map .container-buttons
 .button:nth-child(5) button{
     background: var(--e-color);
     color: white;
 }
 
-.container-map .container-buttons
-.button:nth-child(5) #button-triangle{
-    border-top: 30px solid var(--e-color);
-}
-
-.container-map .container-buttons
-.button:nth-child(5) #title{
-    border: 5px solid var(--e-color);
-}
-
 /* Style for F Button */
-.container-map .container-buttons
-.button:nth-child(6){
-    position: absolute;
-    top: 290px;
-    left: 610px;
-}
-
 .container-map .container-buttons
 .button:nth-child(6) button{
     background: var(--f-color);
     color: white;
 }
 
-.container-map .container-buttons
-.button:nth-child(6) #button-triangle{
-    border-top: 30px solid var(--f-color);
-}
-
-.container-map .container-buttons
-.button:nth-child(6) #title{
-    border: 5px solid var(--f-color);
-}
-
 /* Style for G Button */
-.container-map .container-buttons
-.button:nth-child(7){
-    position: absolute;
-    top: 170px;
-    left: 635px;
-}
-
 .container-map .container-buttons
 .button:nth-child(7) button{
     background: var(--g-color);
     color: white;
 }
 
-.container-map .container-buttons
-.button:nth-child(7) #button-triangle{
-    border-top: 30px solid var(--g-color);
-}
-
-.container-map .container-buttons
-.button:nth-child(7) #title{
-    border: 5px solid var(--g-color);
-}
-
 /* Style for H (Usme) Button */
-.container-map .container-buttons
-.button:nth-child(8){
-    position: absolute;
-    top: 115px;
-    left: 745px;
-}
-
 .container-map .container-buttons
 .button:nth-child(8) button{
     background: var(--h-color);
     color: white;
 }
 
-.container-map .container-buttons
-.button:nth-child(8) #button-triangle{
-    border-top: 30px solid var(--h-color);
-}
-
-.container-map .container-buttons
-.button:nth-child(8) #title{
-    border: 5px solid var(--h-color);
-}
-
 /* Style for H (Tunal) Button */
-.container-map .container-buttons
-.button:nth-child(9){
-    position: absolute;
-    top: 155px;
-    left: 710px;
-}
-
 .container-map .container-buttons
 .button:nth-child(9) button{
     background: var(--h-color);
     color: white;
 }
 
-.container-map .container-buttons
-.button:nth-child(9) #button-triangle{
-    border-top: 30px solid var(--h-color);
-}
-
-.container-map .container-buttons
-.button:nth-child(9) #title{
-    border: 5px solid var(--h-color);
-}
-
 /* Style for J Button */
-.container-map .container-buttons
-.button:nth-child(10){
-    position: absolute;
-    top: -35px;
-    left: 510px;
-}
-
 .container-map .container-buttons
 .button:nth-child(10) button{
     background: var(--j-color);
     color: white;
 }
 
-.container-map .container-buttons
-.button:nth-child(10) #button-triangle{
-    border-top: 30px solid var(--j-color);
-}
-
-.container-map .container-buttons
-.button:nth-child(10) #title{
-    border: 5px solid var(--j-color);
-}
-
 /* Style for K Button */
-.container-map .container-buttons
-.button:nth-child(11){
-    position: absolute;
-    top: 310px;
-    left: 430px;
-}
-
 .container-map .container-buttons
 .button:nth-child(11) button{
     background: var(--k-color);
     color: white;
 }
 
-.container-map .container-buttons
-.button:nth-child(11) #button-triangle{
-    border-top: 30px solid var(--k-color);
-}
-
-.container-map .container-buttons
-.button:nth-child(11) #title{
-    border: 5px solid var(--k-color);
-}
-
 /* Style for L Button */
-.container-map .container-buttons
-.button:nth-child(12){
-    position: absolute;
-    top: 0px;
-    left: 620px;
-}
-
 .container-map .container-buttons
 .button:nth-child(12) button{
     background: var(--l-color);
     color: white;
 }
 
-.container-map .container-buttons
-.button:nth-child(12) #button-triangle{
-    border-top: 30px solid var(--l-color);
-}
-
-.container-map .container-buttons
-.button:nth-child(12) #title{
-    border: 5px solid var(--l-color);
-}
-
 /* Style for M Button */
-.container-map .container-buttons
-.button:nth-child(13){
-    position: absolute;
-    top: 0px;
-    left: 310px;
-}
-
 .container-map .container-buttons
 .button:nth-child(13) button{
     background: var(--m-color);
     color: white;
-}
-
-.container-map .container-buttons
-.button:nth-child(13) #button-triangle{
-    border-top: 30px solid var(--m-color);
-}
-
-.container-map .container-buttons
-.button:nth-child(13) #title{
-    border: 5px solid var(--m-color);
 }
 
 /* Styles for pop-up troncales */
@@ -769,13 +542,4 @@ div:nth-of-type(2) div:nth-of-type(17) button{
 
 #container-map{
     background: red;
-}
-
-.container-map .container-buttons{
-    display: none;
-}
-
-map area{
-    pointer-events: none;
-    cursor: default;
 }
