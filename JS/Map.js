@@ -279,8 +279,9 @@ function fillStages(){
 
 function showTroncal(pos){
     document.getElementById("troncal").style.display = "block";
+    posBus.setStages(trunk.find({Name: pos}).Stages.length);
     posBus.setStages(trunks[pos].length);
-    posTroncal = pos;
+    posTroncal = trunk.find({Name: pos}).id;
     posBus.setIncrease(parseInt(900 / trunks[pos].length));
     showTrunckAgain();
     createPopUp(pos);
@@ -312,8 +313,8 @@ function moveBus(){
 
 
 function createPopUp(pos){
-    document.getElementById("title-troncal").innerText = infoTrunck[pos].name;
-
+    //document.getElementById("title-troncal").innerText = infoTrunck[pos].name;
+    document.getElementById("title-troncal").innerText = trunk.get(pos + 1).Name;
     document.getElementById("start-trunk").innerText = infoTrunck[pos].inicio;
     document.getElementById("end-trunk").innerText = infoTrunck[pos].fin;
     document.getElementById("length-trunk").innerText = infoTrunck[pos].longitud;
@@ -388,7 +389,9 @@ function showTrunckAgain(){
 }
 
 function load(){
-    fillStages()
+
+    fillStages();
+
 }
 
 //función para rotar el banner

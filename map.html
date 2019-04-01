@@ -14,13 +14,17 @@
     <link rel="stylesheet" type="text/css" href="CSS/Main.css">
     <link rel="stylesheet" type="text/css" href="CSS/menu.css">
 
-    <script src="js/Map.js" type="text/javascript"></script>
-
-    <script src="https://www.w3schools.com/lib/w3.js"></script>
-
     <!-- JQuery libraris -->
     <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
     <script type="text/javascript" src="js/jquery.maphilight.min.js"></script>
+    
+    <script src="http://lokijs.org/bower_components/lokijs/src/lokijs.js"></script>
+    <script src="js/Map.js" type="text/javascript"></script>
+    <script type="text/javascript" src="js/db.js"></script>
+
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
+
+    
 
 
     <script type="text/javascript">
@@ -57,6 +61,7 @@
     <div class="header">
         <header>
             <div class="contenedor">
+                <button onclick="getData()">Test</button>
                 <div class="logo">
                     <img src="img/logo1.png" alt="Pulse aqui para volver al inicio" width="200%">
                 </div>
@@ -255,7 +260,7 @@
 
                 <div class="container-buttons show">
                     <div class="button">
-                        <button type="button" onclick="showTroncal(0)" id="btn-A">A<span>Caracas</span></button>
+                        <button type="button" onclick="showTroncal('Caracas')" id="btn-A">A<span>Caracas</span></button>
                     </div>
                     <div class="button">
                         <button type="button" onclick="showTroncal(1)" id="btn-B">B<span>Auto. Norte</span></button>
