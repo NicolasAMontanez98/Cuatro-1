@@ -2,16 +2,28 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    <title>Transmi-T</title>
     <link rel="shortcut icon" href="img/logo1.png" />
+
     <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="css/home.css">
+    
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js" type="text/javascript"></script>
+	<script src="JS/jquery.nivo.slider.js"></script>
 
     <link rel="stylesheet" type="text/css" media="screen" href="css/estilos.css" />
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link href="https://file.myfontastic.com/JXDxkMxnasVa6ynRo8rb9A/icons.css" rel="stylesheet">
     <script src="main.js"></script>
     
-    <title>Transmi-T</title>
+    <link rel="stylesheet" href="css/nivo-slider.css">
+    <link rel="stylesheet" href="css/mi-slider.css">
+
+    <script type="text/javascript"> 
+		$(window).on('load', function() {
+		    $('#slider').nivoSlider(); 
+		}); 
+	</script>
 </head>
 <body>
     <!-- <div id="mySidenav" class="sidenav">
@@ -135,16 +147,16 @@
     <br>
 
     <!-- sitios de interes -->
-
-    <!-- <div class="slider">
-        <ul>
-            <li><a href="https://moovitapp.com/" target="_blank"><img src="../Transmi-T/TransmiT/img/banner_sitios/bannerMoovit.png" title="bannerMoovit"></a></li>
-            <li><a href="https://www.transmilenio.gov.co/" target="_blank"><img src="../Transmi-T/TransmiT/img/banner_sitios/bannerTransmilenio.png" title="bannerTransmilenio"></a></li>
-            <li><a href="https://www.sitp.gov.co/Publicaciones/TransMilenio" target="_blank"><img src="../TransmiT/Transmi-T/img/banner_sitios/bannerTransmiSitp.png" title="bannerTransmiSitp"></a></li>
-            <li><a href="https://www.mintransporte.gov.co/" target="_blank"><img src="../Transmi-T/TransmiT/img/banner_sitios/bannerMinisterio.png" title="bannerMinisterio"></a></li>
-        </ul>
-    </div> -->
-
+    <div class="slider-wrapper theme-mi-slider">
+        <div class="slider" class="nivoSlider">
+            <ul>
+                <li><a href="https://moovitapp.com/" target="_blank"><img src="../TransmiT/img/banner_sitios/bannerMoovit.png" title="bannerMoovit"></a></li>
+                <li><a href="https://www.transmilenio.gov.co/" target="_blank"><img src="../TransmiT/img/banner_sitios/bannerTransmilenio.png" title="bannerTransmilenio"></a></li>
+                <li><a href="https://www.sitp.gov.co/Publicaciones/TransMilenio" target="_blank"><img src="../TransmiT/img/banner_sitios/bannerTransmiSitp.png" title="bannerTransmiSitp"></a></li>
+                <li><a href="https://www.mintransporte.gov.co/" target="_blank"><img src="../TransmiT/img/banner_sitios/bannerMinisterioT.png" title="bannerMinisterio"></a></li>
+            </ul>
+        </div>
+    </div>
 
     <!---Comienzo del footer--------------------------->
     <footer>
