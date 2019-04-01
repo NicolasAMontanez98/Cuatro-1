@@ -686,7 +686,8 @@
           ]
         }
       ]
-    },{
+    },
+    {
       "name": "Estacion CAD",
       "url": "img/Estaciones/NQS_central/CAD.jpg",
       "address": " Av.Carrera 30 Calle 46",
@@ -702,15 +703,16 @@
           ]
         },
         {
-            "Id": "7",
-            "Vagon": 1,
-            "Origen": "Portal Suba",
-            "Destino": "Ricaurte (NQS)",
-            "Horario": [
-              "L-S | 05:00 AM - 11:00 PM",
-              "D-F | 05:30 AM - 10:00 PM"
-            ]
-          },{
+          "Id": "7",
+          "Vagon": 1,
+          "Origen": "Portal Suba",
+          "Destino": "Ricaurte (NQS)",
+          "Horario": [
+            "L-S | 05:00 AM - 11:00 PM",
+            "D-F | 05:30 AM - 10:00 PM"
+          ]
+        },
+        {
           "Id": "B28",
           "Vagon": 2,
           "Origen": "Portal Américas",
@@ -718,7 +720,8 @@
           "Horario": [
             "L-S | 05:30 AM - 11:00 PM"
           ]
-        },{
+        },
+        {
           "Id": "E32",
           "Vagon": 2,
           "Origen": "Portal Américas",
@@ -727,7 +730,8 @@
             "L-S | 05:00 AM - 11:00 PM",
             "D-F | 05:30 AM - 10:00 PM"
           ]
-        },{
+        },
+        {
           "Id": "C30",
           "Vagon": 2,
           "Origen": "Portal del Sur",
@@ -736,9 +740,182 @@
             "L-S | 05:00 AM - 11:00 PM",
             "D-F | 05:30 AM - 10:00 PM"
           ]
+        },{
+          "Id": "K34",
+          "Vagon": 1,
+          "Origen": "Portal del Sur",
+          "Destino": "San Mateo",
+          "Horario": [
+            "L-S | 05:00 AM - 11:00 PM",
+            "D-F | 05:30 AM - 10:00 PM"
+          ]
         }
-        ]
-      
+      ]
+    },
+    {
+      "name": "Estacion Paloquemado",
+      "url": "img/Estaciones/NQS_central/Paloquemao.jpg",
+      "address": " AV. NQS - CL 18A",
+      "Services": [
+        {
+          "Id": "7",
+          "Vagon": 2,
+          "Origen": "Portal Suba",
+          "Destino": "Ricaurte (NQS)",
+          "Horario": [
+            "L-S | 05:00 AM - 11:00 PM",
+            "D-F | 05:30 AM - 10:00 PM"
+          ]
+        },
+        {
+          "Id": "B11",
+          "Vagon": 2,
+          "Origen": "Portal del Sur",
+          "Destino": "Terminal",
+          "Horario": [
+            "L-S | 05:00 AM - 11:00 PM",
+            "D-F | 05:30 AM - 10:00 PM"
+          ]
+        },
+        {
+          "Id": "B72",
+          "Vagon": 2,
+          "Origen": "Portal de Usme",
+          "Destino": "Toberín",
+          "Horario": [
+            "L-S | 05:30 AM - 11:00 PM"
+          ]
+        },
+        {
+          "Id": "B71",
+          "Vagon": 2,
+          "Origen": "Portal del Tunal",
+          "Destino": "Portal del Norte",
+          "Horario": [
+            "L-V | 05:30 AM - 11:00 PM",
+            "S   | 05:30 AM - 09:00 AM"
+          ]
+        },
+        {
+          "Id": "4",
+          "Vagon": 2,
+          "Origen": "Héroes",
+          "Destino": "Portal del Sur",
+          "Horario": [
+            "L-S | 05:00 AM - 11:00 PM",
+            "D-F | 05:30 AM - 10:00 PM"
+          ]
+        },
+        {
+          "Id": "G22",
+          "Vagon": 2,
+          "Origen": "NQS - Calle 75",
+          "Destino": "Portal Américas",
+          "Horario": [
+            "L-S | 05:00 AM - 11:00 PM",
+            "D-F | 05:30 AM - 10:00 PM"
+          ]
+        },
+        {
+          "Id": "H72",
+          "Vagon": 2,
+          "Origen": "Toberín",
+          "Destino": "Portal de Usme",
+          "Horario": [
+            "L-V | 04:00 PM - 08:00 PM"
+          ]
+        },
+        {
+          "Id": "E44",
+          "Vagon": 1,
+          "Origen": "San Mateo",
+          "Destino": "Simón Bolívar",
+          "Horario": [
+            "L-S | 05:00 AM - 11:00 PM"
+          ]
+        },
+        {
+          "Id": "D22",
+          "Vagon": 1,
+          "Origen": "Portal del Sur",
+          "Destino": "Portal de la 80",
+          "Horario": [
+            "L-S | 05:30 AM - 11:00 PM"
+          ]
+        },
+        {
+          "Id": "G11",
+          "Vagon": 1,
+          "Origen": "Terminal",
+          "Destino": "Portal del Sur",
+          "Horario": [
+            "L-S | 05:00 AM - 11:00 PM",
+            "D-F | 05:30 AM - 10:00 PM"
+          ]
+        },
+        {
+          "Id": "G44",
+          "Vagon": 1,
+          "Origen": "Simón Bolívar",
+          "Destino": "San Mateo",
+          "Horario": [
+            "L-S | 05:00 AM - 11:00 PM"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Estacion Ricaurte",
+      "url": "img/Estaciones/NQS_central/Ricaurte.png",
+      "address": "  Av.Calle 13 entre 27 ",
+      "Services": [
+        {
+          "Id": "D22",
+          "Vagon": 3,
+          "Origen": "Portal del Sur",
+          "Destino": "Portal de la 80",
+          "Horario": [
+            "L-S | 05:30 AM - 11:00 PM"
+          ]
+        },{
+            "Id": "K43",
+          "Vagon": 3,
+          "Origen": "San Mateo",
+          "Destino": "Portal Eldorado",
+          "Horario": [
+            "L-S | 05:30 AM - 11:00 PM"
+          ]
+        },{
+          "Id": "G12",
+          "Vagon": 3,
+          "Origen": "Portal del Norte",
+          "Destino": "Portal del Sur",
+          "Horario": [
+            "L-S | 05:00 AM - 11:00 PM",
+            "D-F | 05:30 AM - 10:00 PM"
+          ]
+        },
+        {
+            "Id": "K42",
+          "Vagon": 3,
+          "Origen": "San Mateo",
+          "Destino": "Corferias",
+          "Horario": [
+            "L-S | 05:30 AM - 11:00 PM"
+          ]
+        },{
+          "Id": "G22",
+          "Vagon": 3,
+          "Origen": "NQS - Calle 75",
+          "Destino": "Portal Américas",
+          "Horario": [
+            "L-S | 05:00 AM - 11:00 PM",
+            "D-F | 05:30 AM - 10:00 PM"
+          ]
+        }
+        
+      ]
     }
+    
   ]
 }
