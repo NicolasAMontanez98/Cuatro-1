@@ -1,0 +1,732 @@
+{
+  "id": "11",
+  "Name": "Carrera 10",
+  "Inicio": "Portal 20 de Julio",
+  "Fin": "San Diego",
+  "longitud": "6.5 km",
+  "url": "img/Troncales/CarreraDecima.jpg",
+  "Stages": [
+    {
+      "name": "San Diego",
+      "url": "img/paradas/l10.jpg",
+      "address": "Carrera 10 esquina con calle 26",
+      "Services": [
+        {
+          "Id": "M47",
+          "Vagon": 2,
+          "Origen": "Portal del Sur",
+          "Destino": "Museo Nacional",
+          "Horario": [
+            "L-V | 04:00 AM - 11:00 PM",
+            "S   | 04:30 AM - 11:00 PM"
+          ]
+        },
+        {
+          "Id": "M83",
+          "Vagon": 2,
+          "Origen": "Portal Usme",
+          "Destino": "Museo Nacional",
+          "Horario": [
+            "L-V | 04:30 AM - 11:00 PM",
+            "S   | 05:00 AM - 10:30 PM",
+            "D-F | 05:30 AM - 09:30 PM"
+          ]
+        },
+        {
+          "Id": "M86",
+          "Vagon": 2,
+          "Origen": "Aeropuerto Eldorado",
+          "Destino": "San Diego",
+          "Horario": [
+            "L-V | 04:30 AM - 10:00 PM",
+            "S   | 05:00 AM - 10:00 PM",
+            "D-F | 06:00 AM - 09:00 PM"
+          ]
+        },
+        {
+          "Id": "G47",
+          "Vagon": 2,
+          "Origen": "Museo Nacional",
+          "Destino": "Portal del Sur",
+          "Horario": [
+            "L-V | 04:30 AM - 11:00 PM",
+            "S   | 05:00 AM - 11:00 PM",
+            "D-F | 05:30 AM - 10:00 PM"
+          ]
+        },
+        {
+          "Id": "H83",
+          "Vagon": 2,
+          "Origen": "Museo Nacional",
+          "Destino": "Portal Usme",
+          "Horario": [
+            "L-V | 05:00 AM - 11:00 PM ",
+            "S   | 05:30 AM - 10:30 PM ",
+            "D-F | 06:00 AM - 09:30 PM"
+          ]
+        },
+        {
+          "Id": "2",
+          "Vagon": 1,
+          "Origen": "Portal 20 de Julio",
+          "Destino": "Museo Nacional",
+          "Horario": [
+            "L-V | 04:30 AM - 11:00 PM",
+            "S   | 05:00 AM - 11:00 PM",
+            "D-F | 05:30 AM - 10:00 PM"
+          ]
+        },
+        {
+          "Id": "M51",
+          "Vagon": 1,
+          "Origen": "Portal Américas",
+          "Destino": "Museo Nacional",
+          "Horario": [
+            "L-S | 04:30 AM - 11:00 PM"
+          ]
+        },
+        {
+          "Id": "M82",
+          "Vagon": 1,
+          "Origen": "Portal 20 de Julio",
+          "Destino": "Clínica El Bosque",
+          "Horario": [
+            "L-V | 04:30 AM - 11:00 PM",
+            "S   | 05:00 AM - 11:00 PM",
+            "D-F | 05:30 AM - 10:00 PM"
+          ]
+        },
+        {
+          "Id": "F51",
+          "Vagon": 1,
+          "Origen": "Portal del Sur",
+          "Destino": "Museo Nacional",
+          "Horario": [
+            "L-V | 04:30 AM - 11:00 PM",
+            "D-F | 05:30 AM - 10:00 PM"
+          ]
+        },
+        {
+          "Id": "L82",
+          "Vagon": 1,
+          "Origen": "Ginebra Norte",
+          "Destino": "Portal 20 de Julio",
+          "Horario": [
+            "L-S | 06:00 AM - 10:00 PM"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "las nieves",
+      "url": "img/paradas/l9.jpgimg/paradas/l9.jpg",
+      "address": "Av.Carrera 10 Calle 17",
+      "Services": [
+        {
+          "Id": "2",
+          "Vagon": 2,
+          "Origen": "Portal 20 de Julio",
+          "Destino": "Museo Nacional",
+          "Horario": [
+            "L-V | 04:30 AM - 11:00 PM",
+            "S   | 05:00 AM - 11:00 PM",
+            "D-F | 05:30 AM - 10:00 PM"
+          ]
+        },
+        {
+          "Id": "M47",
+          "Vagon": 1,
+          "Origen": "Portal del Sur",
+          "Destino": "Museo Nacional",
+          "Horario": [
+            "L-V | 04:00 AM - 11:00 PM",
+            "S   | 04:30 AM - 11:00 PM"
+          ]
+        },
+        {
+          "Id": "M51",
+          "Vagon": 1,
+          "Origen": "Portal Américas",
+          "Destino": "Museo Nacional",
+          "Horario": [
+            "L-S | 04:30 AM - 11:00 PM"
+          ]
+        },
+        {
+          "Id": "F51",
+          "Vagon": 1,
+          "Origen": "Portal del Sur",
+          "Destino": "Museo Nacional",
+          "Horario": [
+            "L-V | 04:30 AM - 11:00 PM",
+            "D-F | 05:30 AM - 10:00 PM"
+          ]
+        },
+        {
+          "Id": "G47",
+          "Vagon": 1,
+          "Origen": "Museo Nacional",
+          "Destino": "Portal del Sur",
+          "Horario": [
+            "L-V | 04:30 AM - 11:00 PM",
+            "S   | 05:00 AM - 11:00 PM",
+            "D-F | 05:30 AM - 10:00 PM"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "San victorino",
+      "url": "img/paradas/l8.jpg",
+      "address": "Av.Carrera 10 Calle 11",
+      "Services": [
+        {
+          "Id": "M83",
+          "Vagon": 2,
+          "Origen": "Portal Usme",
+          "Destino": "Museo Nacional",
+          "Horario": [
+            "L-V | 04:30 AM - 11:00 PM",
+            "S   | 05:00 AM - 10:30 PM",
+            "D-F | 05:30 AM - 09:30 PM"
+          ]
+        },
+        {
+          "Id": "M82",
+          "Vagon": 2,
+          "Origen": "Portal 20 de Julio",
+          "Destino": "Clínica El Bosque",
+          "Horario": [
+            "L-V | 04:30 AM - 11:00 PM",
+            "S   | 05:00 AM - 11:00 PM",
+            "D-F | 05:30 AM - 10:00 PM"
+          ]
+        },
+        {
+          "Id": "H83",
+          "Vagon": 2,
+          "Origen": "Museo Nacional",
+          "Destino": "Portal Usme",
+          "Horario": [
+            "L-V | 05:00 AM - 11:00 PM ",
+            "S   | 05:30 AM - 10:30 PM ",
+            "D-F | 06:00 AM - 09:30 PM"
+          ]
+        },
+        {
+          "Id": "L82",
+          "Vagon": 3,
+          "Origen": "Ginebra Norte",
+          "Destino": "Portal 20 de Julio",
+          "Horario": [
+            "L-S | 06:00 AM - 10:00 PM"
+          ]
+        },
+        {
+          "Id": "2",
+          "Vagon": 3,
+          "Origen": "Portal 20 de Julio",
+          "Destino": "Museo Nacional",
+          "Horario": [
+            "L-V | 04:30 AM - 11:00 PM",
+            "S   | 05:00 AM - 11:00 PM",
+            "D-F | 05:30 AM - 10:00 PM"
+          ]
+        },
+        {
+          "Id": "B18",
+          "Vagon": 3,
+          "Origen": "Portal 20 de Julio",
+          "Destino": "Terminal",
+          "Horario": [
+            "L-V | 04:30 AM - 11:00 PM",
+            "S   | 05:00 AM - 09:30 PM"
+          ]
+        },
+        {
+          "Id": "K10",
+          "Vagon": 3,
+          "Origen": "Portal 20 de Julio",
+          "Destino": "Portal Eldorado",
+          "Horario": [
+            "L-V | 04:30 AM - 11:00 PM",
+            "S   | 05:00 AM - 11:00 PM",
+            "D-F | 05:30 AM - 10:00 PM"
+          ]
+        },
+        {
+          "Id": "L10",
+          "Vagon": 3,
+          "Origen": "Portal Eldorado",
+          "Destino": "Portal 20 de Julio",
+          "Horario": [
+            "L-V | 04:30 AM - 11:00 PM",
+            "S   | 05:00 AM - 11:00 PM",
+            "D-F | 05:30 AM - 10:00 PM"
+          ]
+        },
+        {
+          "Id": "L18",
+          "Vagon": 3,
+          "Origen": "Terminal",
+          "Destino": "Portal 20 de Julio",
+          "Horario": [
+            "L-V | 04:30 AM - 11:00 PM",
+            "S   | 05:00 AM - 09:30 PM"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Estacion Bicentenario ",
+      "url": "img/paradas/l7.jpg",
+      "address": "Av. El Dorado #66 - 63",
+      "Services": [
+        {
+          "Id": "B18",
+          "Vagon": 3,
+          "Origen": "Portal 20 de Julio",
+          "Destino": "Terminal",
+          "Horario": [
+            "L-V | 04:30 AM - 11:00 PM",
+            "S   | 05:00 AM - 09:30 PM"
+          ]
+        },
+        {
+          "Id": "K10",
+          "Vagon": 3,
+          "Origen": "Portal 20 de Julio",
+          "Destino": "Portal Eldorado",
+          "Horario": [
+            "L-V | 04:30 AM - 11:00 PM",
+            "S   | 05:00 AM - 11:00 PM",
+            "D-F | 05:30 AM - 10:00 PM"
+          ]
+        },
+        {
+          "Id": "L10",
+          "Vagon": 3,
+          "Origen": "Portal Eldorado",
+          "Destino": "Portal 20 de Julio",
+          "Horario": [
+            "L-V | 04:30 AM - 11:00 PM",
+            "S   | 05:00 AM - 11:00 PM",
+            "D-F | 05:30 AM - 10:00 PM"
+          ]
+        },
+        {
+          "Id": "L18",
+          "Vagon": 3,
+          "Origen": "Terminal",
+          "Destino": "Portal 20 de Julio",
+          "Horario": [
+            "L-V | 04:30 AM - 11:00 PM",
+            "S   | 05:00 AM - 09:30 PM"
+          ]
+        },
+        {
+          "Id": "M82",
+          "Vagon": 2,
+          "Origen": "Portal 20 de Julio",
+          "Destino": "Clínica El Bosque",
+          "Horario": [
+            "L-V | 04:30 AM - 11:00 PM",
+            "S   | 05:00 AM - 11:00 PM",
+            "D-F | 05:30 AM - 10:00 PM"
+          ]
+        },
+        {
+          "Id": "M83",
+          "Vagon": 2,
+          "Origen": "Portal Usme",
+          "Destino": "Museo Nacional",
+          "Horario": [
+            "L-V | 04:30 AM - 11:00 PM",
+            "S   | 05:00 AM - 10:30 PM",
+            "D-F | 05:30 AM - 09:30 PM"
+          ]
+        },
+        {
+          "Id": "H83",
+          "Vagon": 2,
+          "Origen": "Museo Nacional",
+          "Destino": "Portal Usme",
+          "Horario": [
+            "L-V | 05:00 AM - 11:00 PM ",
+            "S   | 05:30 AM - 10:30 PM ",
+            "D-F | 06:00 AM - 09:30 PM"
+          ]
+        },
+        {
+          "Id": "L82",
+          "Vagon": 3,
+          "Origen": "Ginebra Norte",
+          "Destino": "Portal 20 de Julio",
+          "Horario": [
+            "L-S | 06:00 AM - 10:00 PM"
+          ]
+        },
+        {
+          "Id": "2",
+          "Vagon": 1,
+          "Origen": "Portal 20 de Julio",
+          "Destino": "Museo Nacional",
+          "Horario": [
+            "L-V | 04:30 AM - 11:00 PM",
+            "S   | 05:00 AM - 11:00 PM",
+            "D-F | 05:30 AM - 10:00 PM"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "San Bernardo ",
+      "url": "img/paradas/l6.jpg",
+      "address": "Av. El Dorado #66 - 63",
+      "Services": [
+        {
+          "Id": "2",
+          "Vagon": 2,
+          "Origen": "Portal 20 de Julio",
+          "Destino": "Museo Nacional",
+          "Horario": [
+            "L-V | 04:30 AM - 11:00 PM",
+            "S   | 05:00 AM - 11:00 PM",
+            "D-F | 05:30 AM - 10:00 PM"
+          ]
+        },
+        {
+          "Id": "B18",
+          "Vagon": 1,
+          "Origen": "Portal 20 de Julio",
+          "Destino": "Terminal",
+          "Horario": [
+            "L-V | 04:30 AM - 11:00 PM",
+            "S   | 05:00 AM - 09:30 PM"
+          ]
+        },
+        {
+          "Id": "K10",
+          "Vagon": 1,
+          "Origen": "Portal 20 de Julio",
+          "Destino": "Portal Eldorado",
+          "Horario": [
+            "L-V | 04:30 AM - 11:00 PM",
+            "S   | 05:00 AM - 11:00 PM",
+            "D-F | 05:30 AM - 10:00 PM"
+          ]
+        },
+        {
+          "Id": "L10",
+          "Vagon": 1,
+          "Origen": "Portal Eldorado",
+          "Destino": "Portal 20 de Julio",
+          "Horario": [
+            "L-V | 04:30 AM - 11:00 PM",
+            "S   | 05:00 AM - 11:00 PM",
+            "D-F | 05:30 AM - 10:00 PM"
+          ]
+        },
+        {
+          "Id": "L18",
+          "Vagon": 1,
+          "Origen": "Terminal",
+          "Destino": "Portal 20 de Julio",
+          "Horario": [
+            "L-V | 04:30 AM - 11:00 PM",
+            "S   | 05:00 AM - 09:30 PM"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Estacion Policarpa ",
+      "url": "img/paradas/l5.jpg",
+      "address": "Avenida Carrera 10",
+      "Services": [
+        {
+          "Id": "M83",
+          "Vagon": 2,
+          "Origen": "Portal Usme",
+          "Destino": "Museo Nacional",
+          "Horario": [
+            "L-V | 04:30 AM - 11:00 PM",
+            "S   | 05:00 AM - 10:30 PM",
+            "D-F | 05:30 AM - 09:30 PM"
+          ]
+        },
+        {
+          "Id": "H83",
+          "Vagon": 2,
+          "Origen": "Museo Nacional",
+          "Destino": "Portal Usme",
+          "Horario": [
+            "L-V | 05:00 AM - 11:00 PM ",
+            "S   | 05:30 AM - 10:30 PM ",
+            "D-F | 06:00 AM - 09:30 PM"
+          ]
+        },
+        {
+          "Id": "2",
+          "Vagon": 2,
+          "Origen": "Portal 20 de Julio",
+          "Destino": "Museo Nacional",
+          "Horario": [
+            "L-V | 04:30 AM - 11:00 PM",
+            "S   | 05:00 AM - 11:00 PM",
+            "D-F | 05:30 AM - 10:00 PM"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Estacion Ciudad Jardin ",
+      "url": "img/paradas/l4.jpg",
+      "address": "Av.Carrera 10 con Av.Calle 11 Sur",
+      "Services": [
+        {
+          "Id": "K10",
+          "Vagon": 1,
+          "Origen": "Portal 20 de Julio",
+          "Destino": "Portal Eldorado",
+          "Horario": [
+            "L-V | 04:30 AM - 11:00 PM",
+            "S   | 05:00 AM - 11:00 PM",
+            "D-F | 05:30 AM - 10:00 PM"
+          ]
+        },
+        {
+          "Id": "L10",
+          "Vagon": 1,
+          "Origen": "Portal Eldorado",
+          "Destino": "Portal 20 de Julio",
+          "Horario": [
+            "L-V | 04:30 AM - 11:00 PM",
+            "S   | 05:00 AM - 11:00 PM",
+            "D-F | 05:30 AM - 10:00 PM"
+          ]
+        },
+        {
+          "Id": "2",
+          "Vagon": 2,
+          "Origen": "Portal 20 de Julio",
+          "Destino": "Museo Nacional",
+          "Horario": [
+            "L-V | 04:30 AM - 11:00 PM",
+            "S   | 05:00 AM - 11:00 PM",
+            "D-F | 05:30 AM - 10:00 PM"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ave 1 mayo ",
+      "url": "img/paradas/l3.jpg",
+      "address": "Ave 1 mayo cl 35",
+      "Services": [
+        {
+          "Id": "B18",
+          "Vagon": 3,
+          "Origen": "Portal 20 de Julio",
+          "Destino": "Terminal",
+          "Horario": [
+            "L-V | 04:30 AM - 11:00 PM",
+            "S   | 05:00 AM - 09:30 PM"
+          ]
+        },
+        {
+          "Id": "L18",
+          "Vagon": 3,
+          "Origen": "Terminal",
+          "Destino": "Portal 20 de Julio",
+          "Horario": [
+            "L-V | 04:30 AM - 11:00 PM",
+            "S   | 05:00 AM - 09:30 PM"
+          ]
+        },
+        {
+          "Id": "2",
+          "Vagon": 2,
+          "Origen": "Portal 20 de Julio",
+          "Destino": "Museo Nacional",
+          "Horario": [
+            "L-V | 04:30 AM - 11:00 PM",
+            "S   | 05:00 AM - 11:00 PM",
+            "D-F | 05:30 AM - 10:00 PM"
+          ]
+        },
+        {
+          "Id": "M82",
+          "Vagon": 2,
+          "Origen": "Portal 20 de Julio",
+          "Destino": "Clínica El Bosque",
+          "Horario": [
+            "L-V | 04:30 AM - 11:00 PM",
+            "S   | 05:00 AM - 11:00 PM",
+            "D-F | 05:30 AM - 10:00 PM"
+          ]
+        },
+        {
+          "Id": "L82",
+          "Vagon": 2,
+          "Origen": "Ginebra Norte",
+          "Destino": "Portal 20 de Julio",
+          "Horario": [
+            "L-S | 06:00 AM - 10:00 PM"
+          ]
+        },
+        {
+          "Id": "K10",
+          "Vagon": 1,
+          "Origen": "Portal 20 de Julio",
+          "Destino": "Portal Eldorado",
+          "Horario": [
+            "L-V | 04:30 AM - 11:00 PM",
+            "S   | 05:00 AM - 11:00 PM",
+            "D-F | 05:30 AM - 10:00 PM"
+          ]
+        },
+        {
+          "Id": "M83",
+          "Vagon": 1,
+          "Origen": "Portal Usme",
+          "Destino": "Museo Nacional",
+          "Horario": [
+            "L-V | 04:30 AM - 11:00 PM",
+            "S   | 05:00 AM - 10:30 PM",
+            "D-F | 05:30 AM - 09:30 PM"
+          ]
+        },
+        {
+          "Id": "L10",
+          "Vagon": 1,
+          "Origen": "Portal Eldorado",
+          "Destino": "Portal 20 de Julio",
+          "Horario": [
+            "L-V | 04:30 AM - 11:00 PM",
+            "S   | 05:00 AM - 11:00 PM",
+            "D-F | 05:30 AM - 10:00 PM"
+          ]
+        },
+        {
+          "Id": "H83",
+          "Vagon": 1,
+          "Origen": "Museo Nacional",
+          "Destino": "Portal Usme",
+          "Horario": [
+            "L-V | 05:00 AM - 11:00 PM ",
+            "S   | 05:30 AM - 10:30 PM ",
+            "D-F | 06:00 AM - 09:30 PM"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Estacion Country Sur ",
+      "url": "img/paradas/l2.jpg",
+      "address": "Av.Carrera 10 Calle 27 Sur",
+      "Services": [
+        {
+          "Id": "2",
+          "Vagon": 2,
+          "Origen": "Portal 20 de Julio",
+          "Destino": "Museo Nacional",
+          "Horario": [
+            "L-V | 04:30 AM - 11:00 PM",
+            "S   | 05:00 AM - 11:00 PM",
+            "D-F | 05:30 AM - 10:00 PM"
+          ]
+        },
+        {
+          "Id": "M82",
+          "Vagon": 2,
+          "Origen": "Portal 20 de Julio",
+          "Destino": "Clínica El Bosque",
+          "Horario": [
+            "L-V | 04:30 AM - 11:00 PM",
+            "S   | 05:00 AM - 11:00 PM",
+            "D-F | 05:30 AM - 10:00 PM"
+          ]
+        },
+        {
+          "Id": "L82",
+          "Vagon": 2,
+          "Origen": "Ginebra Norte",
+          "Destino": "Portal 20 de Julio",
+          "Horario": [
+            "L-S | 06:00 AM - 10:00 PM"
+          ]
+        },
+        {
+          "Id": "B18",
+          "Vagon": 1,
+          "Origen": "Portal 20 de Julio",
+          "Destino": "Terminal",
+          "Horario": [
+            "L-V | 04:30 AM - 11:00 PM",
+            "S   | 05:00 AM - 09:30 PM"
+          ]
+        },
+        {
+          "Id": "L18",
+          "Vagon": 1,
+          "Origen": "Terminal",
+          "Destino": "Portal 20 de Julio",
+          "Horario": [
+            "L-V | 04:30 AM - 11:00 PM",
+            "S   | 05:00 AM - 09:30 PM"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Portal 20 julio ",
+      "url": "img/paradas/l1.jpg",
+      "address": "Av.Carrera 10 Calle 27 Sur",
+      "Services": [
+        {
+          "Id": "M82",
+          "Vagon": 0,
+          "Origen": "Portal 20 de Julio",
+          "Destino": "Clínica El Bosque",
+          "Horario": [
+            "L-V | 04:30 AM - 11:00 PM",
+            "S   | 05:00 AM - 11:00 PM",
+            "D-F | 05:30 AM - 10:00 PM"
+          ]
+        },
+        {
+          "Id": "K10",
+          "Vagon": 0,
+          "Origen": "Portal 20 de Julio",
+          "Destino": "Portal Eldorado",
+          "Horario": [
+            "L-V | 04:30 AM - 11:00 PM",
+            "S   | 05:00 AM - 11:00 PM",
+            "D-F | 05:30 AM - 10:00 PM"
+          ]
+        },
+        {
+          "Id": "B18",
+          "Vagon": 0,
+          "Origen": "Portal 20 de Julio",
+          "Destino": "Terminal",
+          "Horario": [
+            "L-V | 04:30 AM - 11:00 PM",
+            "S   | 05:00 AM - 09:30 PM"
+          ]
+        },
+        {
+          "Id": "M47",
+          "Vagon": 2,
+          "Origen": "Portal del Sur",
+          "Destino": "Museo Nacional",
+          "Horario": [
+            "L-V | 04:00 AM - 11:00 PM",
+            "S   | 04:30 AM - 11:00 PM"
+          ]
+        }
+      ]
+    }
+  ]
+}
