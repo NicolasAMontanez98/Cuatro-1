@@ -278,11 +278,12 @@ function fillStages(){
 }
 
 function showTroncal(pos){
+    var search = trunk.find({Name: pos})[0];
+
     document.getElementById("troncal").style.display = "block";
-    posBus.setStages(trunk.find({Name: pos}).Stages.length);
-    posBus.setStages(trunks[pos].length);
-    posTroncal = trunk.find({Name: pos}).id;
-    posBus.setIncrease(parseInt(900 / trunks[pos].length));
+    posBus.setStages(search.Stages.length);
+    posTroncal = parseInt(search.id);
+    posBus.setIncrease(parseInt(900 / search.Stages.length));
     showTrunckAgain();
     createPopUp(pos);
 }
@@ -293,13 +294,16 @@ function hideTroncal(id){
 }
 
 function moveBus(){
+    var parts = (document.getElementById("aux-pos").value).split(":");
+    var search = trunk.find({Name: parts[0]})[0];
+
     pos = parseInt(this.innerText) - 1;
 
     var bus = document.getElementById("img-bus");
-    var title = document.getElementById("trunk-name").innerText = trunks[posTroncal][pos].name;
+    var title = document.getElementById("trunk-name").innerText =  search.Stages[pos].name;
     var image = document.getElementById("trunk-image");
-    image.src = trunks[posTroncal][pos].url;
-    image.alt = trunks[posTroncal][pos].name;
+    image.src = search.Stages[pos].url;
+    image.alt = search.Stages[pos].name;
 
     var hidden = document.getElementById("aux-pos");
     hidden.value = hidden.value.substring(0, hidden.value.indexOf(":")) + ":" + pos;
@@ -314,15 +318,18 @@ function moveBus(){
 
 function createPopUp(pos){
     //document.getElementById("title-troncal").innerText = infoTrunck[pos].name;
-    document.getElementById("title-troncal").innerText = trunk.get(pos + 1).Name;
-    document.getElementById("start-trunk").innerText = infoTrunck[pos].inicio;
-    document.getElementById("end-trunk").innerText = infoTrunck[pos].fin;
-    document.getElementById("length-trunk").innerText = infoTrunck[pos].longitud;
-    document.getElementById("img-troncal").src = infoTrunck[pos].url;
+    var search = trunk.find({Name: pos})[0];
 
-    document.getElementById("trunk-name").innerText = trunks[pos][0].name;
-    document.getElementById("trunk-image").src = trunks[pos][0].url;
-    document.getElementById("trunk-image").alt = trunks[pos][0].name;
+    document.getElementById("title-troncal").innerText = search.Name;
+    document.getElementById("start-trunk").innerText = search.Inicio;
+    document.getElementById("end-trunk").innerText = search.Fin;
+    document.getElementById("length-trunk").innerText = search.Longitud;
+    document.getElementById("img-troncal").src = search.url;
+
+    console.log(search.Stages[0]);
+    document.getElementById("trunk-name").innerText = search.Stages[0].name;
+    document.getElementById("trunk-image").src = search.Stages[0].url;
+    document.getElementById("trunk-image").alt = search.Stages[0].name;
     document.getElementById("aux-pos").value = pos + ":" + 0;
     
 
@@ -333,7 +340,7 @@ function createPopUp(pos){
         stages.removeChild(stages.firstChild);
     }
     
-    for(var i = 0; i < trunks[pos].length; i++){
+    for(var i = 0; i < search.Stages.length; i++){
         var div = document.createElement('div');
         var button = document.createElement('button');
         var icon = document.createElement('i');
@@ -345,12 +352,12 @@ function createPopUp(pos){
         button.innerText = i + 1;
 
         var titleCard = document.createElement('h2');
-        titleCard.innerText = trunks[pos][i].name;
+        titleCard.innerText = search.Stages[i].name;
         div.appendChild(button);
         div.appendChild(titleCard);
         stages.appendChild(div);
     }
-    stages.style.setProperty('grid-template-columns', `repeat(${trunks[pos].length}, 1fr)`);
+    stages.style.setProperty('grid-template-columns', `repeat(${search.Stages.length}, 1fr)`);
     line_time.appendChild(stages);
 
     var first = parseInt(posBus.getMovement() / 2) - 40;
@@ -363,28 +370,56 @@ function createPopUp(pos){
 
     document.getElementById("img-bus").animate(
         [{left: posBus.getPreciousPos() + "px"}, {left: first + "px"}],
-        {fill: 'forwards', duration: 1000 + (100 * Math.abs(pos - posBus.getStages()))} 
+        {fill: 'forwards', duration: 1000 + (100 * Math.abs(parseInt(search.id) - posBus.getStages()))} 
     );
 }
 
 function showStages(){
+    var parts = (document.getElementById("aux-pos").value).split(":");
+    var search = trunk.find({Name: parts[0]})[0];
+
     document.getElementById("btn-back").style.display = "block";
     document.getElementById("show-troncal").style.display = "none";
     document.getElementById("show-stages").style.display = "inline-block";
 
-    var parts = (document.getElementById("aux-pos").value).split(":");
-    document.getElementById("title-troncal").innerText = trunks[parts[0]][parts[1]].name;
-    document.getElementById("img-stage").src = trunks[parts[0]][parts[1]].url;
+    document.getElementById("title-troncal").innerText = search.Stages[parts[1]].name;
+    document.getElementById("img-stage").src = search.Stages[parts[1]].url;
+
+    var list1 = document.getElementById("list-routes-1");
+    while (list1.firstChild) {
+        list1.removeChild(list1.firstChild);
+    }
+
+    var list2 = document.getElementById("list-routes-2");
+    while (list2.firstChild) {
+        list2.removeChild(list2.firstChild);
+    }
+
+
+    for(var i = 0; i < search.Stages[parts[1]].Services.length; i++){
+        var li = document.createElement("li");
+        li.innerText = search.Stages[parts[1]].Services[i].Id;
+
+        if(i < search.Stages[parts[1]].Services.length / 2){
+            list1.appendChild(li);
+        }
+        else{
+            list2.appendChild(li);
+        }
+    }
 }
 
 function showTrunckAgain(){
+    var parts = (document.getElementById("aux-pos").value).split(":");
+    var search = trunk.find({Name: parts[0]})[0];
+
     document.getElementById("btn-back").style.display = "none";
     document.getElementById("show-troncal").style.display = "block";
     document.getElementById("show-stages").style.display = "none";
 
     var parts = (document.getElementById("aux-pos").value).split(":");
     if(parts[0]){
-        document.getElementById("title-troncal").innerText = infoTrunck[parseInt(parts[0])].name;
+        document.getElementById("title-troncal").innerText = search.Stages[parts[1]].name;
     }
 }
 

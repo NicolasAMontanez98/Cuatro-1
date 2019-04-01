@@ -32,9 +32,10 @@
                 $(".img-rutas").maphilight({ "strokeColor": "000000", "strokeWidth": 4, "fillColor": "ff0000", "fillOpacity": 1 });
                 $('map area').click(function (e) {
                     var parts = (e.currentTarget.attributes[4].nodeValue).split(":");
+                    document.getElementById("aux-pos").value = parts[0] + ":" + parts[1];
                     e.preventDefault();                    
 
-                    document.getElementById("troncal").style.display = "block";
+                    /*document.getElementById("troncal").style.display = "block";
                     document.getElementById("btn-back").style.display = "none";
 
                     document.getElementById("trunk-name").innerText = trunks[parts[0]][parts[1]].name;
@@ -44,7 +45,8 @@
                     document.getElementById("show-troncal").style.display = "none";
                     document.getElementById("show-stages").style.display = "inline-block";
 
-                    document.getElementById("title-troncal").innerText = trunks[parts[0]][parts[1]].name;
+                    document.getElementById("title-troncal").innerText = trunks[parts[0]][parts[1]].name;*/$
+                    showStages();
                 });
 
                 $('.button button').mouseover(function (e) {
@@ -98,20 +100,20 @@
                 
                 <map name="image-mapping">
                     <!-- Troncal A -->
-                    <area shape="circle" alt="Calle 76" title="Calle 76" coords="305,122,5" href="0:0" target="" class="mapping-btn-A"/>
-                    <area shape="circle" alt="Calle 72" title="Calle 72" coords="324,122,5" href="0:1" target="" class="mapping-btn-A"/>
-                    <area shape="circle" alt="Flores" title="Flores" coords="337,122,5" href="0:2" target="" class="mapping-btn-A"/>
-                    <area shape="circle" alt="Calle 63" title="Calle 63" coords="350,122,5" href="0:3" target="" class="mapping-btn-A"/>
-                    <area shape="circle" alt="calle 57" title="Calle 57" coords="364,122,5" href="0:4" target="" class="mapping-btn-A"/>
-                    <area shape="circle" alt="Marly" title="Marly" coords="378,122,5" href="0:5" target="" class="mapping-btn-A"/>
-                    <area shape="circle" alt="Calle 45" title="Calle 45" coords="393,122,5" href="0:6" target="" class="mapping-btn-A"/>
-                    <area shape="circle" alt="AV. 39" title="AV. 39" coords="407,122,5" href="0:7" target="" class="mapping-btn-A"/>
-                    <area shape="circle" alt="Profamilia" title="Profamilia" coords="421,122,5" href="0:8" target="" class="mapping-btn-A"/>
-                    <area shape="circle" alt="Calle 26" title="Calle 26" coords="435,123,5" href="0:9" target="" class="mapping-btn-A"/>
-                    <area shape="circle" alt="Calle 22" title="Calle 22" coords="466,123,5" href="0:10" target="" class="mapping-btn-A"/>
-                    <area shape="circle" alt="Calle 19" title="Calle 19" coords="478,123,5" href="0:11" target="" class="mapping-btn-A"/>
-                    <area shape="circle" alt="AV. Jiménez" title="AV. Jiménez" coords="497,122,5" href="0:12" target="" class="mapping-btn-A"/>
-                    <area shape="circle" alt="Tercer Mileno" title="Tercer Mileno" coords="508,122,5" href="0:13" target="" class="mapping-btn-A"/>
+                    <area shape="circle" alt="Calle 76" title="Calle 76" coords="305,122,5" href="Caracas:0" target="" class="mapping-btn-A"/>
+                    <area shape="circle" alt="Calle 72" title="Calle 72" coords="324,122,5" href="Caracas:1" target="" class="mapping-btn-A"/>
+                    <area shape="circle" alt="Flores" title="Flores" coords="337,122,5" href="Caracas2" target="" class="mapping-btn-A"/>
+                    <area shape="circle" alt="Calle 63" title="Calle 63" coords="350,122,5" href="Caracas3" target="" class="mapping-btn-A"/>
+                    <area shape="circle" alt="calle 57" title="Calle 57" coords="364,122,5" href="Caracas4" target="" class="mapping-btn-A"/>
+                    <area shape="circle" alt="Marly" title="Marly" coords="378,122,5" href="Caracas5" target="" class="mapping-btn-A"/>
+                    <area shape="circle" alt="Calle 45" title="Calle 45" coords="393,122,5" href="Caracas6" target="" class="mapping-btn-A"/>
+                    <area shape="circle" alt="AV. 39" title="AV. 39" coords="407,122,5" href="Caracas7" target="" class="mapping-btn-A"/>
+                    <area shape="circle" alt="Profamilia" title="Profamilia" coords="421,122,5" href="Caracas8" target="" class="mapping-btn-A"/>
+                    <area shape="circle" alt="Calle 26" title="Calle 26" coords="435,123,5" href="Caracas9" target="" class="mapping-btn-A"/>
+                    <area shape="circle" alt="Calle 22" title="Calle 22" coords="466,123,5" href="Caracas10" target="" class="mapping-btn-A"/>
+                    <area shape="circle" alt="Calle 19" title="Calle 19" coords="478,123,5" href="Caracas11" target="" class="mapping-btn-A"/>
+                    <area shape="circle" alt="AV. Jiménez" title="AV. Jiménez" coords="497,122,5" href="Caracas12" target="" class="mapping-btn-A"/>
+                    <area shape="circle" alt="Tercer Mileno" title="Tercer Mileno" coords="508,122,5" href="Caracas13" target="" class="mapping-btn-A"/>
                     <!-- Troncal B -->
                     <area shape="circle" alt="Terminal" title="Terminal" coords="27,121,5" href="1:0" target="" class="mapping-btn-B"/>
                     <area shape="circle" alt="Calle 187" title="Calle 187" coords="52,121,5" href="1:1" target="" class="mapping-btn-B"/>
@@ -131,20 +133,20 @@
                     <area shape="circle" alt="Calle 85" title="Calle 85" coords="260,121,5" href="1:15" target="" class="mapping-btn-B"/>
                     <area shape="circle" alt="Héroes" title="Heroés" coords="274,121,5" href="1:16" target="" class="mapping-btn-B"/>
                     <!-- Troncal C -->
-                    <area shape="circle" alt="Portal de Suba" title="Portal de Suba" coords="115,300,5" href="2:0" target="" class="mapping-btn-C"/>
-                    <area shape="circle" alt="La Campiña" title="La Campiña" coords="114,287,5" href="2:1" target="" class="mapping-btn-C"/>
-                    <area shape="circle" alt="Suba - TV 91" title="Suba - TV 91" coords="114,272,5" href="2:2" target="" class="mapping-btn-C"/>
-                    <area shape="circle" alt="21 Ángeles" title="21 Ángeles" coords="114,259,5" href="2:3" target="" class="mapping-btn-C"/>
-                    <area shape="circle" alt="Gratamira" title="Gratamira" coords="114,244,5" href="2:4" target="" class="mapping-btn-C"/>
-                    <area shape="circle" alt="Suba - AV. Boyacá" title="Suba - AV. Boyacá" coords="118,232,5" href="2:5" target="" class="mapping-btn-C"/>
-                    <area shape="circle" alt="Niza - CL 127" title="Niza - CL 127" coords="130,220,5" href="2:6" target="" class="mapping-btn-C"/>
-                    <area shape="circle" alt="Humedal Córdoba" title="Humedal Córdoba" coords="142,209,5" href="2:7" target="" class="mapping-btn-C"/>
-                    <area shape="circle" alt="Shaio" title="Shaio" coords="156,203,5" href="2:8" target="" class="mapping-btn-C"/>
-                    <area shape="circle" alt="Puentelargo" title="Puentelargo" coords="171,202,5" href="2:9" target="" class="mapping-btn-C"/>
-                    <area shape="circle" alt="Suba - CL 100" title="Suba - CL 100" coords="187,202,5" href="2:10" target="" class="mapping-btn-C"/>
-                    <area shape="circle" alt="Suba - CL 95" title="Suba - CL 95" coords="203,202,5" href="2:11" target="" class="mapping-btn-C"/>
-                    <area shape="circle" alt="Rionegro" title="Rionegro" coords="220,202,5" href="2:12" target="" class="mapping-btn-C"/>
-                    <area shape="circle" alt="San Martín" title="San Martín" coords="234,202,5" href="2:13" target="" class="mapping-btn-C"/>
+                    <area shape="circle" alt="Portal de Suba" title="Portal de Suba" coords="115,300,5" href="Suba:0" target="" class="mapping-btn-C"/>
+                    <area shape="circle" alt="La Campiña" title="La Campiña" coords="114,287,5" href="Suba:1" target="" class="mapping-btn-C"/>
+                    <area shape="circle" alt="Suba - TV 91" title="Suba - TV 91" coords="114,272,5" href="Suba:2" target="" class="mapping-btn-C"/>
+                    <area shape="circle" alt="21 Ángeles" title="21 Ángeles" coords="114,259,5" href="Suba:3" target="" class="mapping-btn-C"/>
+                    <area shape="circle" alt="Gratamira" title="Gratamira" coords="114,244,5" href="Suba:4" target="" class="mapping-btn-C"/>
+                    <area shape="circle" alt="Suba - AV. Boyacá" title="Suba - AV. Boyacá" coords="118,232,5" href="Suba:5" target="" class="mapping-btn-C"/>
+                    <area shape="circle" alt="Niza - CL 127" title="Niza - CL 127" coords="130,220,5" href="Suba:6" target="" class="mapping-btn-C"/>
+                    <area shape="circle" alt="Humedal Córdoba" title="Humedal Córdoba" coords="142,209,5" href="Suba:7" target="" class="mapping-btn-C"/>
+                    <area shape="circle" alt="Shaio" title="Shaio" coords="156,203,5" href="Suba:8" target="" class="mapping-btn-C"/>
+                    <area shape="circle" alt="Puentelargo" title="Puentelargo" coords="171,202,5" href="Suba:9" target="" class="mapping-btn-C"/>
+                    <area shape="circle" alt="Suba - CL 100" title="Suba - CL 100" coords="187,202,5" href="Suba:10" target="" class="mapping-btn-C"/>
+                    <area shape="circle" alt="Suba - CL 95" title="Suba - CL 95" coords="203,202,5" href="Suba:11" target="" class="mapping-btn-C"/>
+                    <area shape="circle" alt="Rionegro" title="Rionegro" coords="220,202,5" href="Suba:12" target="" class="mapping-btn-C"/>
+                    <area shape="circle" alt="San Martín" title="San Martín" coords="234,202,5" href="Suba:13" target="" class="mapping-btn-C"/>
                     <!-- Troncal D -->
                     <area shape="circle" alt="Portal de la 80" title="Portal de la 80" coords="190,359,5" href="3:0" target="" class="mapping-btn-D"/>
                     <area shape="circle" alt="Quirigua" title="Quirigua" coords="190,345,5" href="3:1" target="" class="mapping-btn-D"/>
@@ -341,12 +343,12 @@
                             <img id="img-stage" src="img/Estaciones/NQS_sur/San_Mateo.jpg">
                             <div>
                                 <h4>Rutas</h4>
-                                <ul>
-                                    <li>E44 - G44</li>
-                                    <li>K43 - G43</li>
-                                    <li>K42 - G42</li>
-                                    <li>G45</li>
-                                </ul>
+                                <div id="container-routes">
+                                    <ul id="list-routes-1">
+                                    </ul>
+                                    <ul id="list-routes-2">
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                     </div>

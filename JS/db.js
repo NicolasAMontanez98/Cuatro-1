@@ -2031,7 +2031,7 @@ var data = {
         },
         {
             "id": "3",
-            "Name": "Avenida Suba",
+            "Name": "Suba",
             "Inicio": "Portal de Suba",
             "Fin": "San Martín",
             "longitud": "9.5 Km",
@@ -2039,7 +2039,7 @@ var data = {
             "Stages": [
                 {
                     "name": "Portal de Suba",
-                    "url": "img/Estaciones/caracas/Portal_Suba.jpeg",
+                    "url": "img/Estaciones/suba/Portal_Suba.jpeg",
                     "address": "AV. Suba - AV. Ciudad de Cali",
                     "Services": [
                         {
@@ -2135,7 +2135,7 @@ var data = {
                 },
                 {
                     "name": "La Campiña",
-                    "url": "img/Estaciones/caracas/Campina.jpeg",
+                    "url": "img/Estaciones/suba/Campina.jpeg",
                     "address": "AV. SUBA - KR 99A",
                     "Services": [
                         {
@@ -2252,7 +2252,7 @@ var data = {
                 },
                 {
                     "name": "Suba - TV 91",
-                    "url": "img/Estaciones/caracas/Suba_TV_91.jpeg",
+                    "url": "img/Estaciones/suba/Suba_TV_91.jpeg",
                     "address": "AV. SUBA - KR 91D",
                     "Services": [
                         {
@@ -2377,7 +2377,7 @@ var data = {
                 },
                 {
                     "name": "21 Ángeles",
-                    "url": "img/Estaciones/caracas/21_Angeles.jpeg",
+                    "url": "img/Estaciones/suba/21_Angeles.jpeg",
                     "address": "AV. SUBA - KR 83",
                     "Services": [
                         {
@@ -2454,7 +2454,7 @@ var data = {
                 },
                 {
                     "name": "Gratamira",
-                    "url": "img/Estaciones/caracas/Gratamira.jpeg",
+                    "url": "img/Estaciones/suba/Gratamira.jpeg",
                     "address": "AV. SUBA - CL 132A",
                     "Services": [
                         {
@@ -2490,7 +2490,7 @@ var data = {
                 },
                 {
                     "name": "AV. Boyacá",
-                    "url": "img/Estaciones/caracas/suba_av_boyaca.jpeg",
+                    "url": "img/Estaciones/suba/suba_av_boyaca.jpeg",
                     "address": "AV. SUBA - AV. BOYACA",
                     "Services": [
                         {
@@ -2568,7 +2568,7 @@ var data = {
                 },
                 {
                     "name": "Niza - CL. 127",
-                    "url": "img/Estaciones/caracas/Niza_CL_127.jpeg",
+                    "url": "img/Estaciones/suba/Niza_CL_127.jpeg",
                     "address": "AV. SUBA - CL 127D",
                     "Services": [
                         {
@@ -2624,7 +2624,7 @@ var data = {
                 },
                 {
                     "name": "Humedal Córdoba",
-                    "url": "img/Estaciones/caracas/Humedal_Cordoba.jpeg",
+                    "url": "img/Estaciones/suba/Humedal_Cordoba.jpeg",
                     "address": "AV. SUBA - CL 120",
                     "Services": [
                         {
@@ -2662,7 +2662,7 @@ var data = {
                 },
                 {
                     "name": "Shaio",
-                    "url": "img/Estaciones/caracas/Shaio.jpeg",
+                    "url": "img/Estaciones/suba/Shaio.jpeg",
                     "address": "AV. SUBA - CL 116",
                     "Services": [
                         {
@@ -2752,7 +2752,7 @@ var data = {
                 },
                 {
                     "name": "Puente Largo",
-                    "url": "img/Estaciones/caracas/Puente_Largo.jpeg",
+                    "url": "img/Estaciones/suba/Puente_Largo.jpeg",
                     "address": "AV. SUBA - CL 106",
                     "Services": [
                         {
@@ -2858,7 +2858,7 @@ var data = {
                 },
                 {
                     "name": "Suba - CL 100",
-                    "url": "img/Estaciones/caracas/CL_100.jpeg",
+                    "url": "img/Estaciones/suba/CL_100.jpeg",
                     "address": "AV. SUBA - CL 100",
                     "Services": [
                         {
@@ -2935,7 +2935,7 @@ var data = {
                 },
                 {
                     "name": "Suba - CL 95",
-                    "url": "img/Estaciones/caracas/CL_95.jpeg",
+                    "url": "img/Estaciones/suba/CL_95.jpeg",
                     "address": "AV. SUBA - CL 95",
                     "Services": [
                         {
@@ -2993,7 +2993,7 @@ var data = {
                 },
                 {
                     "name": "Rionegro",
-                    "url": "img/Estaciones/caracas/Rio_Negro.jpeg",
+                    "url": "img/Estaciones/suba/Rio_Negro.jpeg",
                     "address": "AV SUBA - CL 90",
                     "Services": [
                         {
