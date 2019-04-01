@@ -1,0 +1,3463 @@
+{
+  "Trunks": [
+    {
+      "id": "0",
+      "Name": "Caracas",
+      "Inicio": "Calle 76",
+      "Fin": "Calle 19",
+      "longitud": "8.0 km",
+      "url": "img/Troncales/Caracas.jpg",
+      "Stages": [
+        {
+          "name": "Calle 76",
+          "url": "img/Estaciones/caracas/Calle_76.jpg",
+          "address": "AV. Caracas - CL 76",
+          "Services": [
+            {
+              "Id": "B52",
+              "Vagon": 3,
+              "Origen": "Portal Américas",
+              "Destino": "Portal del Norte",
+              "Horario": [
+                "L-V | 05:30 AM - 08:30 AM"
+              ]
+            },
+            {
+              "Id": "B74",
+              "Vagon": 3,
+              "Origen": "Las Aguas",
+              "Destino": "Portal del Norte",
+              "Horario": [
+                "L-S | 09:00 AM - 04:00 PM"
+              ]
+            },
+            {
+              "Id": "B75",
+              "Vagon": 3,
+              "Origen": "Portal de Usme",
+              "Destino": "Portal del Norte",
+              "Horario": [
+                "L-V | 04:30 AM - 11:00 PM",
+                "S | 05:00 AM - 11:00 PM",
+                "D-F | 05:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": "A74",
+              "Vagon": 3,
+              "Origen": "Toberín",
+              "Destino": "Calle 72",
+              "Horario": [
+                "L-V | 06:00 AM - 08:30 AM"
+              ]
+            },
+            {
+              "Id": "F62",
+              "Vagon": 3,
+              "Origen": "Portal de la 80",
+              "Destino": "Poral Américas",
+              "Horario": [
+                "L-V | 05:00 PM - 08:00 PM"
+              ]
+            },
+            {
+              "Id": "J74",
+              "Vagon": 3,
+              "Origen": "Portal del Norte",
+              "Destino": "Las Aguas",
+              "Horario": [
+                "L-S | 09:00 AM - 04:00 PM"
+              ]
+            },
+            {
+              "Id": 6,
+              "Vagon": 2,
+              "Origen": "Portal de la 80",
+              "Destino": "Universidades",
+              "Horario": [
+                "L-V | 04:30 AM - 11:00 PM",
+                "S | 05:00 AM - 11:00 PM",
+                "D-F | 05:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": 8,
+              "Vagon": 2,
+              "Origen": "Guatoque - Veraguas",
+              "Destino": "Terminal",
+              "Horario": [
+                "L-V | 04:30 AM - 11:00 PM",
+                "S | 05:00 AM - 11:00 PM",
+                "D-F | 05:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": "D21",
+              "Vagon": 2,
+              "Origen": "Portal del Tunal",
+              "Destino": "Portal de la 80",
+              "Horario": [
+                "L-V | 04:00 AM - 11:00 PM",
+                "S | 05:00 AM - 11:00 PM"
+              ]
+            },
+            {
+              "Id": "D50",
+              "Vagon": 2,
+              "Origen": "Portal Américas",
+              "Destino": "Portal de la 80",
+              "Horario": [
+                "L-V | 05:30 AM - 08:30 AM"
+              ]
+            },
+            {
+              "Id": "H15",
+              "Vagon": 2,
+              "Origen": "Portal Suba",
+              "Destino": "Portal del Tunal",
+              "Horario": [
+                "L-S | 05:30 AM - 11:00 PM",
+                "D-F | 05:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": "H21",
+              "Vagon": 2,
+              "Origen": "Portal de la 80",
+              "Destino": "Portal del Tunal",
+              "Horario": [
+                "L-V | 04:30 AM - 11:00 PM",
+                "S | 05:00 AM - 11:00 PM"
+              ]
+            },
+            {
+              "Id": "B27",
+              "Vagon": 1,
+              "Origen": "Portal del Tunal",
+              "Destino": "Portal del Norte",
+              "Horario": [
+                "L-V | 05:30 AM - 09:00 AM",
+                "L-V | 04:30 PM - 08:00 PM"
+              ]
+            },
+            {
+              "Id": "C15",
+              "Vagon": 1,
+              "Origen": "Portal del Tunal",
+              "Destino": "Portal Suba",
+              "Horario": [
+                "L-S | 05:00 AM - 11:00 PM",
+                "D-F | 05:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": "C17",
+              "Vagon": 1,
+              "Origen": "Portal de Usme",
+              "Destino": "Portal Suba",
+              "Horario": [
+                "L-V | 05:00 AM - 08:00 PM",
+                "S | 05:00 AM - 08:00 PM"
+              ]
+            },
+            {
+              "Id": "C17",
+              "Vagon": 1,
+              "Origen": "Corferias",
+              "Destino": "San Mateo",
+              "Horario": [
+                "D-F | 05:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": "A52",
+              "Vagon": 1,
+              "Origen": "Portal del Sur",
+              "Destino": "Flores",
+              "Horario": [
+                "L-V | 05:30 AM - 08:00 AM"
+              ]
+            },
+            {
+              "Id": "H27",
+              "Vagon": 1,
+              "Origen": "Portal del Norte",
+              "Destino": "Portal del Tunal",
+              "Horario": [
+                "L-V | 06:00 AM - 09:00 AM",
+                "L-V | 05:00 PM - 08:00 PM"
+              ]
+            },
+            {
+              "Id": "H17",
+              "Vagon": 1,
+              "Origen": "Portal Suba",
+              "Destino": "Portal de Usme",
+              "Horario": [
+                "L-V | 04:30 AM - 08:00 PM",
+                "S | 05:00 AM - 08:00 PM"
+              ]
+            },
+            {
+              "Id": "H51",
+              "Vagon": 1,
+              "Origen": "Portal del Norte",
+              "Destino": "Portal de Usme",
+              "Horario": [
+                "L-V | 06:00 AM - 09:00 AM"
+              ]
+            },
+            {
+              "Id": "H75",
+              "Vagon": 1,
+              "Origen": "Portal del Norte",
+              "Destino": "Portal de Usme",
+              "Horario": [
+                "L-S | 05:00 AM - 11:00 PM",
+                "D-F | 05:30 AM - 10:00 PM"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Calle 76",
+          "url": "img/Estaciones/caracas/Calle_72.jpg",
+          "address": "AV. Caracas - CL 72",
+          "Services": [
+            {
+              "Id": 8,
+              "Vagon": "3-1",
+              "Origen": "Guatoque - Veraguas",
+              "Destino": "Terminal",
+              "Horario": [
+                "L-V | 04:30 AM - 11:00 PM",
+                "S | 05:00 AM - 11:00 PM",
+                "D-F | 05:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": "B75",
+              "Vagon": 3,
+              "Origen": "Portal de Usme",
+              "Destino": "Portal del Norte",
+              "Horario": [
+                "L-V | 04:30 AM - 11:00 PM",
+                "S | 05:00 AM - 11:00 PM",
+                "D-F | 05:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": "B74",
+              "Vagon": 3,
+              "Origen": "Las Aguas",
+              "Destino": "Portal del Norte",
+              "Horario": [
+                "L-S | 09:00 AM - 04:00 PM"
+              ]
+            },
+            {
+              "Id": "H17",
+              "Vagon": 3,
+              "Origen": "Portal Suba",
+              "Destino": "Portal de Usme",
+              "Horario": [
+                "L-V | 04:30 AM - 08:00 PM",
+                "S | 05:00 AM - 08:00 PM"
+              ]
+            },
+            {
+              "Id": "H51",
+              "Vagon": 3,
+              "Origen": "Portal del Norte",
+              "Destino": "Portal de Usme",
+              "Horario": [
+                "L-V | 06:00 AM - 09:00 AM"
+              ]
+            },
+            {
+              "Id": "H75",
+              "Vagon": 3,
+              "Origen": "Portal del Norte",
+              "Destino": "Portal de Usme",
+              "Horario": [
+                "L-S | 05:00 AM - 11:00 PM",
+                "D-F | 05:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": "B27",
+              "Vagon": 2,
+              "Origen": "Portal del Tunal",
+              "Destino": "Portal del Norte",
+              "Horario": [
+                "L-V | 05:30 AM - 09:00 AM",
+                "L-V | 04:30 PM - 08:00 PM"
+              ]
+            },
+            {
+              "Id": "C17",
+              "Vagon": 2,
+              "Origen": "Corferias",
+              "Destino": "San Mateo",
+              "Horario": [
+                "D-F | 05:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": "C19",
+              "Vagon": 2,
+              "Origen": "Banderas",
+              "Destino": "Portal Suba",
+              "Horario": [
+                "L-D | 05:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": "C29",
+              "Vagon": 2,
+              "Origen": "Portal Américas",
+              "Destino": "Portal Suba",
+              "Horario": [
+                "L-V | 05:30 AM - 08:30 AM",
+                "L-V | 04:30 PM - 08:00 PM"
+              ]
+            },
+            {
+              "Id": 6,
+              "Vagon": "1-2",
+              "Origen": "Portal de la 80",
+              "Destino": "Universidades",
+              "Horario": [
+                "L-V | 04:30 AM - 11:00 PM",
+                "S | 05:00 AM - 11:00 PM",
+                "D-F | 05:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": "A52",
+              "Vagon": 2,
+              "Origen": "Portal del Sur",
+              "Destino": "Flores",
+              "Horario": [
+                "L-V | 05:30 AM - 08:00 AM"
+              ]
+            },
+            {
+              "Id": "A74",
+              "Vagon": 2,
+              "Origen": "Toberín",
+              "Destino": "Calle 72",
+              "Horario": [
+                "L-V | 06:00 AM - 08:30 AM"
+              ]
+            },
+            {
+              "Id": "F62",
+              "Vagon": 2,
+              "Origen": "Portal de la 80",
+              "Destino": "Poral Américas",
+              "Horario": [
+                "L-V | 05:00 PM - 08:00 PM"
+              ]
+            },
+            {
+              "Id": "D21",
+              "Vagon": 1,
+              "Origen": "Portal del Tunal",
+              "Destino": "Portal de la 80",
+              "Horario": [
+                "L-V | 04:00 AM - 11:00 PM",
+                "S | 05:00 AM - 11:00 PM"
+              ]
+            },
+            {
+              "Id": "D50",
+              "Vagon": 1,
+              "Origen": "Portal Américas",
+              "Destino": "Portal de la 80",
+              "Horario": [
+                "L-V | 05:30 AM - 08:30 AM"
+              ]
+            },
+            {
+              "Id": "J74",
+              "Vagon": 1,
+              "Origen": "Portal del Norte",
+              "Destino": "Las Aguas",
+              "Horario": [
+                "L-S | 09:00 AM - 04:00 PM"
+              ]
+            },
+            {
+              "Id": "H21",
+              "Vagon": 2,
+              "Origen": "Portal de la 80",
+              "Destino": "Portal del Tunal",
+              "Horario": [
+                "L-V | 04:30 AM - 11:00 PM",
+                "S | 05:00 AM - 11:00 PM"
+              ]
+            },
+            {
+              "Id": "H27",
+              "Vagon": 1,
+              "Origen": "Portal del Norte",
+              "Destino": "Portal del Tunal",
+              "Horario": [
+                "L-V | 06:00 AM - 09:00 AM",
+                "L-V | 05:00 PM - 08:00 PM"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Flores",
+          "url": "img/Estaciones/caracas/Flores.jpg",
+          "address": "AV. Caracas - CL 69",
+          "Services": [
+            {
+              "Id": 6,
+              "Vagon": "1-2",
+              "Origen": "Portal de la 80",
+              "Destino": "Universidades",
+              "Horario": [
+                "L-V | 04:30 AM - 11:00 PM",
+                "S | 05:00 AM - 11:00 PM",
+                "D-F | 05:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": "C17",
+              "Vagon": 2,
+              "Origen": "Corferias",
+              "Destino": "San Mateo",
+              "Horario": [
+                "D-F | 05:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": "D21",
+              "Vagon": 2,
+              "Origen": "Portal del Tunal",
+              "Destino": "Portal de la 80",
+              "Horario": [
+                "L-V | 04:00 AM - 11:00 PM",
+                "S | 05:00 AM - 11:00 PM"
+              ]
+            },
+            {
+              "Id": "H13",
+              "Vagon": 2,
+              "Origen": "Portal del Norte",
+              "Destino": "Portal del Tunal",
+              "Horario": [
+                "L-V | 05:30 AM - 10:00 PM",
+                "S | 06:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": "H21",
+              "Vagon": 1,
+              "Origen": "Portal de la 80",
+              "Destino": "Portal del Tunal",
+              "Horario": [
+                "L-V | 04:30 AM - 11:00 PM",
+                "S | 05:00 AM - 11:00 PM"
+              ]
+            },
+            {
+              "Id": 8,
+              "Vagon": 1,
+              "Origen": "Guatoque - Veraguas",
+              "Destino": "Terminal",
+              "Horario": [
+                "L-V | 04:30 AM - 11:00 PM",
+                "S | 05:00 AM - 11:00 PM",
+                "D-F | 05:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": "B13",
+              "Vagon": 1,
+              "Origen": "Portal del Norte",
+              "Destino": "Portal del Tunal",
+              "Horario": [
+                "L-V | 05:00 AM - 10:00 PM",
+                "S | 05:30 AM - 09:30 PM"
+              ]
+            },
+            {
+              "Id": "G52",
+              "Vagon": 1,
+              "Origen": "Portal Américas",
+              "Destino": "Portal del Norte",
+              "Horario": [
+                "L-V | 05:30 AM - 08:30 AM"
+              ]
+            },
+            {
+              "Id": "A52",
+              "Vagon": 1,
+              "Origen": "Portal del Sur",
+              "Destino": "Flores",
+              "Horario": [
+                "L-V | 05:30 AM - 08:00 AM"
+              ]
+            },
+            {
+              "Id": "H17",
+              "Vagon": 1,
+              "Origen": "Portal Suba",
+              "Destino": "Portal de Usme",
+              "Horario": [
+                "L-V | 04:30 AM - 08:00 PM",
+                "S | 05:00 AM - 08:00 PM"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Calle 63",
+          "url": "img/Estaciones/caracas/Calle_63.jpg",
+          "address": "AV. Caracas - CL 63",
+          "Services": [
+            {
+              "Id": 6,
+              "Vagon": 3,
+              "Origen": "Portal de la 80",
+              "Destino": "Universidades",
+              "Horario": [
+                "L-V | 04:30 AM - 11:00 PM",
+                "S | 05:00 AM - 11:00 PM",
+                "D-F | 05:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": "D21",
+              "Vagon": 3,
+              "Origen": "Portal del Tunal",
+              "Destino": "Portal de la 80",
+              "Horario": [
+                "L-V | 04:00 AM - 11:00 PM",
+                "S | 05:00 AM - 11:00 PM"
+              ]
+            },
+            {
+              "Id": "H75",
+              "Vagon": 3,
+              "Origen": "Portal del Norte",
+              "Destino": "Portal de Usme",
+              "Horario": [
+                "L-S | 05:00 AM - 11:00 PM",
+                "D-F | 05:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": "B13",
+              "Vagon": 2,
+              "Origen": "Portal Norte",
+              "Destino": "Portal del Tunal",
+              "Horario": [
+                "L-V | 05:30 AM - 10:00 PM",
+                "S | 06:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": "B18",
+              "Vagon": 2,
+              "Origen": "Portal 20 de Julio",
+              "Destino": "Terminal",
+              "Horario": [
+                "L-V | 04:30 AM - 10:00 PM",
+                "S | 05:00 AM - 09:30 PM"
+              ]
+            },
+            {
+              "Id": "B75",
+              "Vagon": 2,
+              "Origen": "Portal de Usme",
+              "Destino": "Portal del Norte",
+              "Horario": [
+                "L-V | 04:30 AM - 11:00 PM",
+                "S | 05:00 AM - 11:00 PM",
+                "D-F | 05:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": "F19",
+              "Vagon": 2,
+              "Origen": "Portal Suba",
+              "Destino": "Banderas",
+              "Horario": [
+                "L-D | 05:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": "F29",
+              "Vagon": 2,
+              "Origen": "Portal Suba",
+              "Destino": "Portal Américas",
+              "Horario": [
+                "L-V | 05:30 AM - 08:30 AM",
+                "L-V | 04:30 PM - 08:00 PM"
+              ]
+            },
+            {
+              "Id": "L18",
+              "Vagon": 2,
+              "Origen": "Terminal",
+              "Destino": "Portal 20 de Julio",
+              "Horario": [
+                "L-V | 05:00 AM - 10:00 PM",
+                "S | 05:30 AM - 09:30 PM"
+              ]
+            },
+            {
+              "Id": 8,
+              "Vagon": 1,
+              "Origen": "Guatoque - Veraguas",
+              "Destino": "Terminal",
+              "Horario": [
+                "L-V | 04:30 AM - 11:00 PM",
+                "S | 05:00 AM - 11:00 PM",
+                "D-F | 05:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": "C19",
+              "Vagon": 1,
+              "Origen": "Banderas",
+              "Destino": "Portal Suba",
+              "Horario": [
+                "L-D | 05:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": "C29",
+              "Vagon": 1,
+              "Origen": "Portal Américas",
+              "Destino": "Portal Suba",
+              "Horario": [
+                "L-V | 05:30 AM - 08:30 AM",
+                "L-V | 04:30 PM - 08:00 PM"
+              ]
+            },
+            {
+              "Id": "H13",
+              "Vagon": 1,
+              "Origen": "Portal del Norte",
+              "Destino": "Portal del Tunal",
+              "Horario": [
+                "L-V | 05:30 AM - 10:00 PM",
+                "S | 06:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": "H21",
+              "Vagon": 1,
+              "Origen": "Portal de la 80",
+              "Destino": "Portal del Tunal",
+              "Horario": [
+                "L-V | 04:30 AM - 11:00 PM",
+                "S | 05:00 AM - 11:00 PM"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Calle 57",
+          "url": "img/Estaciones/caracas/Calle_57.jpg",
+          "address": "AV. Caracas - CL 57",
+          "Services": [
+            {
+              "Id": 8,
+              "Vagon": 3,
+              "Origen": "Guatoque - Veraguas",
+              "Destino": "Terminal",
+              "Horario": [
+                "L-V | 04:30 AM - 11:00 PM",
+                "S | 05:00 AM - 11:00 PM",
+                "D-F | 05:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": "C17",
+              "Vagon": 3,
+              "Origen": "Portal de Usme",
+              "Destino": "Portal Suba",
+              "Horario": [
+                "L-V | 05:00 AM - 08:00 PM",
+                "S | 05:00 AM - 08:00 PM"
+              ]
+            },
+            {
+              "Id": "F62",
+              "Vagon": 3,
+              "Origen": "Portal de la 80",
+              "Destino": "Portal Américas",
+              "Horario": [
+                "L-V | 05:00 PM - 08:00 PM"
+              ]
+            },
+            {
+              "Id": "J24",
+              "Vagon": 3,
+              "Origen": "Portal de la 80",
+              "Destino": "Universidades",
+              "Horario": [
+                "L-V | 05:30 AM - 10:15 PM",
+                "S | 05:30 AM - 08:30 PM"
+              ]
+            },
+            {
+              "Id": "J74",
+              "Vagon": 3,
+              "Origen": "Portal del Norte",
+              "Destino": "Las Aguas",
+              "Horario": [
+                "L-S | 09:00 AM - 04:00 PM"
+              ]
+            },
+            {
+              "Id": 6,
+              "Vagon": 2,
+              "Origen": "Portal de la 80",
+              "Destino": "Universidades",
+              "Horario": [
+                "L-V | 04:30 AM - 11:00 PM",
+                "S | 05:00 AM - 11:00 PM",
+                "D-F | 05:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": "D21",
+              "Vagon": 2,
+              "Origen": "Portal del Tunal",
+              "Destino": "Portal de la 80",
+              "Horario": [
+                "L-V | 04:00 AM - 11:00 PM",
+                "S | 05:00 AM - 11:00 PM"
+              ]
+            },
+            {
+              "Id": "D50",
+              "Vagon": 2,
+              "Origen": "Portal Américas",
+              "Destino": "Portal de la 80",
+              "Horario": [
+                "L-V | 05:30 AM - 08:30 AM"
+              ]
+            },
+            {
+              "Id": "D24",
+              "Vagon": 2,
+              "Origen": "Universidades",
+              "Destino": "Portal de la 80",
+              "Horario": [
+                "L-V | 06:00 AM - 11:00 PM",
+                "S | 06:00 AM - 09:00 PM"
+              ]
+            },
+            {
+              "Id": "H21",
+              "Vagon": 2,
+              "Origen": "Portal de la 80",
+              "Destino": "Portal del Tunal",
+              "Horario": [
+                "L-V | 04:30 AM - 11:00 PM",
+                "S | 05:00 AM - 11:00 PM"
+              ]
+            },
+            {
+              "Id": "B18",
+              "Vagon": 1,
+              "Origen": "Portal 20 de Julio",
+              "Destino": "Terminal",
+              "Horario": [
+                "L-V | 04:30 AM - 10:00 PM",
+                "S | 05:00 AM - 09:30 PM"
+              ]
+            },
+            {
+              "Id": "B23",
+              "Vagon": 1,
+              "Origen": "Portal El dorado",
+              "Destino": "Alcalá",
+              "Horario": [
+                "L-V | 05:00 AM - 10:00 PM",
+                "S | 05:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": "B74",
+              "Vagon": 1,
+              "Origen": "Las Aguas",
+              "Destino": "Portal del Norte",
+              "Horario": [
+                "L-S | 09:00 AM - 04:00 PM"
+              ]
+            },
+            {
+              "Id": "H17",
+              "Vagon": 1,
+              "Origen": "Portal Suba",
+              "Destino": "Portal de Usme",
+              "Horario": [
+                "L-V | 04:30 AM - 08:00 PM",
+                "S | 05:00 AM - 08:00 PM"
+              ]
+            },
+            {
+              "Id": "H51",
+              "Vagon": 1,
+              "Origen": "Portal del Norte",
+              "Destino": "Portal de Usme",
+              "Horario": [
+                "L-V | 06:00 AM - 09:00 AM"
+              ]
+            },
+            {
+              "Id": "K23",
+              "Vagon": 1,
+              "Origen": "Alcalá",
+              "Destino": "Portal El dorado",
+              "Horario": [
+                "L-S | 05:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": "L18",
+              "Vagon": 1,
+              "Origen": "Terminal",
+              "Destino": "Portal 20 de Julio",
+              "Horario": [
+                "L-V | 05:00 AM - 10:00 PM",
+                "S | 05:30 AM - 09:30 PM"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Marly",
+          "url": "img/Estaciones/caracas/Marly.jpg",
+          "address": "AV. Caracas - CL 51",
+          "Services": [
+            {
+              "Id": "C15",
+              "Vagon": 3,
+              "Origen": "Portal del Tunal",
+              "Destino": "Portal Suba",
+              "Horario": [
+                "L-S | 05:00 AM - 11:00 PM",
+                "D-F | 05:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": "C17",
+              "Vagon": 3,
+              "Origen": "Portal de Usme",
+              "Destino": "Portal Suba",
+              "Horario": [
+                "L-S | 05:00 AM - 11:00 PM",
+                "D-F | 05:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": "C19",
+              "Vagon": 3,
+              "Origen": "Banderas",
+              "Destino": "Portal Suba",
+              "Horario": [
+                "L-D | 05:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": "H17",
+              "Vagon": 3,
+              "Origen": "Portal Suba",
+              "Destino": "Portal de Usme",
+              "Horario": [
+                "L-V | 04:30 AM - 08:00 PM",
+                "S | 05:00 AM - 08:00 PM"
+              ]
+            },
+            {
+              "Id": "H75",
+              "Vagon": 3,
+              "Origen": "Portal del Norte",
+              "Destino": "Portal de Usme",
+              "Horario": [
+                "L-S | 05:00 AM - 11:00 PM",
+                "D-F | 05:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": 6,
+              "Vagon": 2,
+              "Origen": "Portal de la 80",
+              "Destino": "Universidades",
+              "Horario": [
+                "L-V | 04:30 AM - 11:00 PM",
+                "S | 05:00 AM - 11:00 PM",
+                "D-F | 05:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": 8,
+              "Vagon": 2,
+              "Origen": "Guatoque - Veraguas",
+              "Destino": "Terminal",
+              "Horario": [
+                "L-V | 04:30 AM - 11:00 PM",
+                "S | 05:00 AM - 11:00 PM",
+                "D-F | 05:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": "D21",
+              "Vagon": 2,
+              "Origen": "Portal del Tunal",
+              "Destino": "Portal de la 80",
+              "Horario": [
+                "L-V | 04:00 AM - 11:00 PM",
+                "S | 05:00 AM - 11:00 PM"
+              ]
+            },
+            {
+              "Id": "F14",
+              "Vagon": 2,
+              "Origen": "Portal del Norte",
+              "Destino": "Portal Américas",
+              "Horario": [
+                "L-V | 05:30 AM - 10:00 PM",
+                "S | 06:00 AM - 10:00 PM",
+                "D-F | 05:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": "F19",
+              "Vagon": 2,
+              "Origen": "Portal Suba",
+              "Destino": "Banderas",
+              "Horario": [
+                "L-D | 05:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": "B14",
+              "Vagon": 1,
+              "Origen": "Portal Américas",
+              "Destino": "Portal del Norte",
+              "Horario": [
+                "L-V | 04:30 AM - 09:30 PM",
+                "S | 05:00 AM - 09:30 PM",
+                "D-F | 05:00 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": "B27",
+              "Vagon": 1,
+              "Origen": "Portal del Tunal",
+              "Destino": "Portal del Norte",
+              "Horario": [
+                "L-V | 05:30 AM - 09:00 AM",
+                "L-V | 04:30 PM - 08:00 PM"
+              ]
+            },
+            {
+              "Id": "B75",
+              "Vagon": 1,
+              "Origen": "Portal de Usme",
+              "Destino": "Portal del Norte",
+              "Horario": [
+                "L-V | 04:30 AM - 11:00 PM",
+                "S | 05:00 AM - 11:00 PM",
+                "D-F | 05:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": "H15",
+              "Vagon": 1,
+              "Origen": "Portal Suba",
+              "Destino": "Portal del Tunal",
+              "Horario": [
+                "L-S | 05:30 AM - 11:00 PM",
+                "D-F | 05:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": "H21",
+              "Vagon": 1,
+              "Origen": "Portal de la 80",
+              "Destino": "Portal del Tunal",
+              "Horario": [
+                "L-V | 04:30 AM - 11:00 PM",
+                "S | 05:00 AM - 11:00 PM"
+              ]
+            },
+            {
+              "Id": "H27",
+              "Vagon": 1,
+              "Origen": "Portal del Norte",
+              "Destino": "Portal del Tunal",
+              "Horario": [
+                "L-V | 06:00 AM - 09:00 AM",
+                "L-V | 05:00 PM - 08:00 PM"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Calle 45",
+          "url": "img/Estaciones/caracas/Calle_45.jpg",
+          "address": "AV. Caracas - CL 45",
+          "Services": [
+            {
+              "Id": "C15",
+              "Vagon": 3,
+              "Origen": "Portal del Tunal",
+              "Destino": "Portal Suba",
+              "Horario": [
+                "L-S | 05:00 AM - 11:00 PM",
+                "D-F | 05:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": "C19",
+              "Vagon": 3,
+              "Origen": "Banderas",
+              "Destino": "Portal Suba",
+              "Horario": [
+                "L-D | 05:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": "F14",
+              "Vagon": 3,
+              "Origen": "Portal del Norte",
+              "Destino": "Portal Américas",
+              "Horario": [
+                "L-V | 05:30 AM - 10:00 PM",
+                "S | 06:00 AM - 10:00 PM",
+                "D-F | 05:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": "F19",
+              "Vagon": 3,
+              "Origen": "Portal Suba",
+              "Destino": "Banderas",
+              "Horario": [
+                "L-D | 05:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": "F62",
+              "Vagon": 3,
+              "Origen": "Portal de la 80",
+              "Destino": "Portal Américas",
+              "Horario": [
+                "L-V | 05:00 PM - 08:00 PM"
+              ]
+            },
+            {
+              "Id": 6,
+              "Vagon": 2,
+              "Origen": "Portal de la 80",
+              "Destino": "Universidades",
+              "Horario": [
+                "L-V | 04:30 AM - 11:00 PM",
+                "S | 05:00 AM - 11:00 PM",
+                "D-F | 05:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": 8,
+              "Vagon": 2,
+              "Origen": "Guatoque - Veraguas",
+              "Destino": "Terminal",
+              "Horario": [
+                "L-V | 04:30 AM - 11:00 PM",
+                "S | 05:00 AM - 11:00 PM",
+                "D-F | 05:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": "D20",
+              "Vagon": 2,
+              "Origen": "Portal de Usme",
+              "Destino": "Portal de la 80",
+              "Horario": [
+                "L-V | 05:00 AM - 10:00 PM",
+                "S | 06:00 AM - 08:00 PM"
+              ]
+            },
+            {
+              "Id": "D50",
+              "Vagon": 2,
+              "Origen": "Portal Américas",
+              "Destino": "Portal de la 80",
+              "Horario": [
+                "L-V | 05:30 AM - 08:30 AM"
+              ]
+            },
+            {
+              "Id": "D51",
+              "Vagon": 2,
+              "Origen": "Portal de Usme",
+              "Destino": "Portal de la 80",
+              "Horario": [
+                "L-V | 05:30 AM - 08:30 AM"
+              ]
+            },
+            {
+              "Id": "H15",
+              "Vagon": 2,
+              "Origen": "Portal Suba",
+              "Destino": "Portal del Tunal",
+              "Horario": [
+                "L-S | 05:30 AM - 11:00 PM",
+                "D-F | 05:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": "H73",
+              "Vagon": 2,
+              "Origen": "Toberín",
+              "Destino": "Portal del Tunal",
+              "Horario": [
+                "L-V | 05:30 AM - 09:00 AM",
+                "L-V | 04:30 PM - 08:00 PM"
+              ]
+            },
+            {
+              "Id": "B14",
+              "Vagon": 1,
+              "Origen": "Portal Américas",
+              "Destino": "Portal del Norte",
+              "Horario": [
+                "L-V | 04:30 AM - 09:30 PM",
+                "S | 05:00 AM - 09:30 PM",
+                "D-F | 05:00 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": "B18",
+              "Vagon": 1,
+              "Origen": "Portal 20 de Julio",
+              "Destino": "Terminal",
+              "Horario": [
+                "L-V | 04:30 AM - 10:00 PM",
+                "S | 05:00 AM - 09:30 PM"
+              ]
+            },
+            {
+              "Id": "B23",
+              "Vagon": 1,
+              "Origen": "Portal El dorado",
+              "Destino": "Alcalá",
+              "Horario": [
+                "L-V | 05:00 AM - 10:00 PM",
+                "S | 05:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": "H20",
+              "Vagon": 1,
+              "Origen": "Portal de la 80",
+              "Destino": "Portal de Usme",
+              "Horario": [
+                "L-V | 05:00 AM - 10:00 PM",
+                "S | 06:00 AM - 08:00 PM"
+              ]
+            },
+            {
+              "Id": "K23",
+              "Vagon": 1,
+              "Origen": "Alcalá",
+              "Destino": "Portal El dorado",
+              "Horario": [
+                "L-S | 05:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": "L18",
+              "Vagon": 1,
+              "Origen": "Terminal",
+              "Destino": "Portal 20 de Julio",
+              "Horario": [
+                "L-V | 05:00 AM - 10:00 PM",
+                "S | 05:30 AM - 09:30 PM"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "AV. 39",
+          "url": "img/Estaciones/caracas/Av_39.jpg",
+          "address": "AV 39",
+          "Services": [
+            {
+              "Id": "C15",
+              "Vagon": 3,
+              "Origen": "Portal del Tunal",
+              "Destino": "Portal Suba",
+              "Horario": [
+                "L-S | 05:00 AM - 11:00 PM",
+                "D-F | 05:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": "J74",
+              "Vagon": 3,
+              "Origen": "Portal del Norte",
+              "Destino": "Las Aguas",
+              "Horario": [
+                "L-S | 09:00 AM - 04:00 PM"
+              ]
+            },
+            {
+              "Id": "J24",
+              "Vagon": 3,
+              "Origen": "Portal de la 80",
+              "Destino": "Universidades",
+              "Horario": [
+                "L-V | 05:30 AM - 10:15 PM",
+                "S | 05:30 AM - 08:30 PM"
+              ]
+            },
+            {
+              "Id": "F62",
+              "Vagon": 3,
+              "Origen": "Portal de la 80",
+              "Destino": "Portal Américas",
+              "Horario": [
+                "L-V | 05:00 PM - 08:00 PM"
+              ]
+            },
+            {
+              "Id": "D21",
+              "Vagon": 2,
+              "Origen": "Portal del Tunal",
+              "Destino": "Portal de la 80",
+              "Horario": [
+                "L-V | 04:00 AM - 11:00 PM",
+                "S | 05:00 AM - 11:00 PM"
+              ]
+            },
+            {
+              "Id": "D51",
+              "Vagon": 2,
+              "Origen": "Portal de Usme",
+              "Destino": "Portal de la 80",
+              "Horario": [
+                "L-V | 05:30 AM - 08:30 AM"
+              ]
+            },
+            {
+              "Id": "D24",
+              "Vagon": 2,
+              "Origen": "Universidades",
+              "Destino": "Portal de la 80",
+              "Horario": [
+                "L-V | 06:00 AM - 11:00 PM",
+                "S | 06:00 AM - 09:00 PM"
+              ]
+            },
+            {
+              "Id": 6,
+              "Vagon": 2,
+              "Origen": "Portal de la 80",
+              "Destino": "Universidades",
+              "Horario": [
+                "L-V | 04:30 AM - 11:00 PM",
+                "S | 05:00 AM - 11:00 PM",
+                "D-F | 05:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": 8,
+              "Vagon": 2,
+              "Origen": "Guatoque - Veraguas",
+              "Destino": "Terminal",
+              "Horario": [
+                "L-V | 04:30 AM - 11:00 PM",
+                "S | 05:00 AM - 11:00 PM",
+                "D-F | 05:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": "H13",
+              "Vagon": 1,
+              "Origen": "Portal del Norte",
+              "Destino": "Portal del Tunal",
+              "Horario": [
+                "L-V | 05:30 AM - 10:00 PM",
+                "S | 06:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": "B13",
+              "Vagon": 1,
+              "Origen": "Portal del Norte",
+              "Destino": "Portal del Tunal",
+              "Horario": [
+                "L-V | 05:30 AM - 10:00 PM",
+                "S | 06:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": "B52",
+              "Vagon": 1,
+              "Origen": "Portal Américas",
+              "Destino": "Portal del Norte",
+              "Horario": [
+                "L-V | 05:30 AM - 08:30 AM"
+              ]
+            },
+            {
+              "Id": "B74",
+              "Vagon": 1,
+              "Origen": "Las Aguas",
+              "Destino": "Portal del Norte",
+              "Horario": [
+                "L-S | 09:00 AM - 04:00 PM"
+              ]
+            },
+            {
+              "Id": "H15",
+              "Vagon": 1,
+              "Origen": "Portal Suba",
+              "Destino": "Portal del Tunal",
+              "Horario": [
+                "L-S | 05:30 AM - 11:00 PM",
+                "D-F | 05:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": "H21",
+              "Vagon": 1,
+              "Origen": "Portal de la 80",
+              "Destino": "Portal del Tunal",
+              "Horario": [
+                "L-V | 04:30 AM - 11:00 PM",
+                "S | 05:00 AM - 11:00 PM"
+              ]
+            },
+            {
+              "Id": "H73",
+              "Vagon": 1,
+              "Origen": "Toberín",
+              "Destino": "Portal del Tunal",
+              "Horario": [
+                "L-V | 05:30 AM - 09:00 AM",
+                "L-V | 04:30 PM - 08:00 PM"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Calle 26",
+          "url": "img/Estaciones/caracas/Calle_26.jpg",
+          "address": "AV. Caracas - CL 28",
+          "Services": [
+            {
+              "Id": "D20",
+              "Vagon": 3,
+              "Origen": "Portal de Usme",
+              "Destino": "Portal de la 80",
+              "Horario": [
+                "L-V | 05:00 AM - 10:00 PM",
+                "S | 06:00 AM - 08:00 PM"
+              ]
+            },
+            {
+              "Id": "D24",
+              "Vagon": 3,
+              "Origen": "Universidades",
+              "Destino": "Portal de la 80",
+              "Horario": [
+                "L-V | 06:00 AM - 11:00 PM",
+                "S | 06:00 AM - 09:00 PM"
+              ]
+            },
+            {
+              "Id": "D50",
+              "Vagon": 3,
+              "Origen": "Portal Américas",
+              "Destino": "Portal de la 80",
+              "Horario": [
+                "L-V | 05:30 AM - 08:30 AM"
+              ]
+            },
+            {
+              "Id": "D51",
+              "Vagon": 3,
+              "Origen": "Portal de Usme",
+              "Destino": "Portal de la 80",
+              "Horario": [
+                "L-V | 05:30 AM - 08:30 AM"
+              ]
+            },
+            {
+              "Id": "F14",
+              "Vagon": 3,
+              "Origen": "Portal del Norte",
+              "Destino": "Portal Américas",
+              "Horario": [
+                "L-V | 05:30 AM - 10:00 PM",
+                "S | 06:00 AM - 10:00 PM",
+                "D-F | 05:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": "F62",
+              "Vagon": 3,
+              "Origen": "Portal de la 80",
+              "Destino": "Portal Américas",
+              "Horario": [
+                "L-V | 05:00 PM - 08:00 PM"
+              ]
+            },
+            {
+              "Id": 6,
+              "Vagon": 2,
+              "Origen": "Portal de la 80",
+              "Destino": "Universidades",
+              "Horario": [
+                "L-V | 04:30 AM - 11:00 PM",
+                "S | 05:00 AM - 11:00 PM",
+                "D-F | 05:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": "C19",
+              "Vagon": 2,
+              "Origen": "Banderas",
+              "Destino": "Portal Suba",
+              "Horario": [
+                "L-D | 05:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": "C29",
+              "Vagon": 2,
+              "Origen": "Portal Américas",
+              "Destino": "Portal Suba",
+              "Horario": [
+                "L-V | 05:30 AM - 08:30 AM",
+                "L-V | 04:30 PM - 08:00 PM"
+              ]
+            },
+            {
+              "Id": "F19",
+              "Vagon": 2,
+              "Origen": "Portal Suba",
+              "Destino": "Banderas",
+              "Horario": [
+                "L-D | 05:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": "F29",
+              "Vagon": 2,
+              "Origen": "Portal Suba",
+              "Destino": "Portal Américas",
+              "Horario": [
+                "L-V | 05:30 AM - 08:30 AM",
+                "L-V | 04:30 PM - 08:00 PM"
+              ]
+            },
+            {
+              "Id": "J24",
+              "Vagon": 2,
+              "Origen": "Portal de la 80",
+              "Destino": "Universidades",
+              "Horario": [
+                "L-V | 05:30 AM - 10:15 PM",
+                "S | 05:30 AM - 08:30 PM"
+              ]
+            },
+            {
+              "Id": 8,
+              "Vagon": 1,
+              "Origen": "Guatoque - Veraguas",
+              "Destino": "Terminal",
+              "Horario": [
+                "L-V | 04:30 AM - 11:00 PM",
+                "S | 05:00 AM - 11:00 PM",
+                "D-F | 05:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": "B14",
+              "Vagon": 1,
+              "Origen": "Portal Américas",
+              "Destino": "Portal del Norte",
+              "Horario": [
+                "L-V | 04:30 AM - 09:30 PM",
+                "S | 05:00 AM - 09:30 PM",
+                "D-F | 05:00 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": "B23",
+              "Vagon": 1,
+              "Origen": "Portal Eldorado",
+              "Destino": "Alcalá",
+              "Horario": [
+                "L-V | 05:00 AM - 10:00 PM",
+                "S | 05:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": "H20",
+              "Vagon": 1,
+              "Origen": "Portal de la 80",
+              "Destino": "Portal de Usme",
+              "Horario": [
+                "L-V | 05:00 AM - 10:00 PM",
+                "S | 06:00 AM - 08:00 PM"
+              ]
+            },
+            {
+              "Id": "H73",
+              "Vagon": 1,
+              "Origen": "Toberín",
+              "Destino": "Portal del Tunal",
+              "Horario": [
+                "L-V | 05:30 AM - 09:00 AM",
+                "L-V | 04:30 PM - 08:00 PM"
+              ]
+            },
+            {
+              "Id": "H23",
+              "Vagon": 1,
+              "Origen": "Alcalá",
+              "Destino": "Portal Eldorado",
+              "Horario": [
+                "L-S | 05:30 AM - 10:00 PM"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Calle 22",
+          "url": "img/Estaciones/caracas/Calle_22.jpg",
+          "address": "AV. Caracas - CL 22",
+          "Services": [
+            {
+              "Id": "C15",
+              "Vagon": 3,
+              "Origen": "Portal del Tunal",
+              "Destino": "Portal Suba",
+              "Horario": [
+                "L-S | 05:00 AM - 11:00 PM",
+                "D-F | 05:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": "H13",
+              "Vagon": 3,
+              "Origen": "Portal del Norte",
+              "Destino": "Portal del Tunal",
+              "Horario": [
+                "L-V | 05:30 AM - 10:00 PM",
+                "S | 06:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": "H15",
+              "Vagon": 3,
+              "Origen": "Portal Suba",
+              "Destino": "Portal del Tunal",
+              "Horario": [
+                "L-S | 05:30 AM - 11:00 PM",
+                "D-F | 05:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": 3,
+              "Vagon": 2,
+              "Origen": "Portal de Usme",
+              "Destino": "Concejo de Bogotá",
+              "Horario": [
+                "L-V | 04:00 AM - 11:00 PM",
+                "S | 05:00 AM - 11:00 PM",
+                "D-F | 05:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": 5,
+              "Vagon": 2,
+              "Origen": "Calle 22",
+              "Destino": "Portal Américas",
+              "Horario": [
+                "L-V | 04:00 AM - 11:00 PM",
+                "S | 05:00 AM - 11:00 PM",
+                "D-F | 05:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": 8,
+              "Vagon": 2,
+              "Origen": "Guatoque - Veraguas",
+              "Destino": "Terminal",
+              "Horario": [
+                "L-V | 04:00 AM - 11:00 PM",
+                "S | 05:00 AM - 11:00 PM",
+                "D-F | 05:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": "B13",
+              "Vagon": 1,
+              "Origen": "Portal del Norte",
+              "Destino": "Portal del Tunal",
+              "Horario": [
+                "L-V | 05:00 AM - 10:00 PM",
+                "S | 05:30 AM - 09:30 PM"
+              ]
+            },
+            {
+              "Id": "K10",
+              "Vagon": 1,
+              "Origen": "Portal 20 de Julio",
+              "Destino": "Portal El dorado",
+              "Horario": [
+                "L-V | 04:30 AM - 11:00 PM",
+                "S | 05:00 AM - 11:00 PM",
+                "D-F | 05:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": "L10",
+              "Vagon": 1,
+              "Origen": "Portal El dorado",
+              "Destino": "Portal 20 de Julio",
+              "Horario": [
+                "L-V | 04:30 AM - 11:00 PM",
+                "S | 05:00 AM - 11:00 PM",
+                "D-F | 05:30 AM - 10:00 PM"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Calle 19",
+          "url": "img/Estaciones/caracas/Calle_19.jpg",
+          "address": "AV. Caracas - CL 19",
+          "Services": [
+            {
+              "Id": "C15",
+              "Vagon": 3,
+              "Origen": "Portal del Tunal",
+              "Destino": "Portal Suba",
+              "Horario": [
+                "L-S | 05:00 AM - 11:00 PM",
+                "D-F | 05:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": "C19",
+              "Vagon": 3,
+              "Origen": "Banderas",
+              "Destino": "Portal Suba",
+              "Horario": [
+                "L-D | 05:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": "F19",
+              "Vagon": 3,
+              "Origen": "Portal Suba",
+              "Destino": "Banderas",
+              "Horario": [
+                "L-D | 05:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": "J74",
+              "Vagon": 3,
+              "Origen": "Portal del Norte",
+              "Destino": "Las Aguas",
+              "Horario": [
+                "L-S | 09:00 AM - 04:00 PM"
+              ]
+            },
+            {
+              "Id": 3,
+              "Vagon": 2,
+              "Origen": "Portal de Usme",
+              "Destino": "Concejo de Bogotá",
+              "Horario": [
+                "L-V | 04:00 AM - 11:00 PM",
+                "S | 05:00 AM - 11:00 PM",
+                "D-F | 05:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": 5,
+              "Vagon": 2,
+              "Origen": "Calle 22",
+              "Destino": "Portal Américas",
+              "Horario": [
+                "L-V | 04:00 AM - 11:00 PM",
+                "S | 05:00 AM - 11:00 PM",
+                "D-F | 05:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": 8,
+              "Vagon": 3,
+              "Origen": "Guatoque - Veraguas",
+              "Destino": "Terminal",
+              "Horario": [
+                "L-V | 04:30 AM - 11:00 PM",
+                "S | 05:00 AM - 11:00 PM",
+                "D-F | 05:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": "B74",
+              "Vagon": 1,
+              "Origen": "Las Aguas",
+              "Destino": "Portal del Norte",
+              "Horario": [
+                "L-S | 09:00 AM - 04:00 PM"
+              ]
+            },
+            {
+              "Id": "D20",
+              "Vagon": 1,
+              "Origen": "Portal de Usme",
+              "Destino": "Portal de la 80",
+              "Horario": [
+                "L-V | 05:00 AM - 10:00 PM",
+                "S | 06:00 AM - 08:00 PM"
+              ]
+            },
+            {
+              "Id": "D51",
+              "Vagon": 1,
+              "Origen": "Portal de Usme",
+              "Destino": "Portal de la 80",
+              "Horario": [
+                "L-V | 05:30 AM - 08:30 AM"
+              ]
+            },
+            {
+              "Id": "H15",
+              "Vagon": 1,
+              "Origen": "Portal Suba",
+              "Destino": "Portal del Tunal",
+              "Horario": [
+                "L-S | 05:30 AM - 11:00 PM",
+                "D-F | 05:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": "H73",
+              "Vagon": 1,
+              "Origen": "Toberín",
+              "Destino": "Portal del Tunal",
+              "Horario": [
+                "L-S | 05:30 AM - 11:00 PM",
+                "D-F | 05:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": "H20",
+              "Vagon": 1,
+              "Origen": "Portal de la 80",
+              "Destino": "Portal de Usme",
+              "Horario": [
+                "L-V | 05:00 AM - 10:00 PM",
+                "S | 06:00 AM - 08:00 PM"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Av. Jiménez",
+          "url": "img/Estaciones/caracas/Calle_57.jpg",
+          "address": "AV. Caracas - CL 57",
+          "Services": [
+            {
+              "Id": "C17",
+              "Vagon": 3,
+              "Origen": "Portal de Usme",
+              "Destino": "Portal Suba",
+              "Horario": [
+                "L-V | 05:00 AM - 08:00 PM",
+                "S | 05:00 AM - 08:00 PM"
+              ]
+            },
+            {
+              "Id": 3,
+              "Vagon": 2,
+              "Origen": "Portal de Usme",
+              "Destino": "Concejo de Bogotá",
+              "Horario": [
+                "L-V | 04:00 AM - 11:00 PM",
+                "S | 05:00 AM - 11:00 PM",
+                "D-F | 05:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": 8,
+              "Vagon": 2,
+              "Origen": "Guatoque - Veraguas",
+              "Destino": "Terminal",
+              "Horario": [
+                "L-V | 04:00 AM - 11:00 PM",
+                "S | 05:00 AM - 11:00 PM",
+                "D-F | 05:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": "D20",
+              "Vagon": 2,
+              "Origen": "Portal de Usme",
+              "Destino": "Portal de la 80",
+              "Horario": [
+                "L-V | 05:00 AM - 10:00 PM",
+                "S | 06:00 AM - 08:00 PM"
+              ]
+            },
+            {
+              "Id": "D51",
+              "Vagon": 2,
+              "Origen": "Portal de Usme",
+              "Destino": "Portal de la 80",
+              "Horario": [
+                "L-V | 05:30 AM - 08:30 AM"
+              ]
+            },
+            {
+              "Id": "H17",
+              "Vagon": 2,
+              "Origen": "Portal Suba",
+              "Destino": "Portal de Usme",
+              "Horario": [
+                "L-V | 04:30 AM - 08:00 PM",
+                "S | 05:00 AM - 08:00 PM"
+              ]
+            },
+            {
+              "Id": "H20",
+              "Vagon": 2,
+              "Origen": "Portal de la 80",
+              "Destino": "Portal de Usme",
+              "Horario": [
+                "L-V | 05:00 AM - 10:00 PM",
+                "S | 06:00 AM - 08:00 PM"
+              ]
+            },
+            {
+              "Id": "H75",
+              "Vagon": 2,
+              "Origen": "Portal del Norte",
+              "Destino": "Portal de Usme",
+              "Horario": [
+                "L-S | 05:00 AM - 11:00 PM",
+                "D-F | 05:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": "B27",
+              "Vagon": 1,
+              "Origen": "Portal del Norte",
+              "Destino": "Portal del Tunal",
+              "Horario": [
+                "L-V | 06:00 AM - 09:00 AM",
+                "L-V | 05:00 PM - 08:00 PM"
+              ]
+            },
+            {
+              "Id": "B75",
+              "Vagon": 1,
+              "Origen": "Portal del Norte",
+              "Destino": "Portal de Usme",
+              "Horario": [
+                "L-S | 05:00 AM - 11:00 PM",
+                "D-F | 05:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": "K10",
+              "Vagon": 1,
+              "Origen": "Portal 20 de Julio",
+              "Destino": "Portal El dorado",
+              "Horario": [
+                "L-V | 04:30 AM - 11:00 PM",
+                "S | 05:00 AM - 11:00 PM",
+                "D-F | 05:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": "H27",
+              "Vagon": 1,
+              "Origen": "Portal del Norte",
+              "Destino": "Portal del Tunal",
+              "Horario": [
+                "L-V | 06:00 AM - 09:00 AM",
+                "L-V | 05:00 PM - 08:00 PM"
+              ]
+            },
+            {
+              "Id": "L10",
+              "Vagon": 1,
+              "Origen": "Portal El dorado",
+              "Destino": "Portal 20 de Julio",
+              "Horario": [
+                "L-S | 05:00 AM - 11:00 PM",
+                "D-F | 05:30 AM - 10:00 PM"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Tercer Milenio",
+          "url": "img/Estaciones/caracas/Tercer_Milenio.jpg",
+          "address": "AV. Caracas - CL 6",
+          "Services": [
+            {
+              "Id": "C15",
+              "Vagon": 3,
+              "Origen": "Portal del Tunal",
+              "Destino": "Portal Suba",
+              "Horario": [
+                "L-S | 05:00 AM - 11:00 PM",
+                "D-F | 05:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": "H13",
+              "Vagon": 3,
+              "Origen": "Portal del Norte",
+              "Destino": "Portal del Tunal",
+              "Horario": [
+                "L-V | 05:30 AM - 10:00 PM",
+                "S | 06:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": 3,
+              "Vagon": 2,
+              "Origen": "Portal de Usme",
+              "Destino": "Concejo de Bogotá",
+              "Horario": [
+                "L-V | 04:00 AM - 11:00 PM",
+                "S | 05:00 AM - 11:00 PM",
+                "D-F | 05:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": 8,
+              "Vagon": 2,
+              "Origen": "Guatoque - Veraguas",
+              "Destino": "Terminal",
+              "Horario": [
+                "L-V | 04:00 AM - 11:00 PM",
+                "S | 05:00 AM - 11:00 PM",
+                "D-F | 05:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": "K10",
+              "Vagon": 2,
+              "Origen": "Portal 20 de Julio",
+              "Destino": "Portal El dorado",
+              "Horario": [
+                "L-V | 04:00 AM - 11:00 PM",
+                "S | 05:00 AM - 11:00 PM",
+                "D-F | 05:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": "H15",
+              "Vagon": 2,
+              "Origen": "Portal Suba",
+              "Destino": "Portal del Tunal",
+              "Horario": [
+                "L-S | 05:30 AM - 11:00 PM",
+                "D-F | 05:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": "B13",
+              "Vagon": 1,
+              "Origen": "Portal del Norte",
+              "Destino": "Portal del Tunal",
+              "Horario": [
+                "L-V | 05:00 AM - 10:00 PM",
+                "S | 05:30 AM - 09:30 PM"
+              ]
+            },
+            {
+              "Id": "B18",
+              "Vagon": 1,
+              "Origen": "Portal 20 de Julio",
+              "Destino": "Terminal",
+              "Horario": [
+                "L-V | 04:30 AM - 10:00 PM",
+                "S | 05:00 AM - 09:30 PM"
+              ]
+            },
+            {
+              "Id": "L10",
+              "Vagon": 1,
+              "Origen": "Portal El dorado",
+              "Destino": "Portal 20 de Julio",
+              "Horario": [
+                "L-S | 05:00 AM - 11:00 PM",
+                "D-F | 05:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": "L18",
+              "Vagon": 1,
+              "Origen": "Terminal",
+              "Destino": "Portal 20 de Julio",
+              "Horario": [
+                "L-V | 05:00 AM - 10:00 PM",
+                "S | 05:30 AM - 09:30 PM"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "0",
+      "Name": "Avenida Suba",
+      "Inicio": "Portal de Suba",
+      "Fin": "San Martín",
+      "longitud": "9.5 Km",
+      "url": "img/Troncales/Suba.jpg",
+      "Stages": [
+        {
+          "name": "Portal de Suba",
+          "url": "img/Estaciones/caracas/Portal_Suba.jpeg",
+          "address": "AV. Suba - AV. Ciudad de Cali",
+          "Services": [
+            {
+              "Id": "F29",
+              "Vagon": 0,
+              "Origen": "Portal Suba",
+              "Destino": "Portal Américas",
+              "Horario": [
+                "L-V | 05:30 AM - 08:30 AM",
+                "L-V | 04:30 PM - 08:00 PM"
+              ]
+            },
+            {
+              "Id": "F19",
+              "Vagon": 0,
+              "Origen": "Portal Suba",
+              "Destino": "Banderas",
+              "Horario": [
+                "L-D | 05:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": "J73",
+              "Vagon": 0,
+              "Origen": "Portal Suba",
+              "Destino": "Universidades",
+              "Horario": [
+                "L-V | 05:30 AM - 09:00 AM"
+              ]
+            },
+            {
+              "Id": "B50",
+              "Vagon": 0,
+              "Origen": "Portal Suba",
+              "Destino": "Portal del Norte",
+              "Horario": [
+                "L-V | 06:00 AM - 08:30 AM",
+                "L-V | 05:00 PM - 07:30 PM"
+              ]
+            },
+            {
+              "Id": "B56",
+              "Vagon": 0,
+              "Origen": "Portal Suba",
+              "Destino": "Héroes",
+              "Horario": [
+                "L-V | 06:00 AM - 08:00 AM"
+              ]
+            },
+            {
+              "Id": "H17",
+              "Vagon": 0,
+              "Origen": "Portal Suba",
+              "Destino": "Portal de Usme",
+              "Horario": [
+                "L-V | 04:30 AM - 08:00 PM",
+                "S | 05:00 AM - 08:00 PM"
+              ]
+            },
+            {
+              "Id": "H15",
+              "Vagon": 0,
+              "Origen": "Portal Suba",
+              "Destino": "Portal del Tunal",
+              "Horario": [
+                "L-S | 05:30 AM - 11:00 PM",
+                "D-F | 05:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": 7,
+              "Vagon": 0,
+              "Origen": "Ricaurte (NQS)",
+              "Destino": "Portal Suba",
+              "Horario": [
+                "L-V | 04:30 AM - 11:00 PM",
+                "S | 05:00 AM - 11:00 PM",
+                "D-F | 05:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": "G30",
+              "Vagon": 0,
+              "Origen": "Portal Suba",
+              "Destino": "Portal del Sur",
+              "Horario": [
+                "L-V | 05:00 AM - 09:00 AM",
+                "L-V | 04:00 PM - 08:00 PM",
+                "S | 05:00 AM - 03:00 PM"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "La Campiña",
+          "url": "img/Estaciones/caracas/Campina.jpeg",
+          "address": "AV. SUBA - KR 99A",
+          "Services": [
+            {
+              "Id": "C17",
+              "Vagon": 2,
+              "Origen": "Portal de Usme",
+              "Destino": "Portal Suba",
+              "Horario": [
+                "L-V | 05:00 AM - 08:00 PM",
+                "S | 05:00 AM - 08:00 PM"
+              ]
+            },
+            {
+              "Id": "C19",
+              "Vagon": 2,
+              "Origen": "Banderas",
+              "Destino": "Portal Suba",
+              "Horario": [
+                "L-D | 05:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": "C29",
+              "Vagon": 2,
+              "Origen": "Portal Américas",
+              "Destino": "Portal Suba",
+              "Horario": [
+                "L-V | 05:30 AM - 08:30 AM",
+                "L-V | 04:30 PM - 08:00 PM"
+              ]
+            },
+            {
+              "Id": "F19",
+              "Vagon": 2,
+              "Origen": "Portal Suba",
+              "Destino": "Banderas",
+              "Horario": [
+                "L-D | 05:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": "F29",
+              "Vagon": 2,
+              "Origen": "Portal Suba",
+              "Destino": "Portal Américas",
+              "Horario": [
+                "L-V | 05:30 AM - 08:30 AM",
+                "L-V | 04:30 PM - 08:00 PM"
+              ]
+            },
+            {
+              "Id": 7,
+              "Vagon": 1,
+              "Origen": "Ricaurte (NQS)",
+              "Destino": "Portal Suba",
+              "Horario": [
+                "L-V | 04:30 AM - 11:00 PM",
+                "S | 05:00 AM - 11:00 PM",
+                "D-F | 05:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": "C30",
+              "Vagon": 1,
+              "Origen": "Portal del Sur",
+              "Destino": "Portal Suba",
+              "Horario": [
+                "L-V | 05:00 AM - 09:00 AM",
+                "L-V | 04:00 PM - 08:00 PM",
+                "S | 05:00 AM - 03:00 PM"
+              ]
+            },
+            {
+              "Id": "C50",
+              "Vagon": 1,
+              "Origen": "Portal del Norte",
+              "Destino": "Portal Suba",
+              "Horario": [
+                "L-V | 06:30 AM - 08:00 AM",
+                "L-V | 04:30 PM - 08:00 PM"
+              ]
+            },
+            {
+              "Id": "C73",
+              "Vagon": 1,
+              "Origen": "Universidades",
+              "Destino": "Portal Suba",
+              "Horario": [
+                "L-V | 04:00 PM - 10:30 PM"
+              ]
+            },
+            {
+              "Id": "B50",
+              "Vagon": 2,
+              "Origen": "Portal Suba",
+              "Destino": "Portal del Norte",
+              "Horario": [
+                "L-V | 06:00 AM - 08:30 AM",
+                "L-V | 05:00 PM - 07:30 PM"
+              ]
+            },
+            {
+              "Id": "G30",
+              "Vagon": 1,
+              "Origen": "Portal Suba",
+              "Destino": "Portal del Sur",
+              "Horario": [
+                "L-V | 04:30 AM - 11:00 PM",
+                "S | 05:00 AM - 11:00 PM",
+                "D-F | 05:30 AM - 10:00 PM"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Suba - TV 91",
+          "url": "img/Estaciones/caracas/Suba_TV_91.jpeg",
+          "address": "AV. SUBA - KR 91D",
+          "Services": [
+            {
+              "Id": "C19",
+              "Vagon": 2,
+              "Origen": "Banderas",
+              "Destino": "Portal Suba",
+              "Horario": [
+                "L-D | 05:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": "C29",
+              "Vagon": 2,
+              "Origen": "Portal Américas",
+              "Destino": "Portal Suba",
+              "Horario": [
+                "L-V | 05:30 AM - 08:30 AM",
+                "L-V | 04:30 PM - 08:00 PM"
+              ]
+            },
+            {
+              "Id": "C50",
+              "Vagon": 2,
+              "Origen": "Portal del Norte",
+              "Destino": "Portal Suba",
+              "Horario": [
+                "L-V | 06:30 AM - 08:00 AM",
+                " L-V | 04:30 PM - 08:00 PM"
+              ]
+            },
+            {
+              "Id": "B50",
+              "Vagon": 2,
+              "Origen": "Portal Suba",
+              "Destino": "Portal del Norte",
+              "Horario": [
+                "L-V | 06:00 AM - 08:30 AM",
+                "L-V | 05:00 PM - 07:30 PM"
+              ]
+            },
+            {
+              "Id": "F19",
+              "Vagon": 2,
+              "Origen": "Portal Suba",
+              "Destino": "Banderas",
+              "Horario": [
+                "L-D | 05:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": "F29",
+              "Vagon": 2,
+              "Origen": "Portal Suba",
+              "Destino": "Portal Américas",
+              "Horario": [
+                "L-V | 05:30 AM - 08:30 AM",
+                "L-V | 04:30 PM - 08:00 PM"
+              ]
+            },
+            {
+              "Id": "J73",
+              "Vagon": 2,
+              "Origen": "Portal Suba",
+              "Destino": "Universidades",
+              "Horario": [
+                "L-V | 05:30 AM - 09:00 AM"
+              ]
+            },
+            {
+              "Id": 7,
+              "Vagon": 1,
+              "Origen": "Ricaurte (NQS)",
+              "Destino": "Portal Suba",
+              "Horario": [
+                "L-V | 04:30 AM - 11:00 PM",
+                "S | 05:00 AM - 11:00 PM",
+                "D-F | 05:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": "C30",
+              "Vagon": 1,
+              "Origen": "Portal del Sur",
+              "Destino": "Portal Suba",
+              "Horario": [
+                "L-V | 05:00 AM - 09:00 AM",
+                "L-V | 04:00 PM - 08:00 PM",
+                "S | 05:00 AM - 03:00 PM"
+              ]
+            },
+            {
+              "Id": "C73",
+              "Vagon": 1,
+              "Origen": "Universidades",
+              "Destino": "Portal Suba",
+              "Horario": [
+                "L-V | 04:00 PM - 10:30 PM"
+              ]
+            },
+            {
+              "Id": "B56",
+              "Vagon": 1,
+              "Origen": "Portal Suba",
+              "Destino": "Héroes",
+              "Horario": [
+                "L-V | 06:00 AM - 08:00 AM"
+              ]
+            },
+            {
+              "Id": "G30",
+              "Vagon": 1,
+              "Origen": "Portal Suba",
+              "Destino": "Portal del Sur",
+              "Horario": [
+                "L-V | 05:00 AM - 09:00 AM",
+                "L-V | 04:00 PM - 08:00 PM",
+                "S | 05:00 AM - 03:00 PM"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "21 Ángeles",
+          "url": "img/Estaciones/caracas/21_Angeles.jpeg",
+          "address": "AV. SUBA - KR 83",
+          "Services": [
+            {
+              "Id": "C50",
+              "Vagon": 2,
+              "Origen": "Portal del Norte",
+              "Destino": "Portal Suba",
+              "Horario": [
+                "L-V | 06:30 AM - 08:00 AM",
+                "L-V | 04:30 PM - 08:00 PM"
+              ]
+            },
+            {
+              "Id": "C84",
+              "Vagon": 2,
+              "Origen": "Museo Nacional",
+              "Destino": "ETB Tibabuyes",
+              "Horario": [
+                "D-F | 07:00 AM - 02:00 PM"
+              ]
+            },
+            {
+              "Id": "B50",
+              "Vagon": 2,
+              "Origen": "Portal Suba",
+              "Destino": "Portal del Norte",
+              "Horario": [
+                "L-V | 06:00 AM - 08:30 AM",
+                "L-V | 05:00 PM - 07:30 PM"
+              ]
+            },
+            {
+              "Id": "M84",
+              "Vagon": 2,
+              "Origen": "ETB Tibabuyes",
+              "Destino": "Museo Nacional",
+              "Horario": [
+                "L-S | 05:00 AM - 11:00 PM",
+                "D-F | 06:00 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": 7,
+              "Vagon": 1,
+              "Origen": "Ricaurte (NQS)",
+              "Destino": "Portal Suba",
+              "Horario": [
+                "L-V | 04:30 AM - 11:00 PM",
+                "S | 05:00 AM - 11:00 PM",
+                "D-F | 05:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": "C15",
+              "Vagon": 1,
+              "Origen": "Portal del Tunal",
+              "Destino": "Portal Suba",
+              "Horario": [
+                "L-S | 05:00 AM - 11:00 PM",
+                "D-F | 05:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": "H15",
+              "Vagon": 1,
+              "Origen": "Portal Suba",
+              "Destino": "Portal del Tunal",
+              "Horario": [
+                "L-S | 05:30 AM - 11:00 PM",
+                "D-F | 05:30 AM - 10:00 PM"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Gratamira",
+          "url": "img/Estaciones/caracas/Gratamira.jpeg",
+          "address": "AV. SUBA - CL 132A",
+          "Services": [
+            {
+              "Id": "C19",
+              "Vagon": 2,
+              "Origen": "Banderas",
+              "Destino": "Portal Suba",
+              "Horario": [
+                "L-D | 05:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": "F19",
+              "Vagon": 2,
+              "Origen": "Portal Suba",
+              "Destino": "Banderas",
+              "Horario": [
+                "L-D | 05:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": 7,
+              "Vagon": 1,
+              "Origen": "Ricaurte (NQS)",
+              "Destino": "Portal Suba",
+              "Horario": [
+                "L-V | 04:30 AM - 11:00 PM",
+                "S | 05:00 AM - 11:00 PM",
+                "D-F | 05:30 AM - 10:00 PM"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "AV. Boyacá",
+          "url": "img/Estaciones/caracas/suba_av_boyaca.jpeg",
+          "address": "AV. SUBA - AV. BOYACA",
+          "Services": [
+            {
+              "Id": "C17",
+              "Vagon": 2,
+              "Origen": "Portal de Usme",
+              "Destino": "Portal Suba",
+              "Horario": [
+                "L-V | 05:00 AM - 08:00 PM",
+                "S | 05:00 AM - 08:00 PM"
+              ]
+            },
+            {
+              "Id": "C73",
+              "Vagon": 2,
+              "Origen": "Universidades",
+              "Destino": "Portal Suba",
+              "Horario": [
+                "L-V | 04:00 PM - 10:30 PM"
+              ]
+            },
+            {
+              "Id": 7,
+              "Vagon": 2,
+              "Origen": "Ricaurte (NQS)",
+              "Destino": "Portal Suba",
+              "Horario": [
+                "L-V | 04:30 AM - 11:00 PM",
+                "S | 05:00 AM - 11:00 PM",
+                "D-F | 05:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": "H17",
+              "Vagon": 2,
+              "Origen": "Portal Suba",
+              "Destino": "Portal de Usme",
+              "Horario": [
+                "L-V | 04:30 AM - 08:00 PM",
+                "S | 05:00 AM - 08:00 PM"
+              ]
+            },
+            {
+              "Id": "C30",
+              "Vagon": 1,
+              "Origen": "Portal del Sur",
+              "Destino": "Portal Suba",
+              "Horario": [
+                "L-V | 05:00 AM - 09:00 AM",
+                "L-V | 04:00 PM - 08:00 PM",
+                "S | 05:00 AM - 03:00 PM"
+              ]
+            },
+            {
+              "Id": "G30",
+              "Vagon": 1,
+              "Origen": "Portal Suba",
+              "Destino": "Portal del Sur",
+              "Horario": [
+                "L-V | 04:30 AM - 11:00 PM",
+                "S | 05:00 AM - 11:00 PM",
+                "D-F | 05:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": "J73",
+              "Vagon": 1,
+              "Origen": "Portal Suba",
+              "Destino": "Universidades",
+              "Horario": [
+                "L-V | 05:30 AM - 09:00 AM"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Niza - CL. 127",
+          "url": "img/Estaciones/caracas/Niza_CL_127.jpeg",
+          "address": "AV. SUBA - CL 127D",
+          "Services": [
+            {
+              "Id": "C15",
+              "Vagon": 2,
+              "Origen": "Portal del Tunal",
+              "Destino": "Portal Suba",
+              "Horario": [
+                "L-S | 05:00 AM - 11:00 PM",
+                "D-F | 05:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": "H15",
+              "Vagon": 2,
+              "Origen": "Portal Suba",
+              "Destino": "Portal del Tunal",
+              "Horario": [
+                "L-S | 05:30 AM - 11:00 PM",
+                "D-F | 05:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": 7,
+              "Vagon": 1,
+              "Origen": "Ricaurte (NQS)",
+              "Destino": "Portal Suba",
+              "Horario": [
+                "L-V | 04:30 AM - 11:00 PM",
+                "S | 05:00 AM - 11:00 PM",
+                "D-F | 05:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": "C73",
+              "Vagon": 1,
+              "Origen": "Universidades",
+              "Destino": "Portal Suba",
+              "Horario": [
+                "L-V | 05:30 AM - 09:00 AM"
+              ]
+            },
+            {
+              "Id": "J73",
+              "Vagon": 1,
+              "Origen": "Portal Suba",
+              "Destino": "Universidades",
+              "Horario": [
+                "L-V | 05:30 AM - 09:00 AM"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "AV. 39",
+          "url": "img/Estaciones/caracas/Av_39.jpg",
+          "address": "AV 39",
+          "Services": [
+            {
+              "Id": "C15",
+              "Vagon": 3,
+              "Origen": "Portal del Tunal",
+              "Destino": "Portal Suba",
+              "Horario": [
+                "L-S | 05:00 AM - 11:00 PM",
+                "D-F | 05:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": "J74",
+              "Vagon": 3,
+              "Origen": "Portal del Norte",
+              "Destino": "Las Aguas",
+              "Horario": [
+                "L-S | 09:00 AM - 04:00 PM"
+              ]
+            },
+            {
+              "Id": "J24",
+              "Vagon": 3,
+              "Origen": "Portal de la 80",
+              "Destino": "Universidades",
+              "Horario": [
+                "L-V | 05:30 AM - 10:15 PM",
+                "S | 05:30 AM - 08:30 PM"
+              ]
+            },
+            {
+              "Id": "F62",
+              "Vagon": 3,
+              "Origen": "Portal de la 80",
+              "Destino": "Portal Américas",
+              "Horario": [
+                "L-V | 05:00 PM - 08:00 PM"
+              ]
+            },
+            {
+              "Id": "D21",
+              "Vagon": 2,
+              "Origen": "Portal del Tunal",
+              "Destino": "Portal de la 80",
+              "Horario": [
+                "L-V | 04:00 AM - 11:00 PM",
+                "S | 05:00 AM - 11:00 PM"
+              ]
+            },
+            {
+              "Id": "D51",
+              "Vagon": 2,
+              "Origen": "Portal de Usme",
+              "Destino": "Portal de la 80",
+              "Horario": [
+                "L-V | 05:30 AM - 08:30 AM"
+              ]
+            },
+            {
+              "Id": "D24",
+              "Vagon": 2,
+              "Origen": "Universidades",
+              "Destino": "Portal de la 80",
+              "Horario": [
+                "L-V | 06:00 AM - 11:00 PM",
+                "S | 06:00 AM - 09:00 PM"
+              ]
+            },
+            {
+              "Id": 6,
+              "Vagon": 2,
+              "Origen": "Portal de la 80",
+              "Destino": "Universidades",
+              "Horario": [
+                "L-V | 04:30 AM - 11:00 PM",
+                "S | 05:00 AM - 11:00 PM",
+                "D-F | 05:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": 8,
+              "Vagon": 2,
+              "Origen": "Guatoque - Veraguas",
+              "Destino": "Terminal",
+              "Horario": [
+                "L-V | 04:30 AM - 11:00 PM",
+                "S | 05:00 AM - 11:00 PM",
+                "D-F | 05:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": "H13",
+              "Vagon": 1,
+              "Origen": "Portal del Norte",
+              "Destino": "Portal del Tunal",
+              "Horario": [
+                "L-V | 05:30 AM - 10:00 PM",
+                "S | 06:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": "B13",
+              "Vagon": 1,
+              "Origen": "Portal del Norte",
+              "Destino": "Portal del Tunal",
+              "Horario": [
+                "L-V | 05:30 AM - 10:00 PM",
+                "S | 06:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": "B52",
+              "Vagon": 1,
+              "Origen": "Portal Américas",
+              "Destino": "Portal del Norte",
+              "Horario": [
+                "L-V | 05:30 AM - 08:30 AM"
+              ]
+            },
+            {
+              "Id": "B74",
+              "Vagon": 1,
+              "Origen": "Las Aguas",
+              "Destino": "Portal del Norte",
+              "Horario": [
+                "L-S | 09:00 AM - 04:00 PM"
+              ]
+            },
+            {
+              "Id": "H15",
+              "Vagon": 1,
+              "Origen": "Portal Suba",
+              "Destino": "Portal del Tunal",
+              "Horario": [
+                "L-S | 05:30 AM - 11:00 PM",
+                "D-F | 05:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": "H21",
+              "Vagon": 1,
+              "Origen": "Portal de la 80",
+              "Destino": "Portal del Tunal",
+              "Horario": [
+                "L-V | 04:30 AM - 11:00 PM",
+                "S | 05:00 AM - 11:00 PM"
+              ]
+            },
+            {
+              "Id": "H73",
+              "Vagon": 1,
+              "Origen": "Toberín",
+              "Destino": "Portal del Tunal",
+              "Horario": [
+                "L-V | 05:30 AM - 09:00 AM",
+                "L-V | 04:30 PM - 08:00 PM"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Calle 26",
+          "url": "img/Estaciones/caracas/Calle_26.jpg",
+          "address": "AV. Caracas - CL 28",
+          "Services": [
+            {
+              "Id": "D20",
+              "Vagon": 3,
+              "Origen": "Portal de Usme",
+              "Destino": "Portal de la 80",
+              "Horario": [
+                "L-V | 05:00 AM - 10:00 PM",
+                "S | 06:00 AM - 08:00 PM"
+              ]
+            },
+            {
+              "Id": "D24",
+              "Vagon": 3,
+              "Origen": "Universidades",
+              "Destino": "Portal de la 80",
+              "Horario": [
+                "L-V | 06:00 AM - 11:00 PM",
+                "S | 06:00 AM - 09:00 PM"
+              ]
+            },
+            {
+              "Id": "D50",
+              "Vagon": 3,
+              "Origen": "Portal Américas",
+              "Destino": "Portal de la 80",
+              "Horario": [
+                "L-V | 05:30 AM - 08:30 AM"
+              ]
+            },
+            {
+              "Id": "D51",
+              "Vagon": 3,
+              "Origen": "Portal de Usme",
+              "Destino": "Portal de la 80",
+              "Horario": [
+                "L-V | 05:30 AM - 08:30 AM"
+              ]
+            },
+            {
+              "Id": "F14",
+              "Vagon": 3,
+              "Origen": "Portal del Norte",
+              "Destino": "Portal Américas",
+              "Horario": [
+                "L-V | 05:30 AM - 10:00 PM",
+                "S | 06:00 AM - 10:00 PM",
+                "D-F | 05:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": "F62",
+              "Vagon": 3,
+              "Origen": "Portal de la 80",
+              "Destino": "Portal Américas",
+              "Horario": [
+                "L-V | 05:00 PM - 08:00 PM"
+              ]
+            },
+            {
+              "Id": 6,
+              "Vagon": 2,
+              "Origen": "Portal de la 80",
+              "Destino": "Universidades",
+              "Horario": [
+                "L-V | 04:30 AM - 11:00 PM",
+                "S | 05:00 AM - 11:00 PM",
+                "D-F | 05:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": "C19",
+              "Vagon": 2,
+              "Origen": "Banderas",
+              "Destino": "Portal Suba",
+              "Horario": [
+                "L-D | 05:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": "C29",
+              "Vagon": 2,
+              "Origen": "Portal Américas",
+              "Destino": "Portal Suba",
+              "Horario": [
+                "L-V | 05:30 AM - 08:30 AM",
+                "L-V | 04:30 PM - 08:00 PM"
+              ]
+            },
+            {
+              "Id": "F19",
+              "Vagon": 2,
+              "Origen": "Portal Suba",
+              "Destino": "Banderas",
+              "Horario": [
+                "L-D | 05:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": "F29",
+              "Vagon": 2,
+              "Origen": "Portal Suba",
+              "Destino": "Portal Américas",
+              "Horario": [
+                "L-V | 05:30 AM - 08:30 AM",
+                "L-V | 04:30 PM - 08:00 PM"
+              ]
+            },
+            {
+              "Id": "J24",
+              "Vagon": 2,
+              "Origen": "Portal de la 80",
+              "Destino": "Universidades",
+              "Horario": [
+                "L-V | 05:30 AM - 10:15 PM",
+                "S | 05:30 AM - 08:30 PM"
+              ]
+            },
+            {
+              "Id": 8,
+              "Vagon": 1,
+              "Origen": "Guatoque - Veraguas",
+              "Destino": "Terminal",
+              "Horario": [
+                "L-V | 04:30 AM - 11:00 PM",
+                "S | 05:00 AM - 11:00 PM",
+                "D-F | 05:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": "B14",
+              "Vagon": 1,
+              "Origen": "Portal Américas",
+              "Destino": "Portal del Norte",
+              "Horario": [
+                "L-V | 04:30 AM - 09:30 PM",
+                "S | 05:00 AM - 09:30 PM",
+                "D-F | 05:00 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": "B23",
+              "Vagon": 1,
+              "Origen": "Portal Eldorado",
+              "Destino": "Alcalá",
+              "Horario": [
+                "L-V | 05:00 AM - 10:00 PM",
+                "S | 05:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": "H20",
+              "Vagon": 1,
+              "Origen": "Portal de la 80",
+              "Destino": "Portal de Usme",
+              "Horario": [
+                "L-V | 05:00 AM - 10:00 PM",
+                "S | 06:00 AM - 08:00 PM"
+              ]
+            },
+            {
+              "Id": "H73",
+              "Vagon": 1,
+              "Origen": "Toberín",
+              "Destino": "Portal del Tunal",
+              "Horario": [
+                "L-V | 05:30 AM - 09:00 AM",
+                "L-V | 04:30 PM - 08:00 PM"
+              ]
+            },
+            {
+              "Id": "H23",
+              "Vagon": 1,
+              "Origen": "Alcalá",
+              "Destino": "Portal Eldorado",
+              "Horario": [
+                "L-S | 05:30 AM - 10:00 PM"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Calle 22",
+          "url": "img/Estaciones/caracas/Calle_22.jpg",
+          "address": "AV. Caracas - CL 22",
+          "Services": [
+            {
+              "Id": "C15",
+              "Vagon": 3,
+              "Origen": "Portal del Tunal",
+              "Destino": "Portal Suba",
+              "Horario": [
+                "L-S | 05:00 AM - 11:00 PM",
+                "D-F | 05:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": "H13",
+              "Vagon": 3,
+              "Origen": "Portal del Norte",
+              "Destino": "Portal del Tunal",
+              "Horario": [
+                "L-V | 05:30 AM - 10:00 PM",
+                "S | 06:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": "H15",
+              "Vagon": 3,
+              "Origen": "Portal Suba",
+              "Destino": "Portal del Tunal",
+              "Horario": [
+                "L-S | 05:30 AM - 11:00 PM",
+                "D-F | 05:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": 3,
+              "Vagon": 2,
+              "Origen": "Portal de Usme",
+              "Destino": "Concejo de Bogotá",
+              "Horario": [
+                "L-V | 04:00 AM - 11:00 PM",
+                "S | 05:00 AM - 11:00 PM",
+                "D-F | 05:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": 5,
+              "Vagon": 2,
+              "Origen": "Calle 22",
+              "Destino": "Portal Américas",
+              "Horario": [
+                "L-V | 04:00 AM - 11:00 PM",
+                "S | 05:00 AM - 11:00 PM",
+                "D-F | 05:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": 8,
+              "Vagon": 2,
+              "Origen": "Guatoque - Veraguas",
+              "Destino": "Terminal",
+              "Horario": [
+                "L-V | 04:00 AM - 11:00 PM",
+                "S | 05:00 AM - 11:00 PM",
+                "D-F | 05:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": "B13",
+              "Vagon": 1,
+              "Origen": "Portal del Norte",
+              "Destino": "Portal del Tunal",
+              "Horario": [
+                "L-V | 05:00 AM - 10:00 PM",
+                "S | 05:30 AM - 09:30 PM"
+              ]
+            },
+            {
+              "Id": "K10",
+              "Vagon": 1,
+              "Origen": "Portal 20 de Julio",
+              "Destino": "Portal El dorado",
+              "Horario": [
+                "L-V | 04:30 AM - 11:00 PM",
+                "S | 05:00 AM - 11:00 PM",
+                "D-F | 05:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": "L10",
+              "Vagon": 1,
+              "Origen": "Portal El dorado",
+              "Destino": "Portal 20 de Julio",
+              "Horario": [
+                "L-V | 04:30 AM - 11:00 PM",
+                "S | 05:00 AM - 11:00 PM",
+                "D-F | 05:30 AM - 10:00 PM"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Calle 19",
+          "url": "img/Estaciones/caracas/Calle_19.jpg",
+          "address": "AV. Caracas - CL 19",
+          "Services": [
+            {
+              "Id": "C15",
+              "Vagon": 3,
+              "Origen": "Portal del Tunal",
+              "Destino": "Portal Suba",
+              "Horario": [
+                "L-S | 05:00 AM - 11:00 PM",
+                "D-F | 05:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": "C19",
+              "Vagon": 3,
+              "Origen": "Banderas",
+              "Destino": "Portal Suba",
+              "Horario": [
+                "L-D | 05:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": "F19",
+              "Vagon": 3,
+              "Origen": "Portal Suba",
+              "Destino": "Banderas",
+              "Horario": [
+                "L-D | 05:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": "J74",
+              "Vagon": 3,
+              "Origen": "Portal del Norte",
+              "Destino": "Las Aguas",
+              "Horario": [
+                "L-S | 09:00 AM - 04:00 PM"
+              ]
+            },
+            {
+              "Id": 3,
+              "Vagon": 2,
+              "Origen": "Portal de Usme",
+              "Destino": "Concejo de Bogotá",
+              "Horario": [
+                "L-V | 04:00 AM - 11:00 PM",
+                "S | 05:00 AM - 11:00 PM",
+                "D-F | 05:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": 5,
+              "Vagon": 2,
+              "Origen": "Calle 22",
+              "Destino": "Portal Américas",
+              "Horario": [
+                "L-V | 04:00 AM - 11:00 PM",
+                "S | 05:00 AM - 11:00 PM",
+                "D-F | 05:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": 8,
+              "Vagon": 3,
+              "Origen": "Guatoque - Veraguas",
+              "Destino": "Terminal",
+              "Horario": [
+                "L-V | 04:30 AM - 11:00 PM",
+                "S | 05:00 AM - 11:00 PM",
+                "D-F | 05:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": "B74",
+              "Vagon": 1,
+              "Origen": "Las Aguas",
+              "Destino": "Portal del Norte",
+              "Horario": [
+                "L-S | 09:00 AM - 04:00 PM"
+              ]
+            },
+            {
+              "Id": "D20",
+              "Vagon": 1,
+              "Origen": "Portal de Usme",
+              "Destino": "Portal de la 80",
+              "Horario": [
+                "L-V | 05:00 AM - 10:00 PM",
+                "S | 06:00 AM - 08:00 PM"
+              ]
+            },
+            {
+              "Id": "D51",
+              "Vagon": 1,
+              "Origen": "Portal de Usme",
+              "Destino": "Portal de la 80",
+              "Horario": [
+                "L-V | 05:30 AM - 08:30 AM"
+              ]
+            },
+            {
+              "Id": "H15",
+              "Vagon": 1,
+              "Origen": "Portal Suba",
+              "Destino": "Portal del Tunal",
+              "Horario": [
+                "L-S | 05:30 AM - 11:00 PM",
+                "D-F | 05:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": "H73",
+              "Vagon": 1,
+              "Origen": "Toberín",
+              "Destino": "Portal del Tunal",
+              "Horario": [
+                "L-S | 05:30 AM - 11:00 PM",
+                "D-F | 05:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": "H20",
+              "Vagon": 1,
+              "Origen": "Portal de la 80",
+              "Destino": "Portal de Usme",
+              "Horario": [
+                "L-V | 05:00 AM - 10:00 PM",
+                "S | 06:00 AM - 08:00 PM"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Av. Jiménez",
+          "url": "img/Estaciones/caracas/Calle_57.jpg",
+          "address": "AV. Caracas - CL 57",
+          "Services": [
+            {
+              "Id": "C17",
+              "Vagon": 3,
+              "Origen": "Portal de Usme",
+              "Destino": "Portal Suba",
+              "Horario": [
+                "L-V | 05:00 AM - 08:00 PM",
+                "S | 05:00 AM - 08:00 PM"
+              ]
+            },
+            {
+              "Id": 3,
+              "Vagon": 2,
+              "Origen": "Portal de Usme",
+              "Destino": "Concejo de Bogotá",
+              "Horario": [
+                "L-V | 04:00 AM - 11:00 PM",
+                "S | 05:00 AM - 11:00 PM",
+                "D-F | 05:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": 8,
+              "Vagon": 2,
+              "Origen": "Guatoque - Veraguas",
+              "Destino": "Terminal",
+              "Horario": [
+                "L-V | 04:00 AM - 11:00 PM",
+                "S | 05:00 AM - 11:00 PM",
+                "D-F | 05:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": "D20",
+              "Vagon": 2,
+              "Origen": "Portal de Usme",
+              "Destino": "Portal de la 80",
+              "Horario": [
+                "L-V | 05:00 AM - 10:00 PM",
+                "S | 06:00 AM - 08:00 PM"
+              ]
+            },
+            {
+              "Id": "D51",
+              "Vagon": 2,
+              "Origen": "Portal de Usme",
+              "Destino": "Portal de la 80",
+              "Horario": [
+                "L-V | 05:30 AM - 08:30 AM"
+              ]
+            },
+            {
+              "Id": "H17",
+              "Vagon": 2,
+              "Origen": "Portal Suba",
+              "Destino": "Portal de Usme",
+              "Horario": [
+                "L-V | 04:30 AM - 08:00 PM",
+                "S | 05:00 AM - 08:00 PM"
+              ]
+            },
+            {
+              "Id": "H20",
+              "Vagon": 2,
+              "Origen": "Portal de la 80",
+              "Destino": "Portal de Usme",
+              "Horario": [
+                "L-V | 05:00 AM - 10:00 PM",
+                "S | 06:00 AM - 08:00 PM"
+              ]
+            },
+            {
+              "Id": "H75",
+              "Vagon": 2,
+              "Origen": "Portal del Norte",
+              "Destino": "Portal de Usme",
+              "Horario": [
+                "L-S | 05:00 AM - 11:00 PM",
+                "D-F | 05:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": "B27",
+              "Vagon": 1,
+              "Origen": "Portal del Norte",
+              "Destino": "Portal del Tunal",
+              "Horario": [
+                "L-V | 06:00 AM - 09:00 AM",
+                "L-V | 05:00 PM - 08:00 PM"
+              ]
+            },
+            {
+              "Id": "B75",
+              "Vagon": 1,
+              "Origen": "Portal del Norte",
+              "Destino": "Portal de Usme",
+              "Horario": [
+                "L-S | 05:00 AM - 11:00 PM",
+                "D-F | 05:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": "K10",
+              "Vagon": 1,
+              "Origen": "Portal 20 de Julio",
+              "Destino": "Portal El dorado",
+              "Horario": [
+                "L-V | 04:30 AM - 11:00 PM",
+                "S | 05:00 AM - 11:00 PM",
+                "D-F | 05:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": "H27",
+              "Vagon": 1,
+              "Origen": "Portal del Norte",
+              "Destino": "Portal del Tunal",
+              "Horario": [
+                "L-V | 06:00 AM - 09:00 AM",
+                "L-V | 05:00 PM - 08:00 PM"
+              ]
+            },
+            {
+              "Id": "L10",
+              "Vagon": 1,
+              "Origen": "Portal El dorado",
+              "Destino": "Portal 20 de Julio",
+              "Horario": [
+                "L-S | 05:00 AM - 11:00 PM",
+                "D-F | 05:30 AM - 10:00 PM"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Tercer Milenio",
+          "url": "img/Estaciones/caracas/Tercer_Milenio.jpg",
+          "address": "AV. Caracas - CL 6",
+          "Services": [
+            {
+              "Id": "C15",
+              "Vagon": 3,
+              "Origen": "Portal del Tunal",
+              "Destino": "Portal Suba",
+              "Horario": [
+                "L-S | 05:00 AM - 11:00 PM",
+                "D-F | 05:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": "H13",
+              "Vagon": 3,
+              "Origen": "Portal del Norte",
+              "Destino": "Portal del Tunal",
+              "Horario": [
+                "L-V | 05:30 AM - 10:00 PM",
+                "S | 06:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": 3,
+              "Vagon": 2,
+              "Origen": "Portal de Usme",
+              "Destino": "Concejo de Bogotá",
+              "Horario": [
+                "L-V | 04:00 AM - 11:00 PM",
+                "S | 05:00 AM - 11:00 PM",
+                "D-F | 05:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": 8,
+              "Vagon": 2,
+              "Origen": "Guatoque - Veraguas",
+              "Destino": "Terminal",
+              "Horario": [
+                "L-V | 04:00 AM - 11:00 PM",
+                "S | 05:00 AM - 11:00 PM",
+                "D-F | 05:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": "K10",
+              "Vagon": 2,
+              "Origen": "Portal 20 de Julio",
+              "Destino": "Portal El dorado",
+              "Horario": [
+                "L-V | 04:00 AM - 11:00 PM",
+                "S | 05:00 AM - 11:00 PM",
+                "D-F | 05:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": "H15",
+              "Vagon": 2,
+              "Origen": "Portal Suba",
+              "Destino": "Portal del Tunal",
+              "Horario": [
+                "L-S | 05:30 AM - 11:00 PM",
+                "D-F | 05:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": "B13",
+              "Vagon": 1,
+              "Origen": "Portal del Norte",
+              "Destino": "Portal del Tunal",
+              "Horario": [
+                "L-V | 05:00 AM - 10:00 PM",
+                "S | 05:30 AM - 09:30 PM"
+              ]
+            },
+            {
+              "Id": "B18",
+              "Vagon": 1,
+              "Origen": "Portal 20 de Julio",
+              "Destino": "Terminal",
+              "Horario": [
+                "L-V | 04:30 AM - 10:00 PM",
+                "S | 05:00 AM - 09:30 PM"
+              ]
+            },
+            {
+              "Id": "L10",
+              "Vagon": 1,
+              "Origen": "Portal El dorado",
+              "Destino": "Portal 20 de Julio",
+              "Horario": [
+                "L-S | 05:00 AM - 11:00 PM",
+                "D-F | 05:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": "L18",
+              "Vagon": 1,
+              "Origen": "Terminal",
+              "Destino": "Portal 20 de Julio",
+              "Horario": [
+                "L-V | 05:00 AM - 10:00 PM",
+                "S | 05:30 AM - 09:30 PM"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
