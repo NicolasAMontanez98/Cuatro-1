@@ -50,19 +50,27 @@
 }
 
 .nivo-directionNav .nivo-prevNav{
-	background-image: url(../TransmiT/img/iconos/circle_left.png);
+	background-image: url(../img/icons/circle-left.png);
 	background-size: cover;
 	text-indent: -9999px;
-	left: 6px;
+	left: 30px;
 }
 
 .nivo-directionNav .nivo-nextNav{
-	background-image: url(../TransmiT/img/iconos/circle_right.png);
+	background-image: url(../img/icons/circle-right.png);
 	background-size: cover;
 	text-indent: -9999px;
-	right: 6px;
+	right: 30px;
 }
 
+.icon {
+	display: inline-block;
+	width: 1em;
+	height: 1em;
+	stroke-width: 0;
+	stroke: currentColor;
+	fill: currentColor;
+  }
 
 /*Nivo Caption*/
 
