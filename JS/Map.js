@@ -417,13 +417,39 @@ function showStages(){
 
 function search(){
     var opc = document.getElementsByName("type-search");
+    var val = document.getElementById("parameter-search").value;
+    val = val.toLowerCase();
+    val = val.replace(" ", "_");
     if(opc[0].checked){
-        console.log("1");
+        for(var i = 1; i <= trunk.data.length; i++){
+            var auxStages =  trunk.get(i).Stages;
+            
+            var aux = $.grep(auxStages, function(a){
+                if(a.name.replace(" ", "_").toLowerCase === val){
+                    return a;
+                }
+                return [];
+            });
+            console.log(aux[0]);
+            if(aux[0]){
+                break;
+            }
+
+            /*for(var j = 0; j < auxStages.length; i++){
+                var aux = auxStages.where(function(a) {
+                    console.log(a.replace(" ", "_").toLowerCase);
+                    return a.replace(" ", "_").toLowerCase === val;
+                });
+                if(aux !== undefined){
+                    console.log(aux);
+                }
+            }*/
+        }
     }
     else if(opc[1].checked){
-        var val = document.getElementById("parameter-search").value;
-        if(trunk.find({Name: val})[0]){
-            showTroncal(val);
+        var aux = trunk.where(function(a){ return a.Name.toLowerCase() === val })[0];
+        if(aux !== undefined){
+            showTroncal(aux.Name);
         }
         val = "";
     }
