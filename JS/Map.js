@@ -420,20 +420,20 @@ function search(){
     var val = document.getElementById("parameter-search").value;
     val = val.toLowerCase();
     val = val.replace(" ", "_");
+    console.log( trunk.get(1));
     if(opc[0].checked){
+
         for(var i = 1; i <= trunk.data.length; i++){
             var auxStages =  trunk.get(i).Stages;
-            
-            var aux = $.grep(auxStages, function(a){
-                if(a.name.replace(" ", "_").toLowerCase === val){
-                    return a;
+            for (var j = 0; j <= auxStages.length; j++) {
+                var auxFinal=auxStages[j];
+                var auxiliarName=auxFinal.name;
+                if (auxiliarName.toLowerCase().replace(" ", "_")==val) {
+                    console.log(auxFinal);
                 }
-                return [];
-            });
-            console.log(aux[0]);
-            if(aux[0]){
-                break;
             }
+               
+          
 
             /*for(var j = 0; j < auxStages.length; i++){
                 var aux = auxStages.where(function(a) {
