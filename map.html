@@ -35,18 +35,38 @@
                     document.getElementById("aux-pos").value = parts[0] + ":" + parts[1];
                     e.preventDefault();                    
 
-                    /*document.getElementById("troncal").style.display = "block";
+                    var search = trunk.find({Name: parts[0]})[0];
+
+                    document.getElementById("troncal").style.display = "block";
                     document.getElementById("btn-back").style.display = "none";
 
-                    document.getElementById("trunk-name").innerText = trunks[parts[0]][parts[1]].name;
-                    document.getElementById("img-stage").src = trunks[parts[0]][parts[1]].url;
-                    document.getElementById("img-stage").alt = trunks[parts[0]][parts[1]].name;
+                    document.getElementById("trunk-name").innerText = search.Stages[parts[1]].Name;
+                    document.getElementById("img-stage").src = search.Stages[parts[1]].url;
+                    document.getElementById("img-stage").alt = search.Stages[parts[1]].name;
 
                     document.getElementById("show-troncal").style.display = "none";
                     document.getElementById("show-stages").style.display = "inline-block";
 
-                    document.getElementById("title-troncal").innerText = trunks[parts[0]][parts[1]].name;*/$
-                    showStages();
+                    document.getElementById("title-troncal").innerText = search.Stages[parts[1]].name;
+
+                    var list1 = document.getElementById("list-routes-1");
+                    clearElement(list1);
+
+                    var list2 = document.getElementById("list-routes-2");
+                    clearElement(list2);
+
+
+                    for (var i = 0; i < search.Stages[parts[1]].Services.length; i++) {
+                        var li = document.createElement("li");
+                        li.innerText = search.Stages[parts[1]].Services[i].Id;
+
+                        if (i < search.Stages[parts[1]].Services.length / 2) {
+                            list1.appendChild(li);
+                        }
+                        else {
+                            list2.appendChild(li);
+                        }
+                    }
                 });
 
                 $('.button button').mouseover(function (e) {
@@ -94,6 +114,14 @@
             <div class="corner"></div>
             <div class="corner2"></div>
             <h1>Conoce nuestras troncales</h1>
+            <div class="container-search">
+                <label>Por Estación</label>
+                <input type="radio" name="type-search">
+                <label>Por Troncal</label>
+                <input type="radio" name="type-search" checked>
+                <input type="text" placeholder="Parametro de Busqueda" id="parameter-search">
+                <button onclick="search()">Buscar</button>
+            </div>
             <div class="container-map" id="container_map">
                 <img class="img-rutas" id="img-rutas" src="img/rutas_transmilenio_circle.jpg" 
                 alt="Imagen de las rutas de transmilenio" usemap="#image-mapping"/>
@@ -102,18 +130,18 @@
                     <!-- Troncal A -->
                     <area shape="circle" alt="Calle 76" title="Calle 76" coords="305,122,5" href="Caracas:0" target="" class="mapping-btn-A"/>
                     <area shape="circle" alt="Calle 72" title="Calle 72" coords="324,122,5" href="Caracas:1" target="" class="mapping-btn-A"/>
-                    <area shape="circle" alt="Flores" title="Flores" coords="337,122,5" href="Caracas2" target="" class="mapping-btn-A"/>
-                    <area shape="circle" alt="Calle 63" title="Calle 63" coords="350,122,5" href="Caracas3" target="" class="mapping-btn-A"/>
-                    <area shape="circle" alt="calle 57" title="Calle 57" coords="364,122,5" href="Caracas4" target="" class="mapping-btn-A"/>
-                    <area shape="circle" alt="Marly" title="Marly" coords="378,122,5" href="Caracas5" target="" class="mapping-btn-A"/>
-                    <area shape="circle" alt="Calle 45" title="Calle 45" coords="393,122,5" href="Caracas6" target="" class="mapping-btn-A"/>
-                    <area shape="circle" alt="AV. 39" title="AV. 39" coords="407,122,5" href="Caracas7" target="" class="mapping-btn-A"/>
-                    <area shape="circle" alt="Profamilia" title="Profamilia" coords="421,122,5" href="Caracas8" target="" class="mapping-btn-A"/>
-                    <area shape="circle" alt="Calle 26" title="Calle 26" coords="435,123,5" href="Caracas9" target="" class="mapping-btn-A"/>
-                    <area shape="circle" alt="Calle 22" title="Calle 22" coords="466,123,5" href="Caracas10" target="" class="mapping-btn-A"/>
-                    <area shape="circle" alt="Calle 19" title="Calle 19" coords="478,123,5" href="Caracas11" target="" class="mapping-btn-A"/>
-                    <area shape="circle" alt="AV. Jiménez" title="AV. Jiménez" coords="497,122,5" href="Caracas12" target="" class="mapping-btn-A"/>
-                    <area shape="circle" alt="Tercer Mileno" title="Tercer Mileno" coords="508,122,5" href="Caracas13" target="" class="mapping-btn-A"/>
+                    <area shape="circle" alt="Flores" title="Flores" coords="337,122,5" href="Caracas:2" target="" class="mapping-btn-A"/>
+                    <area shape="circle" alt="Calle 63" title="Calle 63" coords="350,122,5" href="Caracas:3" target="" class="mapping-btn-A"/>
+                    <area shape="circle" alt="calle 57" title="Calle 57" coords="364,122,5" href="Caracas:4" target="" class="mapping-btn-A"/>
+                    <area shape="circle" alt="Marly" title="Marly" coords="378,122,5" href="Caracas:5" target="" class="mapping-btn-A"/>
+                    <area shape="circle" alt="Calle 45" title="Calle 45" coords="393,122,5" href="Caracas:6" target="" class="mapping-btn-A"/>
+                    <area shape="circle" alt="AV. 39" title="AV. 39" coords="407,122,5" href="Caracas:7" target="" class="mapping-btn-A"/>
+                    <area shape="circle" alt="Profamilia" title="Profamilia" coords="421,122,5" href="Caracas:8" target="" class="mapping-btn-A"/>
+                    <area shape="circle" alt="Calle 26" title="Calle 26" coords="435,123,5" href="Caracas:9" target="" class="mapping-btn-A"/>
+                    <area shape="circle" alt="Calle 22" title="Calle 22" coords="466,123,5" href="Caracas:10" target="" class="mapping-btn-A"/>
+                    <area shape="circle" alt="Calle 19" title="Calle 19" coords="478,123,5" href="Caracas:11" target="" class="mapping-btn-A"/>
+                    <area shape="circle" alt="AV. Jiménez" title="AV. Jiménez" coords="497,122,5" href="Caracas:12" target="" class="mapping-btn-A"/>
+                    <area shape="circle" alt="Tercer Mileno" title="Tercer Mileno" coords="508,122,5" href="Caracas:13" target="" class="mapping-btn-A"/>
                     <!-- Troncal B -->
                     <area shape="circle" alt="Terminal" title="Terminal" coords="27,121,5" href="1:0" target="" class="mapping-btn-B"/>
                     <area shape="circle" alt="Calle 187" title="Calle 187" coords="52,121,5" href="1:1" target="" class="mapping-btn-B"/>
@@ -162,19 +190,19 @@
                     <area shape="circle" alt="Escuela Militar" title="Escuela Militar" coords="259,207,5" href="3:11" target="" class="mapping-btn-D"/>
                     <area shape="circle" alt="Polo" title="Polo" coords="291,163,5" href="3:12" target="" class="mapping-btn-D"/>
                     <!-- Troncal E -->
-                    <area shape="circle" alt="La Castellana" title="La Castellana" coords="239,163,5" href="4:0" target="" class="mapping-btn-E"/>
-                    <area shape="circle" alt="NQS - Calle 75" title="NQS - Calle 75" coords="306,202,5" href="4:1" target="" class="mapping-btn-E"/>
-                    <area shape="circle" alt="AV. Chile" title="AV. Chile" coords="326,202,5" href="4:2" target="" class="mapping-btn-E"/>
-                    <area shape="circle" alt="Simón Bolivar" title="Simón Bolivar" coords="344,202,5" href="4:3" target="" class="mapping-btn-E"/>
-                    <area shape="circle" alt="Coliseo" title="Coliseo" coords="365,202,5" href="4:4" target="" class="mapping-btn-E"/>
-                    <area shape="circle" alt="Campín - U. Antonio Nariño" title="Campín - U. Antonio Nariño" coords="384,202,5" href="4:5" target="" class="mapping-btn-E"/>
-                    <area shape="circle" alt="U. Nacional" title="U. Nacional" coords="402,203,5" href="4:6" target="" class="mapping-btn-E"/>
-                    <area shape="circle" alt="AV. El Dorado" title="AV. El Dorado" coords="423,202,5" href="4:7" target="" class="mapping-btn-E"/>
-                    <area shape="circle" alt="CAD" title="CAD" coords="462,202,5" href="4:8" target="" class="mapping-btn-E"/>
-                    <area shape="circle" alt="Paloquemao" title="Paloquemao" coords="479,201,5" href="4:9" target="" class="mapping-btn-E"/>
-                    <area shape="circle" alt="Ricaurte" title="Ricaurte" coords="497,201,5" href="4:10" target="" class="mapping-btn-E"/>
-                    <area shape="circle" alt="Guatoque - Veraguas" title="Guatoque - Veraguas" coords="522,173,5" href="4:11" target="" class="mapping-btn-E"/>
-                    <area shape="circle" alt="Tygua - San José" title="Tygua - San José" coords="522,149,5" href="4:12" target="" class="mapping-btn-E"/>
+                    <area shape="circle" alt="La Castellana" title="La Castellana" coords="239,163,5" href="NQS_Central:0" target="" class="mapping-btn-E"/>
+                    <area shape="circle" alt="NQS - Calle 75" title="NQS - Calle 75" coords="306,202,5" href="NQS_Central:1" target="" class="mapping-btn-E"/>
+                    <area shape="circle" alt="AV. Chile" title="AV. Chile" coords="326,202,5" href="NQS_Central:2" target="" class="mapping-btn-E"/>
+                    <area shape="circle" alt="Simón Bolivar" title="Simón Bolivar" coords="344,202,5" href="NQS_Central:3" target="" class="mapping-btn-E"/>
+                    <area shape="circle" alt="Coliseo" title="Coliseo" coords="365,202,5" href="NQS_Central:4" target="" class="mapping-btn-E"/>
+                    <area shape="circle" alt="Campín - U. Antonio Nariño" title="Campín - U. Antonio Nariño" coords="384,202,5" href="NQS_Central:5" target="" class="mapping-btn-E"/>
+                    <area shape="circle" alt="U. Nacional" title="U. Nacional" coords="402,203,5" href="NQS_Central:6" target="" class="mapping-btn-E"/>
+                    <area shape="circle" alt="AV. El Dorado" title="AV. El Dorado" coords="423,202,5" href="NQS_Central:7" target="" class="mapping-btn-E"/>
+                    <area shape="circle" alt="CAD" title="CAD" coords="462,202,5" href="NQS_Central:8" target="" class="mapping-btn-E"/>
+                    <area shape="circle" alt="Paloquemao" title="Paloquemao" coords="479,201,5" href="NQS_Central:9" target="" class="mapping-btn-E"/>
+                    <area shape="circle" alt="Ricaurte" title="Ricaurte" coords="497,201,5" href="NQS_Central:10" target="" class="mapping-btn-E"/>
+                    <area shape="circle" alt="Guatoque - Veraguas" title="Guatoque - Veraguas" coords="522,173,5" href="NQS_Central:11" target="" class="mapping-btn-E"/>
+                    <area shape="circle" alt="Tygua - San José" title="Tygua - San José" coords="522,149,5" href="NQS_Central:12" target="" class="mapping-btn-E"/>
                     <!-- Troncal F -->
                     <area shape="circle" alt="Portal de las Américas" title="Portal de las Américas" coords="590,380,5" href="5:0" target="" class="mapping-btn-F"/>
                     <area shape="circle" alt="Patio Bonito" title="Patio Bonito" coords="571,381,5" href="5:1" target="" class="mapping-btn-F"/>
@@ -246,16 +274,16 @@
                     <area shape="circle" alt="Centro Memoria" title="Centro Memoria" coords="448,151,4" href="10:12" target="" class="mapping-btn-K"/>
                     <area shape="circle" alt="Universidades" title="Universidades" coords="448,21,4" href="10:13" target="" class="mapping-btn-K"/>
                     <!-- L -->
-                    <area shape="circle" alt="San Diego" title="San Diego" coords="456,69,4" href="11:0" target="" class="mapping-btn-L"/>
-                    <area shape="circle" alt="Las Nieves" title="Las Nieves" coords="476,70,4" href="11:1" target="" class="mapping-btn-L"/>
-                    <area shape="circle" alt="San Victorino" title="San Victorino" coords="497,69,4" href="11:2" target="" class="mapping-btn-L"/>
-                    <area shape="circle" alt="Bicentenario" title="Bicentenario" coords="532,69,4" href="11:3" target="" class="mapping-btn-L"/>
-                    <area shape="circle" alt="Hospitales" title="Hospitales" coords="544,69,4" href="11:4" target="" class="mapping-btn-L"/>
-                    <area shape="circle" alt="Policarpa" title="Policarpa" coords="561,69,4" href="11:5" target="" class="mapping-btn-L"/>
-                    <area shape="circle" alt="Ciudad Jardín - UAN" title="Ciudad Jardín - UAN" coords="578,69,4" href="11:6" target="" class="mapping-btn-L"/>
-                    <area shape="circle" alt="AV. 1 de Mayo" title="AV. 1 de Mayo" coords="596,69,4" href="11:7" target="" class="mapping-btn-L"/>
-                    <area shape="circle" alt="Country Sur" title="Country Sur" coords="613,69,4" href="11:8" target="" class="mapping-btn-L"/>
-                    <area shape="circle" alt="Portal 20 de Julio" title="Portal 20 de Julio" coords="634,70,4" href="11:9" target="" class="mapping-btn-L"/>
+                    <area shape="circle" alt="San Diego" title="San Diego" coords="456,69,4" href="Carrera_10:0" target="" class="mapping-btn-L"/>
+                    <area shape="circle" alt="Las Nieves" title="Las Nieves" coords="476,70,4" href="Carrera_10:1" target="" class="mapping-btn-L"/>
+                    <area shape="circle" alt="San Victorino" title="San Victorino" coords="497,69,4" href="Carrera_10:2" target="" class="mapping-btn-L"/>
+                    <area shape="circle" alt="Bicentenario" title="Bicentenario" coords="532,69,4" href="Carrera_10:3" target="" class="mapping-btn-L"/>
+                    <area shape="circle" alt="Hospitales" title="Hospitales" coords="544,69,4" href="Carrera_10:4" target="" class="mapping-btn-L"/>
+                    <area shape="circle" alt="Policarpa" title="Policarpa" coords="561,69,4" href="Carrera_10:5" target="" class="mapping-btn-L"/>
+                    <area shape="circle" alt="Ciudad Jardín - UAN" title="Ciudad Jardín - UAN" coords="578,69,4" href="Carrera_10:6" target="" class="mapping-btn-L"/>
+                    <area shape="circle" alt="AV. 1 de Mayo" title="AV. 1 de Mayo" coords="596,69,4" href="Carrera_10:7" target="" class="mapping-btn-L"/>
+                    <area shape="circle" alt="Country Sur" title="Country Sur" coords="613,69,4" href="Carrera_10:8" target="" class="mapping-btn-L"/>
+                    <area shape="circle" alt="Portal 20 de Julio" title="Portal 20 de Julio" coords="634,70,4" href="Carrera_10:9" target="" class="mapping-btn-L"/>
                     <!-- Troncal M -->
                     <area shape="circle" alt="Museo Nacional" title="Museo Nacional" coords="431,69,4" href="12:0" target="" class="mapping-btn-M"/>
                 </map>
@@ -268,13 +296,13 @@
                         <button type="button" onclick="showTroncal(1)" id="btn-B">B<span>Auto. Norte</span></button>
                     </div>
                     <div class="button">
-                        <button type="button" onclick="showTroncal(2)" id="btn-C">C<span>Avenida Suba</span></button>
+                        <button type="button" onclick="showTroncal('Suba')" id="btn-C">C<span>Avenida Suba</span></button>
                     </div>
                     <div class="button">
                         <button type="button" onclick="showTroncal(3)" id="btn-D">D<span>Calle 80</span></button>
                     </div>
                     <div class="button">
-                        <button type="button" onclick="showTroncal(4)" id="btn-E">E<span>NQS Central</span></button>
+                        <button type="button" onclick="showTroncal('NQS_Central')" id="btn-E">E<span>NQS Central</span></button>
                     </div>
                     <div class="button">
                         <button type="button" onclick="showTroncal(5)" id="btn-F">F<span>AV. Américas</span></button>

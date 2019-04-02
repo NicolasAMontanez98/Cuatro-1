@@ -279,7 +279,7 @@ function fillStages(){
 
 function showTroncal(pos){
     var search = trunk.find({Name: pos})[0];
-
+    console.log(search);
     document.getElementById("troncal").style.display = "block";
     posBus.setStages(search.Stages.length);
     posTroncal = parseInt(search.id);
@@ -326,7 +326,6 @@ function createPopUp(pos){
     document.getElementById("length-trunk").innerText = search.Longitud;
     document.getElementById("img-troncal").src = search.url;
 
-    console.log(search.Stages[0]);
     document.getElementById("trunk-name").innerText = search.Stages[0].name;
     document.getElementById("trunk-image").src = search.Stages[0].url;
     document.getElementById("trunk-image").alt = search.Stages[0].name;
@@ -376,36 +375,63 @@ function createPopUp(pos){
 
 function showStages(){
     var parts = (document.getElementById("aux-pos").value).split(":");
-    var search = trunk.find({Name: parts[0]})[0];
-
-    document.getElementById("btn-back").style.display = "block";
-    document.getElementById("show-troncal").style.display = "none";
-    document.getElementById("show-stages").style.display = "inline-block";
-
-    document.getElementById("title-troncal").innerText = search.Stages[parts[1]].name;
-    document.getElementById("img-stage").src = search.Stages[parts[1]].url;
-
-    var list1 = document.getElementById("list-routes-1");
-    while (list1.firstChild) {
-        list1.removeChild(list1.firstChild);
+    var search = {};
+    if(trunk !== undefined){
+        search = trunk.find({Name: parts[0]})[0];
+    }
+    else{
+        console.log("Trunk Undefined:"+parts[0]);
     }
 
-    var list2 = document.getElementById("list-routes-2");
-    while (list2.firstChild) {
-        list2.removeChild(list2.firstChild);
+    if(search !== undefined){
+        document.getElementById("btn-back").style.display = "block";
+        document.getElementById("show-troncal").style.display = "none";
+        document.getElementById("show-stages").style.display = "inline-block";
+
+        document.getElementById("title-troncal").innerText = search.Stages[parts[1]].name;
+        document.getElementById("img-stage").src = search.Stages[parts[1]].url;
+
+        var list1 = document.getElementById("list-routes-1");
+        clearElement(list1);
+
+        var list2 = document.getElementById("list-routes-2");
+        clearElement(list2);
+
+
+        for(var i = 0; i < search.Stages[parts[1]].Services.length; i++){
+            var li = document.createElement("li");
+            li.innerText = search.Stages[parts[1]].Services[i].Id;
+
+            if(i < search.Stages[parts[1]].Services.length / 2){
+                list1.appendChild(li);
+            }
+            else{
+                list2.appendChild(li);
+            }
+        }
     }
+    else{
+        console.log("Search Undefined:"+parts[0]);
+    }
+}
 
-
-    for(var i = 0; i < search.Stages[parts[1]].Services.length; i++){
-        var li = document.createElement("li");
-        li.innerText = search.Stages[parts[1]].Services[i].Id;
-
-        if(i < search.Stages[parts[1]].Services.length / 2){
-            list1.appendChild(li);
+function search(){
+    var opc = document.getElementsByName("type-search");
+    if(opc[0].checked){
+        console.log("1");
+    }
+    else if(opc[1].checked){
+        var val = document.getElementById("parameter-search").value;
+        if(trunk.find({Name: val})[0]){
+            showTroncal(val);
         }
-        else{
-            list2.appendChild(li);
-        }
+        val = "";
+    }
+}
+
+function clearElement(elemet){
+    while (elemet.firstChild) {
+        elemet.removeChild(elemet.firstChild);
     }
 }
 

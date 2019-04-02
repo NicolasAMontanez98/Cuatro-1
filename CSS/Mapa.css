@@ -547,3 +547,19 @@ div:nth-of-type(2) div:nth-of-type(17) button{
 #container-routes{
     display: flex;
 }
+
+.container-search{
+    width: 500px;
+    margin: 0 auto;
+}
+
+.container-search input[type="text"]{
+    width: 200px;
+    height: 30px;
+    padding: 5px;
+}
+
+.container-search button{
+    height: 30px;
+    margin: 0 0 0 20px;
+}

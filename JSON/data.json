@@ -3057,12 +3057,79 @@
               ]
             }
           ]
+        },
+        {
+          "name": "San Martin",
+          "url": "img/Estaciones/caracas/San_Martin.jpeg",
+          "address": "AV SUBA - CL 90",
+          "Services": [
+            {
+              "Id": 7,
+              "Vagon": 1,
+              "Origen": "Ricaurte (NQS)",
+              "Destino": "Portal Suba",
+              "Horario": [
+                "L-V | 04:30 AM - 11:00 PM",
+                "S | 05:00 AM - 11:00 PM",
+                "D-F | 05:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": "C15",
+              "Vagon": 1,
+              "Origen": "Portal del Tunal",
+              "Destino": "Portal Suba",
+              "Horario": [
+                "-S | 05:00 AM - 11:00 PM",
+                "D-F | 05:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": "B50",
+              "Vagon": 2,
+              "Origen": "Portal Suba",
+              "Destino": "Portal del Norte",
+              "Horario": [
+                "L-V | 06:00 AM - 08:30 AM",
+                "L-V | 05:00 PM - 07:30 PM"
+              ]
+            },
+            {
+              "Id": "H15",
+              "Vagon": 2,
+              "Origen": "Portal Suba",
+              "Destino": "Portal del Tunal",
+              "Horario": [
+                "L-S | 05:30 AM - 11:00 PM",
+                "D-F | 05:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": "F19",
+              "Vagon": 1,
+              "Origen": "Portal Suba",
+              "Destino": "Banderas",
+              "Horario": [
+                "L-D | 05:30 AM - 10:00 PM"
+              ]
+            },
+            {
+              "Id": "C50",
+              "Vagon": 2,
+              "Origen": "Portal del Norte",
+              "Destino": "Portal Suba",
+              "Horario": [
+                "L-V | 06:30 AM - 08:00 AM",
+                "L-V | 04:30 PM - 08:00 PM"
+              ]
+            }
+          ]
         }
       ]
     },
     {
       "id": "5",
-      "Name": "NQS Central",
+      "Name": "NQS_Central",
       "Inicio": "La Castellana",
       "Fin": "Tyguana san Jose",
       "longitud": "11.5 km",
