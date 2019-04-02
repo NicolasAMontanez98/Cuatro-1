@@ -8,7 +8,7 @@ body{
 
 footer{
     width: 100%;
-    background: #223040;
+    background: url(../img/prism.png);
     color: white;   
     border-top: 5px solid red;
     margin: 70px 0 0 0;

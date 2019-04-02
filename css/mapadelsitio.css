@@ -11,7 +11,7 @@
 }
 
 .cont2_mds .title{
-    color: #540508;
+    color: #DF1B1B;
 }
 
 .cont2_mds .cards_mds .item{
@@ -23,8 +23,8 @@
 }
 
 .cont2_mds .cards_mds .item:hover{
-    background-color: #540508;
-    color: white;
+    background-color: rgb(243, 243, 243);
+    color: #DF1B1B;
 }
 
 
