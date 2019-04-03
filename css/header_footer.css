@@ -1,14 +1,14 @@
 body{
     padding: 0%;
     margin: 0%;
-    font-family: 'Baloo Chettan', cursive;
+    font-family: helvetica;
 }
 
 /*Estilos del pie de pagina*/
 
 footer{
     width: 100%;
-    background: url(../img/prism.png);
+    background: #223040;
     color: white;   
     border-top: 5px solid red;
     margin: 70px 0 0 0;

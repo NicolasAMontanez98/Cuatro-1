@@ -1,33 +1,36 @@
-﻿<!DOCTYPE <!DOCTYPE html>
+<!DOCTYPE <!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8" />
+    <link rel="shortcut icon" href="img/logo1.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="CSS/Mapa.css" rel="stylesheet" />
+    
     <!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> -->
-    <link href="https://fonts.googleapis.com/css?family=Baloo+Chettan" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Chettan" rel="stylesheet"> 
 
     <title>Mapa interactivo</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
     <!--
     	1 ) Reference to the files containing the JavaScript and CSS.
     	These files must be located on your server.
     -->
     <link rel="stylesheet" type="text/css" href="CSS/Main.css">
+    <link rel="stylesheet" type="text/css" href="CSS/menu.css">
     <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="css/home.css">
-
+    
     <!-- JQuery libraris -->
     <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
     <script type="text/javascript" src="js/jquery.maphilight.min.js"></script>
     
-    <script src="http://lokijs.org/bower_components/lokijs/src/lokijs.js"></script>
+    <script src="JS/lokijs.js"></script>
     <script src="js/Map.js" type="text/javascript"></script>
     <script type="text/javascript" src="js/db.js"></script>
 
     <script src="https://www.w3schools.com/lib/w3.js"></script>
-
     
-
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <script type="text/javascript">
         $(function () {
@@ -76,35 +79,41 @@
                 }).mouseout(function (e) {
                     $('.mapping-' + this.id).mouseout();
                 }).click(function (e) { e.preventDefault(); });
-            });
 
-            
+              
+            });
     </script>
   </head>
   <body onload="load()">
-    <div class="header">
-        <header>
             <div class="container">
                 <div class="row-sm-1">
-                    <div class="col">
+                    <div class="col-sm-1">
                         <div class="logo">
                             <img class="logo" src="img/logo1.png" alt="Logo">
-                            </div>
                         </div>
+                    </div>    
                     <div class="col-sm-11">
                         <div class="navbar">
-                            <a href="../index.html">Inicio</a>
+                            <a href="index.html">Inicio</a>
                             <a href="paginas/nosotros.html"> Nosotros</a>
                             <a href="map.html"> Planea tu viaje</a>
                             <a href="paginas/noticias.html"> Noticias</a>
                             <a href="paginas/contactanos.html"> Contactanos</a>
                             <a href="paginas/mapadelsitio.html"> Mapa del Sitio</a>
-                       </div>    
-                    </div>   
-                </div>            
+                        </div>
+                    </div>
+                </div>
+                <div class="social">
+                    <ul>
+                        <li><a href="#" target="_blank"><img class="icon" src="img/iconos/facebook.png" alt="icono de facebook"></a></li>
+                        <li><a href="#" target="_blank"><img class="icon" src="img/iconos/google-plus.png" alt="icono de google-plus"></a></li>
+                        <li><a href="#" target="_blank"><img class="icon" src="img/iconos/instagram.png" alt="icono de instagram"></a></li>
+                        <li><a href="#" target="_blank"><img class="icon" src="img/iconos/linkedin.png" alt="icono de linkedin"></a></li>
+                        <li><a href="#" target="_blank"><img class="icon" src="img/iconos/twitter.png" alt="icono de twitter"></a></li>
+                    </ul>    
+                </div>                                                   
             </div>
-        </header>
-    </div>
+            
     <div class="global">
         <section class="map" id="map_id">
             <div class="corner"></div>
@@ -217,23 +226,23 @@
                     <area shape="circle" alt="San Facon - KR 22" title="San Facon - KR 22" coords="491,172,5" href="5:13" target="" class="mapping-btn-F"/>
                     <area shape="circle" alt="De La Sabana" title="De La Sabana" coords="491,151,5" href="5:16" target="" class="mapping-btn-F"/>
                     <!-- Troncal G -->
-                    <area shape="circle" alt="Comuneros" title="Comuneros" coords="533,201,4" href="6:0" target="" class="mapping-btn-G"/>
-                    <area shape="circle" alt="Santa Isabel" title="Santa Isabel" coords="546,201,4" href="6:1" target="" class="mapping-btn-G"/>
+                    <area shape="circle" alt="Comuneros" title="Comuneros" coords="533,201,4" href="NQS_Sur:0" target="" class="mapping-btn-G"/>
+                    <area shape="circle" alt="Santa Isabel" title="Santa Isabel" coords="546,201,4" href="NQS_Sur:1" target="" class="mapping-btn-G"/>
                     <area shape="circle" alt="SENA" title="SENA" coords="563,207,4" href="6:2" target="" class="mapping-btn-G"/>
-                    <area shape="circle" alt="NQS - CL 30 S" title="NQS - CL 30 S" coords="575,218,4" href="6:3" target="" class="mapping-btn-G"/>
-                    <area shape="circle" alt="NQS - CL 38A S" title="NQS - CL 38A S" coords="587,231,4" href="6:4" target="" class="mapping-btn-G"/>
-                    <area shape="circle" alt="General Santander" title="General Santander" coords="599,242,4" href="6:5" target="" class="mapping-btn-G"/>
-                    <area shape="circle" alt="Alquería" title="Alquería" coords="605,250,4" href="6:6" target="" class="mapping-btn-G"/>
-                    <area shape="circle" alt="Venecia" title="Venecia" coords="605,260,4" href="6:7" target="" class="mapping-btn-G"/>
-                    <area shape="circle" alt="Sevillana" title="Sevillana" coords="606,276,4" href="6:8" target="" class="mapping-btn-G"/>
-                    <area shape="circle" alt="Madelena" title="Madelena" coords="606,293,4" href="6:9" target="" class="mapping-btn-G"/>
-                    <area shape="circle" alt="Perdomo" title="Perdomo" coords="606,309,4" href="6:10" target="" class="mapping-btn-G"/>
-                    <area shape="circle" alt="Portal del Sur" title="Portal del Sur" coords="606,326,4" href="6:11" target="" class="mapping-btn-G"/>
-                    <area shape="circle" alt="Bosa" title="Bosa" coords="620,352,4" href="6:12" target="" class="mapping-btn-G"/>
-                    <area shape="circle" alt="La Despensa" title="La Despensa" coords="636,368,4" href="6:13" target="" class="mapping-btn-G"/>
-                    <area shape="circle" alt="León XIII" title="León XIII" coords="651,383,4" href="6:14" target="" class="mapping-btn-G"/>
-                    <area shape="circle" alt="Terreros - Hospital C.V." title="Terreros - Hospital C.V." coords="664,396,4" href="6:15" target="" class="mapping-btn-G"/>
-                    <area shape="circle" alt="San Mateo" title="San Mateo" coords="677,409,4" href="6:16" target="" class="mapping-btn-G"/>
+                    <area shape="circle" alt="NQS - CL 30 S" title="NQS - CL 30 S" coords="575,218,4" href="NQS_Sur:3" target="" class="mapping-btn-G"/>
+                    <area shape="circle" alt="NQS - CL 38A S" title="NQS - CL 38A S" coords="587,231,4" href="NQS_Sur:4" target="" class="mapping-btn-G"/>
+                    <area shape="circle" alt="General Santander" title="General Santander" coords="599,242,4" href="NQS_Sur:5" target="" class="mapping-btn-G"/>
+                    <area shape="circle" alt="Alquería" title="Alquería" coords="605,250,4" href="NQS_Sur:6" target="" class="mapping-btn-G"/>
+                    <area shape="circle" alt="Venecia" title="Venecia" coords="605,260,4" href="NQS_Sur:7" target="" class="mapping-btn-G"/>
+                    <area shape="circle" alt="Sevillana" title="Sevillana" coords="606,276,4" href="NQS_Sur:8" target="" class="mapping-btn-G"/>
+                    <area shape="circle" alt="Madelena" title="Madelena" coords="606,293,4" href="NQS_Sur:9" target="" class="mapping-btn-G"/>
+                    <area shape="circle" alt="Perdomo" title="Perdomo" coords="606,309,4" href="NQS_Sur:10" target="" class="mapping-btn-G"/>
+                    <area shape="circle" alt="Portal del Sur" title="Portal del Sur" coords="606,326,4" href="NQS_Sur:11" target="" class="mapping-btn-G"/>
+                    <area shape="circle" alt="Bosa" title="Bosa" coords="620,352,4" href="NQS_Sur:12" target="" class="mapping-btn-G"/>
+                    <area shape="circle" alt="La Despensa" title="La Despensa" coords="636,368,4" href="NQS_Sur:13" target="" class="mapping-btn-G"/>
+                    <area shape="circle" alt="León XIII" title="León XIII" coords="651,383,4" href="NQS_Sur:14" target="" class="mapping-btn-G"/>
+                    <area shape="circle" alt="Terreros - Hospital C.V." title="Terreros - Hospital C.V." coords="664,396,4" href="NQS_Sur:15" target="" class="mapping-btn-G"/>
+                    <area shape="circle" alt="San Mateo" title="San Mateo" coords="677,409,4" href="NQS_Sur:16" target="" class="mapping-btn-G"/>
                     <!-- Troncal H -->
                     <area shape="circle" alt="Portal del Tunal" title="Portal del Tunal" coords="685,252,4" href="8:2" target="" class="mapping-btn-H2"/>
                     <area shape="circle" alt="Parqué" title="Parqué" coords="682,223,4" href="8:1" target="" class="mapping-btn-H2"/>
@@ -304,7 +313,7 @@
                         <button type="button" onclick="showTroncal(5)" id="btn-F">F<span>AV. Américas</span></button>
                     </div>
                     <div class="button">
-                        <button type="button" onclick="showTroncal(6)" id="btn-G">G<span>NQS Sur</span></button>
+                        <button type="button" onclick="showTroncal('NQS_Sur')" id="btn-G">G<span>NQS Sur</span></button>
                     </div>
                     <div class="button">
                         <button type="button" onclick="showTroncal(7)" id="btn-H">H<span>Caracas Sur</span></button>
@@ -319,7 +328,7 @@
                         <button type="button" onclick="showTroncal(10)" id="btn-K">K<span>AV. El Dorado</span></button>
                     </div>
                     <div class="button">
-                        <button type="button" onclick="showTroncal(11)" id="btn-L">L<span>Car. Décima</span></button>
+                        <button type="button" onclick="showTroncal('Carrera_10')" id="btn-L">L<span>Car. Décima</span></button>
                     </div>
                     <div class="button">
                         <button type="button" onclick="showTroncal(12)" id="btn-M">M<span>Car. Séptima</span></button>
@@ -368,14 +377,23 @@
                             <div>
                                 <h4>Rutas</h4>
                                 <div id="container-routes">
-                                    <ul id="list-routes-1">
-                                    </ul>
-                                    <ul id="list-routes-2">
-                                    </ul>
+                                    <div id="accordion1" class="ui-accordion">
+                                    </div>
+                                    <div id="accordion2" class="uis-accordion">
+                                    </div>  
                                 </div>
                             </div>
                         </div>
+                        <div>
+                                <h3>Vagón: <label id="vagon"></label></h3>
+                                <h4>Horario: </h4>
+                                <ul id="horarios"></ul>
+                        </div>
+                    
+                    
+                    
                     </div>
+                   
                 </section>
             </div>
             <p>Presionar el indicardor de posición para ver las estaciones por troncal</p>
