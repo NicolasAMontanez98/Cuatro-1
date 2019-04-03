@@ -186,9 +186,6 @@ function showStages(visible){
 
         var list1 = document.getElementById("accordion1");
         clearElement(list1);
-
-        var list2 = document.getElementById("accordion2");
-        clearElement(list2);
         
         for(var i = 0; i < search.Stages[parts[1]].Services.length; i++){
             
@@ -218,14 +215,9 @@ function showStages(visible){
             div.appendChild(vagon);
             div.appendChild(ul);
 
-            if(i < search.Stages[parts[1]].Services.length / 2){
-                list1.appendChild(titulo);
-                list1.appendChild(div);
-            }
-            else{
-                list2.appendChild(titulo);
-                list2.appendChild(div);
-            }
+            list1.appendChild(titulo);
+            list1.appendChild(div);
+            
         }
     }
     else{
@@ -234,13 +226,25 @@ function showStages(visible){
 }
 
 function clickTitle(e){
-    var x = document.getElementsByClassName("panel");
-    for(var i = 0; i < x.length; i++){
-        x[i].style.display = "none";
-    }
-    console.log(e.id);
-    document.getElementById(100 + parseInt(e.id)).style.display = "block";
 
+    if(document.getElementById(100 + parseInt(e.id)).style.display === "block"){
+        document.getElementById(100 + parseInt(e.id)).style.display = "none"
+        e.style.background="lightgray";
+        e.style.color="black";
+    }
+    else{
+        var x = document.getElementsByClassName("panel");
+        for(var i = 0; i < x.length; i++){
+            x[i].style.display = "none";
+        }
+        console.log(e.id);
+        document.getElementById(100 + parseInt(e.id)).style.display = "block";
+        e.style.background="red";
+        e.style.color="white";
+        console.log(document.getElementById(100 + parseInt(e.id)).style.display);    
+    }
+
+    
 
     console.log(e);
 }

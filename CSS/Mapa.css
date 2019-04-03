@@ -569,23 +569,17 @@ div:nth-of-type(2) div:nth-of-type(17) button{
     color: #444;
     cursor: pointer;
     padding: 5px;
-    width: 90%;
+    width: 45%;
     border: none;
     text-align: left;
     outline: none;
     font-size: 15px;
     transition: 0.4s;
-    margin: 0 0 5px 0;
+    margin: 0 5px 5px 0;
   }
   
   .accordion:hover {
     background-color: #ccc;
-  }
-
-  .accordion:active{
-      
-    display: block;
-    background: red;
   }
   
   .panel {
@@ -594,4 +588,12 @@ div:nth-of-type(2) div:nth-of-type(17) button{
     background-color: white;
     height: auto;
     transition: max-height 0.2s ease-out;
+  }
+
+  .style-container #show-stages > div div h4{
+      font-size: 16px;
+  }
+
+  .style-container #show-stages > div div ul li{
+      font-size: 14px;
   }
