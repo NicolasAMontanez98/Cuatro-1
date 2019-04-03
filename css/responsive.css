@@ -1,0 +1,75 @@
+body{
+   margin: 0; 
+}
+
+.contenedor{
+    max-width: 100%;
+    max-height: 100%;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+
+
+.column{
+    float: left; /*especifica cómo debe flotar un elemento.*/
+    width: 25%; /*ancho.*/
+}
+
+.row:after{
+    content: "";/*inserta un atributo en una etiqueta*/
+    display: table; /*define el comportamineto de un contenerdor u otra cosa*/
+    clear: both; /*limpiar ambos*/
+}
+
+
+
+#mySidenav a {
+    
+  position: absolute; /* Position them relative to the browser window */
+  left: -80px; /* Position them outside of the screen */
+  transition: 0.3s; /* Add transition on hover */
+  padding: 15px; /* 15px padding */
+  width: 100px; /* Set a specific width */
+  text-decoration: none; /* Remove underline */
+  font-size: 20px; /* Increase font size */
+  color: white; /* White text color */
+  border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+}
+
+#mySidenav a:hover {
+  left: 0; /* On mouse-over, make the elements appear as they should */
+}
+
+/* The about link: 20px from the top with a green background */
+#nosotros {
+  top: 20px;
+  background-color: #000;
+}
+
+#viaje {
+  top: 80px;
+  background-color: #000; /* Blue */
+}
+
+#noticias {
+    
+  top: 140px;
+  background-color: #000; /* Red */
+}
+
+#contactos {
+  top: 200px;
+  background-color: #000 /* Light Black */
+}
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}

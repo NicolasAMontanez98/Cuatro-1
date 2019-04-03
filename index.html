@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="img/logo1.png" />
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://file.myfontastic.com/JXDxkMxnasVa6ynRo8rb9A/icons.css" rel="stylesheet">
+   
+  
+    <title>Transporta2</title>
+</head>
+<body>
+    <!-- <div id="mySidenav" class="sidenav">
+        <a href="#" id="nosotros">Nosotros</a>
+        <a href="paginas/planeatuviaje.html" id="viaje">P. tu viaje</a>
+        <a href="paginas/noticias.html" id="noticias">Noticias</a>
+        <a href="#" id="contactos">Contactos</a>
+    </div> -->
+    
+    <div class="contenedor">
+        <div class="cont1">
+            
+            <div class="logo" >
+                <img class="logo" src="img/logo1.png" alt="Logo">
+            </div>
+            <div class="frase">
+                <p class="frase"><strong>Llega fácil y rápido</strong></p>
+            </div>
+            <div class="navbar">
+                    <a  href="index.html"> Inicio</a>
+                <a  href="paginas/nosotros.html"> Nosotros</a> 
+                <a href="paginas/planeatuviaje.html"> Planea tu viaje</a> 
+                <a href="paginas/noticias.html"> Noticias</a> 
+                <a href="paginas/contactanos.html"> Contáctanos</a>
+            </div>
+            <div class="iconos">
+                <a href="https://www.facebook.com" target="_blank"><img class="icon"  src="img/iconos/facebook.png" alt="icono de facebook"></a>
+                <a href="https://plus.google.com" target="_blank"><img class="icon"  src="img/iconos/google-plus.png" alt="icono de google-plus"></a>
+                <a href="https://www.instagram.com" target="_blank"><img class="icon"  src="img/iconos/instagram.png" alt="icono de instagram"></a>
+                <a href="https://co.linkedin.com/" target="_blank"><img class="icon"  src="img/iconos/linkedin.png" alt="icono de linkedin"></a>
+                <a href="https://twitter.com" target="_blank"><img class="icon"  src="img/iconos/twitter.png" alt="icono de twitter"></a>
+            </div>
+       
+        </div> 
+        <div class="cont2">
+            <div class="banner_inicio">
+                <img class="img1" src="img/img1.jpg" alt="Bogota">
+                <div class="frase">
+                    <h1>Una experiencia inolvidable </h1>
+                </div>
+               
+            </div>
+       
+        </div>
+         <div class="noticias">
+             <a  class="title" href="paginas/noticias.html">
+                    <h2 >Noticias</h2>
+                    <div class="slideshow-container">
+       
+                           <div class="mySlides fade">
+                             <div class="numbertext">1 / 3</div>
+                             <img src="img/banner_noticias/img1.jpg" style="width:100%">
+                       
+                           </div>
+                           
+                           <div class="mySlides fade">
+                             <div class="numbertext">2 / 3</div>
+                             <img src="img/banner_noticias/img2.jpg" style="width:100%">
+                             
+                           </div>
+                           
+                           <div class="mySlides fade">
+                             <div class="numbertext">3 / 3</div>
+                             <img src="img/banner_noticias/img3.jpg" style="width:100%">
+                             
+                           </div>
+                           
+                           <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                           <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                           
+                           </div>
+                           <br>
+                           
+                           <div style="text-align:center">
+                             <span class="dot" onclick="currentSlide(1)"></span> 
+                             <span class="dot" onclick="currentSlide(2)"></span> 
+                             <span class="dot" onclick="currentSlide(3)"></span> 
+                           </div>
+             </a>
+                    
+                    <script>
+                    var slideIndex = 1;
+                    showSlides(slideIndex);
+                    
+                    function plusSlides(n) {
+                      showSlides(slideIndex += n);
+                    }
+                    
+                    function currentSlide(n) {
+                      showSlides(slideIndex = n);
+                    }
+                    
+                    function showSlides(n) {
+                      var i;
+                      var slides = document.getElementsByClassName("mySlides");
+                      var dots = document.getElementsByClassName("dot");
+                      if (n > slides.length) {slideIndex = 1}    
+                      if (n < 1) {slideIndex = slides.length}
+                      for (i = 0; i < slides.length; i++) {
+                          slides[i].style.display = "none";  
+                      }
+                      for (i = 0; i < dots.length; i++) {
+                          dots[i].className = dots[i].className.replace(" active", "");
+                      }
+                      slides[slideIndex-1].style.display = "block";  
+                      dots[slideIndex-1].className += " active";
+                    }
+                    </script>
+         </div>
+
+
+        <!-- ---------------------- -->
+
+        
+        
+    </div>
+    
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <!-- sitios de interes -->
+
+    <div class="sitios_interes">
+        <a href="https://www.contraloria.gov.co/"><img src="img/banner_sitios/contraloria.png" alt="contraloria"></a>
+        <a href="https://www.fiscalia.gov.co/colombia/"><img src="img/banner_sitios/fiscalia.png" alt="fiscalia"></a>
+        <a href=""><img src="img/banner_sitios/invima.png" alt="invima"></a>
+    </div>
+
+
+
+    <!---Comienzo del footer--------------------------->
+    <footer>
+        <div class="mapa-sitio">
+        <a href="paginas/mapadelsitio.html">MAPA DEL SITIO</a>
+        <a href="paginas/contactanos.html">CONTÁCTENOS</a>
+        </div>
+            
+        <div class="futer">
+        <div class="contacto">
+            <h3>DATOS DEL CONTÁCTO</h3>
+            <p>Diseñado y desarrollado por el equipo CRUDs. 2019</p>
+            <p>Teléfono +571 4459820 | Móvil +57 315 5543121</p>
+            <p>Carrera 30 #76, Código Postal 1110101 Bogotá, Colombia | info@transporta2.com</p>
+        </div>
+        <div class="redes">
+            <h3>REDES SOCIALES</h3>
+            <a href="https://www.facebook.com" target="_blank"><img class="icono-footer"  src="img/iconos/facebookblack.png" alt="icono de facebook"></a>
+            <a href="https://plus.google.com" target="_blank"><img class="icono-footer"  src="img/iconos/google-plusblack.png" alt="icono de google-plus"></a>
+            <a href="https://www.instagram.com" target="_blank"><img class="icono-footer"  src="img/iconos/instagramblack.png" alt="icono de instagram"></a>
+            <a href="https://co.linkedin.com/" target="_blank"><img class="icono-footer"  src="img/iconos/linkedinblack.png" alt="icono de linkedin"></a>
+            <a href="https://twitter.com" target="_blank"><img class="icono-footer"  src="img/iconos/twitterblack.png" alt="icono de twitter"></a>
+        </div>
+        </div>
+    </footer>
+    
+      
+</body>
+</html>
