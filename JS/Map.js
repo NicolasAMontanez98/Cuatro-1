@@ -218,7 +218,7 @@ function showStages(visible){
             div.appendChild(vagon);
             div.appendChild(ul);
 
-            if(i < search.Stages[parts[1]].Services.length / 2){
+            if (i < search.Stages[parts[1]].Services.length / 2) {
                 list1.appendChild(titulo);
                 list1.appendChild(div);
             }
@@ -234,15 +234,19 @@ function showStages(visible){
 }
 
 function clickTitle(e){
-    var x = document.getElementsByClassName("panel");
-    for(var i = 0; i < x.length; i++){
-        x[i].style.display = "none";
+    if(document.getElementById(100 + parseInt(e.id)).style.display === "block"){
+        document.getElementById(100 + parseInt(e.id)).style.display = "none";
     }
-    console.log(e.id);
-    document.getElementById(100 + parseInt(e.id)).style.display = "block";
+    else{
+        var x = document.getElementsByClassName("panel");
+        for(var i = 0; i < x.length; i++){
+            x[i].style.display = "none";
+        }
+        document.getElementById(100 + parseInt(e.id)).style.display = "block";
+    }
 
 
-    console.log(e);
+    
 }
 
 function search(){
@@ -250,14 +254,11 @@ function search(){
     var val = document.getElementById("parameter-search").value;
     val = val.toLowerCase();
     val = val.replace(" ", "_");
-    console.log( trunk.get(1));
     if(opc[0].checked){
-
         for(var i = 1; i <= trunk.data.length; i++){
             var auxStages =  trunk.get(i).Stages;
             for (var j = 0; j <= auxStages.length; j++) {
                 var auxFinal=auxStages[j];
-<<<<<<< HEAD
                 if(auxFinal){
                     var auxiliarName=auxFinal.name.replace(" ", "_").toLowerCase().trim();
                     if (auxiliarName === val) {
@@ -268,25 +269,6 @@ function search(){
                 }
                 
             }
-=======
-                var auxiliarName=auxFinal.name;
-                if (auxiliarName.toLowerCase().replace(" ", "_")==val) {
-                    console.log(auxFinal);
-                }
-            }
-               
-          
-
-            /*for(var j = 0; j < auxStages.length; i++){
-                var aux = auxStages.where(function(a) {
-                    console.log(a.replace(" ", "_").toLowerCase);
-                    return a.replace(" ", "_").toLowerCase === val;
-                });
-                if(aux !== undefined){
-                    console.log(aux);
-                }
-            }*/
->>>>>>> 5c76b5c982d40a449e19134c8922bd1ae8098171
         }
     }
     else if(opc[1].checked){
