@@ -1,5 +1,8 @@
+*{
+font-family: 'Baloo Chettan', cursive;
+}
+
 body {
-    font-family: 'Baloo Chettan', cursive;
     letter-spacing: 1px;
     background: url(../img/what-the-hex.png);
 }
@@ -14,9 +17,10 @@ body {
 
 .logo {
     padding-left: 10px;
-    height: 150px;
-    width: 180px;
+    height: 170px;
+    width: 200px;
     text-align: center;
+    
 }
 
 .frase {
@@ -29,9 +33,9 @@ body {
     position: relative;
     right: -10px;
     height: 50px;
-    float: right;
     width: 400px;
     top: -90%;
+    
 }
 
 .iconos .icon {
@@ -60,13 +64,14 @@ body {
 }
 
 .navbar a:hover {
-    background-color: #ffffff;
+    background-color: #FFDE59;
     color: rgb(0, 0, 0);
+    text-decoration: none;
 }
 
 .style {
     background-color:rgba(0,0,0,.7);
-    width: 1120px;
+    width: 90%;
     margin-left: 60px;
     margin-bottom: 0px;
     align-content: center;
@@ -77,7 +82,7 @@ body {
 
 .styleP {
     background-color:rgba(0,0,0,.6);
-    width: 1120px;
+    width: 90%;
     margin-left: 60px;
     margin-bottom: 0px;
     align-content: center;
@@ -260,6 +265,46 @@ img {vertical-align: middle;}
         display: block;
     }
 }
+
+/*---------------------iconoes redes------------------*/
+
+.social {
+	position: fixed; /* Hacemos que la posición en pantalla sea fija para que siempre se muestre en pantalla*/
+	right: 0; /* Establecemos la barra en la izquierda */
+	top: 25px; /* Bajamos la barra 200px de arriba a abajo */
+	z-index: 2000; /* Utilizamos la propiedad z-index para que no se superponga algún otro elemento como sliders, galerías, etc */
+}
+    
+    .social .icon {
+        width: 40px;
+        height: 40px;
+    }
+
+	.social ul {
+		list-style: none;
+	}
+ 
+	.social ul li a {
+		display: inline-block;
+		color:#fff;
+		background: rgb(221, 221, 221);
+		padding: 10px 15px;
+		text-decoration: none;
+		-webkit-transition:all 500ms ease;
+		-o-transition:all 500ms ease;
+		transition:all 500ms ease; /* Establecemos una transición a todas las propiedades */
+	}
+ 
+	.social ul li .icon-facebook {background:#3b5998;} /* Establecemos los colores de cada red social, aprovechando su class */
+	.social ul li .icon-twitter {background: #00abf0;}
+	.social ul li .icon-googleplus {background: #d95232;}
+	.social ul li .icon-pinterest {background: #ae181f;}
+	.social ul li .icon-mail {background: #666666;}
+ 
+	.social ul li a:hover {
+		background: #000; /* Cambiamos el fondo cuando el usuario pase el mouse */
+		padding: 10px 30px; /* Hacemos mas grande el espacio cuando el usuario pase el mouse */
+	}
 
 /*--------------Footer---------------*/
 

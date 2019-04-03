@@ -11,133 +11,62 @@
     <link rel="stylesheet" type="text/css" media="screen" href="css/estilos.css" />
     <link href="https://fonts.googleapis.com/css?family=Baloo+Chettan" rel="stylesheet">
     <link href="https://file.myfontastic.com/JXDxkMxnasVa6ynRo8rb9A/icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     
 </head>
 <body style="background: url(img/what-the-hex.png)">
-    <!-- <div id="mySidenav" class="sidenav">
-        <a href="#" id="nosotros">Nosotros</a>
-        <a href="paginas/planeatuviaje.html" id="viaje">P. tu viaje</a>
-        <a href="paginas/noticias.html" id="noticias">Noticias</a>
-        <a href="#" id="contactos">Contactos</a>
-    </div> -->
     
-    <div class="contenedor">
-        <div class="cont1">
-            
-            <div class="logo" >
-                <img class="logo" src="img/logo1.png" alt="Logo">
+    <div class="container">
+        <div class="row-sm-1">
+            <div class="col">
+                    <div class="logo">
+                        <img class="logo" src="img/logo1.png" alt="Logo">
+                    </div>
             </div>
-            <div class="frase">
-                <p class="frase"><strong>Transmi-T</strong></p>
-            </div>
-            <div class="navbar">
-                    <a  href="index.html"> Inicio</a>
-                <a  href="paginas/nosotros.html"> Nosotros</a> 
-                <a href="paginas/planeatuviaje.html"> Planea tu viaje</a> 
-                <a href="paginas/noticias.html"> Noticias</a> 
-                <a href="paginas/contactanos.html"> Contáctanos</a>
-                <a href="paginas/mapadelsitio.html"> Mapa del Sitio</a>
-            </div>
-            <div class="iconos">
-                <a href="https://www.facebook.com" target="_blank"><img class="icon"  src="img/iconos/facebook.png" alt="icono de facebook"></a>
-                <a href="https://plus.google.com" target="_blank"><img class="icon"  src="img/iconos/google-plus.png" alt="icono de google-plus"></a>
-                <a href="https://www.instagram.com" target="_blank"><img class="icon"  src="img/iconos/instagram.png" alt="icono de instagram"></a>
-                <a href="https://co.linkedin.com/" target="_blank"><img class="icon"  src="img/iconos/linkedin.png" alt="icono de linkedin"></a>
-                <a href="https://twitter.com" target="_blank"><img class="icon"  src="img/iconos/twitter.png" alt="icono de twitter"></a>
+            <div class="col-sm-11">
+                    <div class="navbar">
+                        <a href="../index.html">Inicio</a>
+                        <a href="paginas/nosotros.html"> Nosotros</a>
+                        <a href="map.html"> Planea tu viaje</a>
+                        <a href="paginas/noticias.html"> Noticias</a>
+                        <a href="paginas/contactanos.html"> Contactanos</a>
+                        <a href="paginas/mapadelsitio.html"> Mapa del Sitio</a>
+                    </div>   
+            </div>                                
+        </div>   
+            <div class="social">
+                <ul>
+                    <li><a href="#" target="_blank"><img class="icon" src="img/iconos/facebook.png" alt="icono de facebook"></a></li>
+                    <li><a href="#" target="_blank"><img class="icon" src="img/iconos/google-plus.png" alt="icono de google-plus"></a></li>
+                    <li><a href="#" target="_blank"><img class="icon" src="img/iconos/instagram.png" alt="icono de instagram"></a></li>
+                    <li><a href="#" target="_blank"><img class="icon" src="img/iconos/linkedin.png" alt="icono de linkedin"></a></li>
+                    <li><a href="#" target="_blank"><img class="icon" src="img/iconos/twitter.png" alt="icono de twitter"></a></li>
+                </ul>    
             </div>
        
-        </div> 
-
-        
+        <br>
+        <br>
 
         <div class="cont2">
             <div class="banner_inicio">
                 <img class="img1" src="img/img1.jpg" alt="Bogota">
                 <div class="frase">
-                    <h1>InfoMilenio</h1>
+                    <h1>InfoMilenio</h1><br>
                     <h3>Informa tu viaje.</h3>
-                </div>
-               
+                </div>               
+            </div>       
         </div>
-       
-        </div>
-         <div class="noticias">
-             <a  class="title" href="paginas/noticias.html">
-                    <br>
-                    <br>
-                    <br>
-                    <h2 class="style">Noticias</h2>
-                    <div class="slideshow-container">
-       
-                           <div class="mySlides fade">
-                             <div class="numbertext">1 / 3</div>
-                             <img src="img/banner_noticias/img1.jpg" style="width:100%">
-                       
-                           </div>
-                           
-                           <div class="mySlides fade">
-                             <div class="numbertext">2 / 3</div>
-                             <img src="img/banner_noticias/img2.jpg" style="width:100%">
-                             
-                           </div>
-                           
-                           <div class="mySlides fade">
-                             <div class="numbertext">3 / 3</div>
-                             <img src="img/banner_noticias/img3.jpg" style="width:100%">
-                             
-                           </div>
-                           
-                           <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                           <a class="next" onclick="plusSlides(1)">&#10095;</a>
-                           
-                           </div>
-                           <br>
-                           
-                           <div style="text-align:center">
-                             <span class="dot" onclick="currentSlide(1)"></span> 
-                             <span class="dot" onclick="currentSlide(2)"></span> 
-                             <span class="dot" onclick="currentSlide(3)"></span> 
-                           </div>
-             </a>
-                    
-                    <script>
-                    var slideIndex = 1;
-                    showSlides(slideIndex);
-                    
-                    function plusSlides(n) {
-                      showSlides(slideIndex += n);
-                    }
-                    
-                    function currentSlide(n) {
-                      showSlides(slideIndex = n);
-                    }
-                    
-                    function showSlides(n) {
-                      var i;
-                      var slides = document.getElementsByClassName("mySlides");
-                      var dots = document.getElementsByClassName("dot");
-                      if (n > slides.length) {slideIndex = 1}    
-                      if (n < 1) {slideIndex = slides.length}
-                      for (i = 0; i < slides.length; i++) {
-                          slides[i].style.display = "none";  
-                      }
-                      for (i = 0; i < dots.length; i++) {
-                          dots[i].className = dots[i].className.replace(" active", "");
-                      }
-                      slides[slideIndex-1].style.display = "block";  
-                      dots[slideIndex-1].className += " active";
-                    }
-                    </script>
-         </div>
+    
+    <h2 class="style" style="color: whitesmoke">Noticias</h2>    
+    <br>
+    <iframe width="100%" height="440px" src="paginas/bannerNoticias.html" frameborder="no" scrolling="no"></iframe>
+        
 
-         <br>
-         <br>
-         <br>
-         <br>
-         <br>
-         <h2 class="style">Sitios de Interes</h2>
-        <!-- ---------------------- -->
+    <br>
+    <br>
+    <h2 class="style" style="color: whitesmoke">Sitios de Interes</h2>
+    <!-- ---------------------- -->
 
         
         
@@ -146,7 +75,7 @@
     <!-- sitios de interes -->
     <br>
     
-    <iframe width="100%" height="440px" src="bannerSitios.html" frameborder="no" scrolling="no"></iframe>
+    <iframe width="100%" height="440px" src="paginas/bannerSitios.html" frameborder="no" scrolling="no"></iframe>
 
     <br>
     <!---Comienzo del footer--------------------------->
